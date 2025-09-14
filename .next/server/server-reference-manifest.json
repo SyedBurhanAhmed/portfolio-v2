@@ -1,0 +1,19 @@
+{
+  "node": {
+    "403150b80dcef81baff6caa9279e349f4c899f2305": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CPortfolio1%5C%5CBlue%5C%5CPortfolio%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Ccontact.ts%22%2C%5B%7B%22id%22%3A%22403150b80dcef81baff6caa9279e349f4c899f2305%22%2C%22exportedName%22%3A%22sendContactEmail%22%2C%22filename%22%3A%22..%2FD%3A%5C%5CPortfolio1%5C%5CBlue%5C%5CPortfolio%5C%5Csrc%5C%5Clib%5C%5Cactions%5C%5Ccontact.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "../D:\\Portfolio1\\Blue\\Portfolio\\src\\lib\\actions\\contact.ts",
+      "exportedName": "sendContactEmail"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "oT0W93nvYLOR6VQ6OJ/1EXkTZj1kFKlM2C04Lrrdo00="
+}
