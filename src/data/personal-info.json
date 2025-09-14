@@ -45,58 +45,53 @@
   "resume": "https://drive.google.com/file/d/1iXj6SGYDoyPsl8ZxyoD5CI9rPOqUcCVE/view?usp=drive_link"
 },
 
-"skills": {
-  "languages": [
-    { "name": "Python", "experience": "2+ years", "context": "AI/ML, automation, scripting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { "name": "C/C++", "experience": "Academic", "context": "Systems, embedded algorithms", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-    {"name": "C#","experience": "1+ years","context": "Backend, .NET apps, internship projects",
-  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-}
-,{ "name": "JavaScript", "experience": "Project-based", "context": "Web apps, UIs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-    { "name": "MIPS Assembly", "experience": "Academic", "context": "Low-level programming, architecture", "icon": "" },
-    { "name": "SQL", "experience": "2+ years", "context": "Database queries", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-    { "name": "HTML/CSS", "experience": "1+ years", "context": "Web markup & styling", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" }
-  ],
+  "skills": {
+    "languages": [
+      { "name": "Python", "experience": "2+ years", "context": "AI/ML, automation, scripting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Programming Languages" },
+      { "name": "C/C++", "experience": "Academic", "context": "Systems, embedded algorithms", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", "category": "Programming Languages" },
+      { "name": "C#", "experience": "1+ years", "context": "Backend, .NET apps, internship projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", "category": "Programming Languages" },
+      { "name": "JavaScript", "experience": "Project-based", "context": "Web apps, UIs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Programming Languages" },
+      { "name": "MIPS Assembly", "experience": "Academic", "context": "Low-level programming, architecture", "icon": "", "category": "Programming Languages" },
+      { "name": "SQL", "experience": "2+ years", "context": "Database queries", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "category": "Programming Languages" },
+      { "name": "HTML/CSS", "experience": "1+ years", "context": "Web markup & styling", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "category": "Programming Languages" }
+    ],
+    "ai_ml": [
+      { "name": "PyTorch", "experience": "1+ years", "context": "Deep learning models", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "YOLO", "experience": "1+ year", "context": "Object detection & tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "TensorFlow", "experience": "1+ year", "context": "NNs, prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Keras", "experience": "1+ year", "context": "Model prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Scikit-learn", "experience": "2+ years", "context": "ML utilities", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "LangChain", "experience": "1+ year", "context": "RAG, LLM systems", "icon": "https://python.langchain.com/img/brand/wordmark.png", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Hugging Face Transformers", "experience": "1+ year", "context": "NLP/LLMs", "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "LlamaIndex", "experience": "Project-based", "context": "RAG pipelines", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fFO-T3XsEyrwyLv0LZO2FKwnVPLIWXOXQw&s", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Google SDK", "experience": "Current", "context": "Enterprise AI, cloud workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "AI/ML Frameworks & Libraries" }
+    ],
+    "web_backend": [
+      { "name": "Flask", "experience": "2+ years", "context": "APIs & ML apps", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", "category": "Web, Backend & App Frameworks" },
+      { "name": "React.js", "experience": "Project-based", "context": "UI development", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "category": "Web, Backend & App Frameworks" },
+      { "name": "Gradio", "experience": "Project-based", "context": "ML web demos", "icon": "", "category": "Web, Backend & App Frameworks" },
+      { "name": "Streamlit", "experience": "Project-based", "context": "ML dashboards/apps", "icon": "", "category": "Web, Backend & App Frameworks" },
+      { "name": "ASP.NET", "experience": "Current", "context": "Enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg", "category": "Web, Backend & App Frameworks" }
+    ],
+    "tools_platforms": [
+      { "name": "ESP32/IoT", "experience": "1+ years", "context": "Embedded/IoT systems", "icon": "", "category": "Tools & Platforms" },
+      { "name": "Git", "experience": "2+ years", "context": "Version control", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", "category": "Tools & Platforms" },
+      { "name": "GitHub", "experience": "2+ years", "context": "Repo hosting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "category": "Tools & Platforms" },
+      { "name": "Google Colab", "experience": "2+ years", "context": "Notebook ML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "Tools & Platforms" },
+      { "name": "Kaggle", "experience": "1+ years", "context": "ML/data contests", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Tools & Platforms" },
+      { "name": "VS Code", "experience": "2+ years", "context": "Notebooks, code editor", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", "category": "Tools & Platforms" },
+      { "name": "PyCharm", "experience": "2+ years", "context": "Primary IDE", "icon": "", "category": "Tools & Platforms" },
+      { "name": "Visual Studio", "experience": "Project-based", "context": "Enterprise, cross-platform", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", "category": "Tools & Platforms" }
+    ],
+    "professional": [
+      { "name": "AI Team Leadership", "experience": "1+ year", "context": "Projects Guidance", "icon": "", "category": "Professional" },
+      { "name": "Technical Mentorship", "experience": "1+ year", "context": "Peer and student mentorship", "icon": "", "category": "Professional" },
+      { "name": "Teaching", "experience": "Academic", "context": "Workshops, assistantships", "icon": "", "category": "Professional" },
+      { "name": "Public Speaking", "experience": "Academic", "context": "Presentations, talks", "icon": "", "category": "Professional" }
+    ]
+  }
 
-  "ai_ml": [
-    { "name": "PyTorch", "experience": "1+ years", "context": "Deep learning models", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-    { "name": "YOLO", "experience": "1+ year", "context": "Object detection & tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { "name": "TensorFlow", "experience": "1+ year", "context": "NNs, prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
-    { "name": "Keras", "experience": "1+ year", "context": "Model prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" },
-    { "name": "Scikit-learn", "experience": "2+ years", "context": "ML utilities", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" },
-    { "name": "LangChain", "experience": "1+ year", "context": "RAG, LLM systems", "icon": "https://python.langchain.com/img/brand/wordmark.png" },
-    { "name": "Hugging Face Transformers", "experience": "1+ year", "context": "NLP/LLMs", "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
-    { "name": "LlamaIndex", "experience": "Project-based", "context": "RAG pipelines", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fFO-T3XsEyrwyLv0LZO2FKwnVPLIWXOXQw&s" },
-    { "name": "Google SDK", "experience": "Current", "context": "Enterprise AI, cloud workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" }
-  ],
 
-  "web_backend": [
-    { "name": "Flask", "experience": "2+ years", "context": "APIs & ML apps", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
-    { "name": "React.js", "experience": "Project-based", "context": "UI development", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-    { "name": "Gradio", "experience": "Project-based", "context": "ML web demos", "icon": "" },
-    { "name": "Streamlit", "experience": "Project-based", "context": "ML dashboards/apps", "icon": "" },
-    { "name": "ASP.NET", "experience": "Current", "context": "Enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" }
-  ],
-
-  "tools_platforms": [
-      { "name": "ESP32/IoT", "experience": "1+ years", "context": "Embedded/IoT systems", "icon": "" },
-    { "name": "Git", "experience": "2+ years", "context": "Version control", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-    { "name": "GitHub", "experience": "2+ years", "context": "Repo hosting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-    { "name": "Google Colab", "experience": "2+ years", "context": "Notebook ML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" },
-    { "name": "Kaggle", "experience": "1+ years", "context": "ML/data contests", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { "name": "VS Code", "experience": "2+ years", "context": "Notebooks, code editor", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-    { "name": "PyCharm", "experience": "2+ years", "context": "Primary IDE", "icon": "" },
-    { "name": "Visual Studio", "experience": "Project-based", "context": "Enterprise, cross-platform", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" }
-  
-  ],
-
-  "professional": [
-    { "name": "AI Team Leadership", "experience": "1+ year", "context": "Projects Guidance", "icon": "" },
-    { "name": "Technical Mentorship", "experience": "1+ year", "context": "Peer and student mentorship", "icon": "" },
-    { "name": "Teaching", "experience": "Academic", "context": "Workshops, assistantships", "icon": "" },
-    { "name": "Public Speaking", "experience": "Academic", "context": "Presentations, talks", "icon": "" }
-  ]
-}
 
 ,
 "experience": [
@@ -215,6 +210,7 @@
     "description": "AI-powered multilingual educational assistant automating lecture transcription (99+ languages), bilingual notes in Roman Urdu/Hindi & English, and curriculum-aligned quiz creation with RAG. Supports dashboards, CLO/PLO mapping, multi-format upload, and integrates with learning outcomes for institution readiness.",
     "technologies": ["Flask", "OpenAI Whisper", "LangChain", "FAISS", "Gemini LLM", "Jinja2"],
     "github": "https://github.com/SyedBurhanAhmed/RULEN-Real-time-Unified-Lecture-Extraction-Network",
+    "longDescription": "",
     "featured": true,
     "categories": ["AI/ML", "Education", "NLP"],
     "image": "/project-images-videos/RULEN.png",
@@ -228,6 +224,7 @@
     "subtitle": "Memory-Augmented Conversational Agent",
     "description": "A rule-based agent simulating five human-like memory systems with Neo4j graph storage, real-time dashboards, web chat, and ESP32 hardware for multimodal input and voice. Small step toward AGI and real-time agent reasoning.",
     "technologies": ["Flask", "Neo4j", "AIML", "Prolog", "Graph Algorithms", "ESP32"],
+    "longDescription": "",
     "github": "https://github.com/SyedBurhanAhmed/Freak-AI",
     "featured": true,
     "categories": ["AI/ML", "Conversational Agents", "IoT"],
@@ -244,6 +241,8 @@
     "description": "CV pipeline using YOLOv11 for face detection, EfficientNetV2-S for celebrity recognition (15+ Pakistani celebrities). 1st place in CV Kaggle competition; real-time inference, visualizes bounding boxes and recognizes gender, class imbalance handled.",
     "technologies": ["PyTorch", "YOLOv11", "EfficientNetV2", "Albumentations", "Python"],
     "github": "https://github.com/SyedBurhanAhmed/CelebVision-Multi-Pipeline-Celebrity-Recognition-System",
+    "longDescription": "",
+
     "featured": true,
     "categories": ["Computer Vision", "AI/ML", "Competition"],
     "image": "/project-images-videos/celebvision.jpg",
@@ -259,6 +258,7 @@
     "description": "YOLOv11-based fall detection system for real-time video feeds in safety/public spaces. Fine-tuned on LE2I, high precision/recall, supports logging and alerts, modular for sensor integration.",
     "technologies": ["YOLOv11", "PyTorch", "OpenCV", "Python"],
     "github": "https://github.com/SyedBurhanAhmed/Real-Time-Fall-Detection-using-YOLO",
+    "longDescription": "",
     "featured": false,
     "categories": ["AI/ML", "Computer Vision", "Healthcare"],
     "image": "",
@@ -274,6 +274,7 @@
 "description": "Designed and developed a full-stack .NET and SQL Server application for event reservations. Features include user registration, an admin dashboard, automated email notifications, and Excel report generation. Built as a proof-of-concept to demonstrate robust reservation workflows in a simulated environment."
 ,"technologies": ["ASP.NET", "SQL Server", "HTML", "Bootstrap", "SMTP", "Office Interop"],
     "github": "https://github.com/SyedBurhanAhmed/Lahore-Arts-Council-ReservationSystem",
+    "longDescription": "",
     "featured": false,
     "categories": ["Full Stack", "Enterprise", "Workflow Automation"],
     "image": "/project-images-videos/LAC.png",
@@ -288,6 +289,7 @@
     "subtitle": "IoT-Driven Attendance Platform",
 "description": "Designed and built a prototype automated attendance system using ESP32 with NFC/fingerprint authentication, a speech-to-text pipeline via Flask, and an OLED display. Developed as a semester term project to demonstrate end-to-end integration of IoT hardware, biometric verification, and real-time data processing. Focused on core features, system workflow, and proof-of-concept usability in a classroom scenario."
 ,  "technologies": ["ESP32", "Flask", "Python", "NFC", "Fingerprint Sensor"],
+    "longDescription": "",
     "github": "",
     "featured": false,
     "categories": ["Embedded", "IoT", "Automation"],

@@ -44,7 +44,6 @@ const Skills: React.FC = () => {
       skills: personalInfo.skills.tools_platforms // Git, GitHub, Kaggle, Hugging Face Spaces, Google Colab, VS Code, PyCharm, Visual Studio
     },
     // ESP32, NFC, Fingerprint, Microphone, I2C, OLED, Voice Commands
-    ,
     {
       title: 'Professional & Leadership',
       icon: User,
