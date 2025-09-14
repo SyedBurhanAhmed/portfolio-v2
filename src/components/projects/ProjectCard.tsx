@@ -7,7 +7,7 @@ interface Project {
   readonly title: string;
   readonly subtitle: string;
   readonly description: string;
-  readonly longDescription: string;
+  readonly longDescription?: string;
   readonly technologies: readonly string[];
   readonly github: string;
   readonly featured: boolean;
