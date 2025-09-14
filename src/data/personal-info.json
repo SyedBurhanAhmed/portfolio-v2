@@ -308,7 +308,56 @@
     "date": "Expected 2025",
     "description": "Research on real-time fall detection using YOLOv11 and computer vision.",
     "category": "research"
-  }
+  },
+  {
+  "title": "Understanding Principal Component Analysis (PCA) in Machine Learning: A Comprehensive Guide",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/understanding-principal-component-analysis-pca-machine-ahmed-uiphe/?trackingId=ChRdt%2FvQRoRMiCAJd1X4IA%3D%3D",
+  "date": "Feb 7, 2025",
+  "description": "An in-depth explanation of Principal Component Analysis (PCA), its importance for dimensionality reduction, and its value in machine learning workflows. Covers how PCA works, why it matters, and practical implementation tips.",
+  "category": "blog"
+},
+{
+  "title": "When to Use Mean, Median, and Mode for Handling Missing Values in Data?",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/when-use-mean-median-mode-handling-missing-values-data-ahmed-tebje/?trackingId=Uqq%2Bb6ibnnadY9nVKd61eg%3D%3D",
+  "date": "Feb 5, 2025",
+  "description": "A practical guide to choosing the right statistical imputation method for missing data. Explains when to use mean, median, or mode, including their pros, cons, and suitable scenarios in data preprocessing.",
+  "category": "blog"
+},
+{
+  "title": "1D Convolutional Neural Networks (1D-CNN): A Powerful Tool for Sequential Data",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/1d-convolutional-neural-networks-1d-cnn-powerful-tool-ahmed-2x8ce/?trackingId=p0xOmcEFy9IXHqpjCVjN8g%3D%3D",
+  "date": "Feb 9, 2025",
+  "description": "Explores the application of 1D Convolutional Neural Networks in handling sequential data, covering their working principles, advantages over traditional methods, and key use cases. Includes a Python TensorFlow/Keras implementation.",
+  "category": "blog"
+},
+{
+  "title": "Understanding Gradient Descent in Machine Learning",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/understanding-gradient-descent-machine-learning-syed-burhan-ahmed-dvfte/?trackingId=XAX3mMbIVkYcGu3OZULB%2Bg%3D%3D",
+  "date": "Feb 8, 2025",
+  "description": "A comprehensive overview of gradient descent, the fundamental optimization algorithm behind most machine learning and deep learning models. Discusses the mechanics, variations, and significance of gradient descent in achieving accurate predictions.",
+  "category": "blog"
+},
+{
+  "title": "Understanding Long Short-Term Memory (LSTM) Networks in Deep Learning",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/understanding-long-short-term-memory-lstm-networks-deep-ahmed-bcu4e/?trackingId=bSG7L0yS7zHyyrq4dykeNg%3D%3D",
+  "date": "Feb 9, 2025",
+  "description": "An in-depth guide to LSTM networks, their role in handling sequential data for deep learning tasks like NLP and forecasting, and their advantages over basic RNNs. Includes explanations of working mechanisms and core applications.",
+  "category": "blog"
+},
+{
+  "title": "Understanding Gated Recurrent Units (GRU) in Deep Learning",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/understanding-gated-recurrent-units-gru-deep-learning-ahmed-0r14e/?trackingId=SNiU2hJ%2Fb4U3UhbBgcqrVQ%3D%3D",
+  "date": "Feb 10, 2025",
+  "description": "Covers Gated Recurrent Units (GRUs) as an efficient alternative to LSTMs for sequential data in deep learning. Explains their architecture, how they function, their advantages, and practical applications.",
+  "category": "blog"
+}
+
 ]
 ,
 "achievements": [
