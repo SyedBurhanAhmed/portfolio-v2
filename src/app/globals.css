@@ -403,7 +403,7 @@ All colors MUST be HSL for consistency.
     visibility: visible;
   }
 
-  /* Certificates tooltip hover states
+  /* Certificates tooltip hover states */
   .certificates-tooltip-container .certificates-dropdown {
     opacity: 0;
     visibility: hidden;
@@ -413,10 +413,13 @@ All colors MUST be HSL for consistency.
   .certificates-tooltip-container:hover .certificates-dropdown {
     opacity: 1;
     visibility: visible;
-  } */
+  }
 }
 
 /* Focus styles */
 .focus-visible:focus-visible {
   @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+}
+.focus-visible:focus:not(:focus-visible) {
+  @apply outline-none ring-0;
 }

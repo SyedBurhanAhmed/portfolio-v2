@@ -32,7 +32,7 @@ const Navigation: React.FC = () => {
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Publications', href: '#publications' },
-    // { name: 'Certifications', href: '#certifications' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Awards', href: '#awards' },
     { name: 'Contact', href: '#contact' }
   ];

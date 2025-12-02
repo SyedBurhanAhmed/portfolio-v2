@@ -5,6 +5,7 @@ import Skills from '@/components/skills';
 import Experience from '@/components/experience';
 import Projects from '@/components/projects';
 import Publications from '@/components/publications';
+import Certifications from '@/components/certifications';
 import Awards from '@/components/awards';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
       <Experience />
       <Projects />
       <Publications />
+      <Certifications />
       <Awards />
       <Contact />
       <Footer />

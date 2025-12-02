@@ -1,20 +1,22 @@
 {
+
   "personal": {
     "name": "Syed Burhan Ahmed",
     "nickname": "Burhan",
-    "title": "AI Engineer & Technical Mentor",
+    "title": "AI Engineer, Researcher & Technical Mentor",
     "company": "Punjab Skills Development Authority (PSDA)",
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 323 1495323",
-    "tagline": "Generative AI, NLP & Computer Vision Engineer",
-    "bio": "AI Engineer specializing in Generative AI, NLP, and Computer Vision. Expert in Python, PyTorch, YOLOv11, and LangChain, with a proven track record of building production-ready, real-time AI systems that power impactful solutions across education, healthcare, and enterprise domains.",
-    "closingBio": "Open to collaborating on challenging and meaningful projects. Whether it's deploying breakthrough computer vision apps or mentoring new engineers, I'm driven by curiosity and real-world impact. Let's build intelligent systems that move the world forward.",
+    "tagline": "AI Engineer specializing in Generative AI & Computer Vision",
+    "bio": "AI Engineer specializing in Generative AI, NLP, and Computer Vision. Experienced with Python, PyTorch, YOLOv11, LangChain, and real-time ML pipelines, delivering production-grade systems for education, healthcare, and enterprise use cases.",
+    "closingBio": "Open to collaborating on challenging, impact-driven projects. Whether it’s deployable computer vision systems, intelligent agents, or mentoring engineers, the focus is on building reliable AI that solves real-world problems.",
     "story": [
-      "Currently a final-year undergraduate in Artificial Intelligence (UMT), I've engineered end-to-end deep learning and full-stack solutions—ranging from custom YOLOv11 deployments for real-time detection, to retrieval-augmented (RAG) lecture agents and memory-driven conversational bots.",
-      "In every project, my focus is production-quality code, clear ML explainability, and tangible value for users and businesses alike. My leadership includes guiding student teams, conducting workshops, and mentoring on advanced computer vision, NLP, and workflow automation.",
-      "When I’m not building or deploying systems, I contribute to open source, share insights on Hugging Face, Kaggle, and GitHub, or document my AI journey to help the next generation innovate."
+      "Currently a final-year Artificial Intelligence undergraduate at UMT, working on end-to-end deep learning and full-stack solutions—from custom YOLOv11 deployments for real-time detection to retrieval-augmented (RAG) lecture agents and memory-driven conversational bots.",
+      "Across projects, the emphasis is on production-quality code, clear ML explainability, and measurable value for users and stakeholders. Leadership experience includes guiding student teams, conducting workshops, and mentoring on advanced computer vision, NLP, and workflow automation.",
+      "Outside of deployment work, time goes into open-source contributions, sharing experiments on platforms like Hugging Face, Kaggle, and GitHub, and documenting the AI journey to help the next generation build and ship better systems."
     ],
+
     "profileImage": "/burhan-profile.png"
 
   },
@@ -44,39 +46,43 @@
   "phone": "tel:+923231495323",
   "resume": "https://drive.google.com/file/d/1iXj6SGYDoyPsl8ZxyoD5CI9rPOqUcCVE/view?usp=drive_link"
 },
-
   "skills": {
     "languages": [
-      { "name": "Python", "experience": "2+ years", "context": "AI/ML, automation, scripting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Programming Languages" },
+      { "name": "Python", "experience": "3+ years", "context": "Advanced AI, scripting, automation", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Programming Languages" },
       { "name": "C/C++", "experience": "Academic", "context": "Systems, embedded algorithms", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", "category": "Programming Languages" },
-      { "name": "C#", "experience": "1+ years", "context": "Backend, .NET apps, internship projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", "category": "Programming Languages" },
+      { "name": "C#", "experience": "1+ years", "context": "Backend, .NET apps, enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", "category": "Programming Languages" },
       { "name": "JavaScript", "experience": "Project-based", "context": "Web apps, UIs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Programming Languages" },
       { "name": "MIPS Assembly", "experience": "Academic", "context": "Low-level programming, architecture", "icon": "", "category": "Programming Languages" },
-      { "name": "SQL", "experience": "2+ years", "context": "Database queries", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "category": "Programming Languages" },
-      { "name": "HTML/CSS", "experience": "1+ years", "context": "Web markup & styling", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "category": "Programming Languages" }
+      { "name": "SQL", "experience": "2+ years", "context": "Data operations, complex queries", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "category": "Programming Languages" },
+      { "name": "HTML/CSS", "experience": "2+ years", "context": "Web markup & styling", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "category": "Programming Languages" }
     ],
     "ai_ml": [
-      { "name": "PyTorch", "experience": "1+ years", "context": "Deep learning models", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "YOLO", "experience": "1+ year", "context": "Object detection & tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Generative AI (RAG)", "experience": "Current", "context": "LangChain, Vector DBs, LLMs", "icon": "https://roboticsbiz.com/wp-content/uploads/2024/09/generative-ai.jpg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "Vision-Language Models (VLMs)", "experience": "Current", "context": "CLIP, BLIP, Hybrid Tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "YOLO (v8/v11)", "experience": "1+ year", "context": "Real-time object detection & tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "PyTorch", "experience": "2+ years", "context": "Deep learning models", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", "category": "AI/ML Frameworks & Libraries" },
       { "name": "TensorFlow", "experience": "1+ year", "context": "NNs, prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", "category": "AI/ML Frameworks & Libraries" },
       { "name": "Keras", "experience": "1+ year", "context": "Model prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg", "category": "AI/ML Frameworks & Libraries" },
       { "name": "Scikit-learn", "experience": "2+ years", "context": "ML utilities", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "LangChain", "experience": "1+ year", "context": "RAG, LLM systems", "icon": "https://python.langchain.com/img/brand/wordmark.png", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "LangChain", "experience": "1+ year", "context": "RAG, LLM systems", "icon": "https://logo.svgcdn.com/simple-icons/langchain-dark.png", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "OpenAI Whisper", "experience": "Project-based", "context": "Speech-to-text pipelines", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
+      { "name": "FAISS", "experience": "Project-based", "context": "Vector database & search", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
       { "name": "Hugging Face Transformers", "experience": "1+ year", "context": "NLP/LLMs", "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", "category": "AI/ML Frameworks & Libraries" },
       { "name": "LlamaIndex", "experience": "Project-based", "context": "RAG pipelines", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fFO-T3XsEyrwyLv0LZO2FKwnVPLIWXOXQw&s", "category": "AI/ML Frameworks & Libraries" },
       { "name": "Google SDK", "experience": "Current", "context": "Enterprise AI, cloud workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "AI/ML Frameworks & Libraries" }
     ],
     "web_backend": [
-      { "name": "Flask", "experience": "2+ years", "context": "APIs & ML apps", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", "category": "Web, Backend & App Frameworks" },
+      { "name": "Flask", "experience": "2+ years", "context": "APIs & ML deployment", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", "category": "Web, Backend & App Frameworks" },
       { "name": "React.js", "experience": "Project-based", "context": "UI development", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "category": "Web, Backend & App Frameworks" },
       { "name": "Gradio", "experience": "Project-based", "context": "ML web demos", "icon": "", "category": "Web, Backend & App Frameworks" },
       { "name": "Streamlit", "experience": "Project-based", "context": "ML dashboards/apps", "icon": "", "category": "Web, Backend & App Frameworks" },
-      { "name": "ASP.NET", "experience": "Current", "context": "Enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg", "category": "Web, Backend & App Frameworks" }
+      { "name": "ASP.NET", "experience": "Current", "context": "Enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg", "category": "Web, Backend & App Frameworks" },
+      { "name": "Google Cloud Platform (GCP)", "experience": "Current", "context": "Cloud deployment workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "Web, Backend & App Frameworks" }
     ],
     "tools_platforms": [
-      { "name": "ESP32/IoT", "experience": "1+ years", "context": "Embedded/IoT systems", "icon": "", "category": "Tools & Platforms" },
+      { "name": "ESP32-S3/Robotics", "experience": "1+ years", "context": "Embedded, Differential drive, Sensors", "icon": "", "category": "Tools & Platforms" },
       { "name": "Git", "experience": "2+ years", "context": "Version control", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", "category": "Tools & Platforms" },
-      { "name": "GitHub", "experience": "2+ years", "context": "Repo hosting", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "category": "Tools & Platforms" },
+      { "name": "GitHub", "experience": "2+ years", "context": "Repo hosting & collaboration", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "category": "Tools & Platforms" },
       { "name": "Google Colab", "experience": "2+ years", "context": "Notebook ML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "Tools & Platforms" },
       { "name": "Kaggle", "experience": "1+ years", "context": "ML/data contests", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Tools & Platforms" },
       { "name": "VS Code", "experience": "2+ years", "context": "Notebooks, code editor", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", "category": "Tools & Platforms" },
@@ -84,118 +90,148 @@
       { "name": "Visual Studio", "experience": "Project-based", "context": "Enterprise, cross-platform", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", "category": "Tools & Platforms" }
     ],
     "professional": [
-      { "name": "AI Team Leadership", "experience": "1+ year", "context": "Projects Guidance", "icon": "", "category": "Professional" },
-      { "name": "Technical Mentorship", "experience": "1+ year", "context": "Peer and student mentorship", "icon": "", "category": "Professional" },
-      { "name": "Teaching", "experience": "Academic", "context": "Workshops, assistantships", "icon": "", "category": "Professional" },
-      { "name": "Public Speaking", "experience": "Academic", "context": "Presentations, talks", "icon": "", "category": "Professional" }
+      { "name": "AI Team Leadership", "experience": "1+ year", "context": "Master Trainer (3 Cohorts), Projects Guidance", "icon": "", "category": "Professional" },
+      { "name": "Technical Mentorship", "experience": "1+ year", "context": "Peer tutor & TA (COAL/AI)", "icon": "", "category": "Professional" },
+      { "name": "Teaching", "experience": "Academic", "context": "Curriculum Development, Workshops", "icon": "", "category": "Professional" },
+      { "name": "Public Speaking", "experience": "Academic", "context": "National AI Symposium Speaker", "icon": "", "category": "Professional" }
     ]
-  }
+  },
 
 
 
-,
+
 "experience": [
-
-{
-  "id": 1,
-  "title": "Software Development Intern",
-  "company": "BeWhoop",
-  "location": "Remote – Islamabad, Pakistan",
-  "duration": "Sep 2025 – Present",
-  "logo": "/professional-experience-logos/bewhoop.png",
-  "description": "Selected as a Software Development Intern(~20–25 hours/week), focusing primarily on .NET technologies. Involved in core software projects requiring rapid adaptation to new tech stacks, timely delivery of high-quality code, and effective team collaboration within a professional learning environment.",
- "achievements": [
-    "Acquired hands-on experience with .NET development, building and integrating new software modules in a remote setting",
-    "Demonstrated strong problem-solving skills and contributed creative solutions while collaborating virtually",
-    "Ensured timely completion of remote tasks, consistently meeting project quality standards and deadlines",
-    "Maintained professional conduct and strong communication across distributed teams and time zones",
-    "Actively participated in remote team discussions, supporting peers and sharing insights to enhance productivity"
+    {
+      "id": 1,
+      "title": "Research Assistant – Computer Vision & Robotics",
+      "company": "AVR Research Group Makerspace Lab, UMT",
+      "location": "Lahore, Pakistan",
+      "duration": "Jul 2025 – Present",
+      "logo": "/professional-experience-logos/umt.png",
+      "description": "Conducting applied research in computer vision, robotics, and multimodal perception within a makerspace-driven environment, with a focus on deployable, low-latency systems for real-world use cases.",
+      "achievements": [
+        "Conducting R&D on InsightVision, a hybrid YOLO/VLM pipeline targeting under 100 ms end-to-end latency for semantic natural-language querying on live video streams.",
+        "Benchmarking VLM-based adaptation against YOLO baselines to validate few-shot and zero-shot learning, aiming to reduce data annotation effort by approximately 40% for novel object classes.",
+        "Synthesizing experimental results and documenting system integration for a planned 2026 peer-reviewed research publication.",
+        "Designing and building a line-following and wall/curve-following robotic car, integrating embedded control with real-time perception for robust path tracking."
+      ],
+      "technologies": [
+        "YOLOv11",
+        "Vision-Language Models",
+        "PyTorch",
+        "OpenCV",
+        "Python",
+        "Flask",
+        "LangChain",
+        "Embedded Systems",
+        "Robotics"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Technical Support & Data Operations Associate",
+      "company": "Punjab Skills Development Authority (PSDA)",
+      "location": "Lahore, Pakistan",
+      "duration": "Aug 2025 – Present",
+      "logo": "/professional-experience-logos/psda-logo.png",
+      "description": "Supporting provincial-scale skills and training initiatives through database operations, automation, and technical coordination for vocational education programs.",
+      "achievements": [
+        "Streamlining data cleaning, transformation, and integrity checks for end-to-end database operations across PSDA datasets.",
+        "Maintaining and updating records to ensure accuracy across the PSDA’s parent department (SDED) statewide data systems.",
+        "Managing key email correspondence and documentation for team coordination and client requests, improving response time and traceability."
+      ],
+      "technologies": [
+        "SQL",
+        "Excel",
+        "Python",
+        "ASP.NET"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teaching Assistant – Digital Logic Design",
+      "company": "University of Management and Technology",
+      "location": "Lahore, Pakistan",
+      "duration": "Mar 2025 – Jul 2025; Oct 2025 – Present",
+      "logo": "/professional-experience-logos/umt.png",
+      "description": "Assisting the course instructor in delivering Digital Logic Design by managing course operations, assessments, and student support across multiple semesters.",
+      "achievements": [
+        "Coordinated and monitored assignment, quiz, and project submissions via the LMS, ensuring smooth assessment workflows.",
+        "Maintained grade records and tracked student progress in Excel to support data-driven academic decisions.",
+        "Ensured timely availability of lecture slides and course content, and resumed responsibilities from Oct 2025 onwards to support a new cohort."
+      ],
+      "technologies": [
+        "LMS",
+        "Excel"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Software Development Intern",
+      "company": "BeWhoop",
+      "location": "Remote – Islamabad, Pakistan",
+      "duration": "Sep 2025 – Oct 2025",
+      "logo": "/professional-experience-logos/bewhoop.png",
+      "description": "Selected as a Software Development Intern (~20–25 hours/week) focusing on .NET technologies and contributing to core software projects in a fully remote environment.",
+      "achievements": [
+        "Gained hands-on experience with .NET development, building and integrating new software modules within existing systems.",
+        "Demonstrated strong problem-solving skills and contributed creative solutions while collaborating virtually with the engineering team.",
+        "Ensured timely completion of assigned tasks, consistently meeting project quality standards and deadlines.",
+        "Maintained professional communication across distributed teams and time zones, supporting smooth remote collaboration.",
+        "Actively participated in remote team discussions, sharing insights to enhance productivity and code quality."
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "SQL Server",
+        "Azure DevOps",
+        "Agile Methodologies"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Master Trainer – Generative AI",
+      "company": "Arfa Karim Technology Incubator (AKTI)",
+      "location": "Lahore, Pakistan",
+      "duration": "Nov 2024 – Mar 2025",
+      "logo": "/professional-experience-logos/akti.svg",
+      "description": "Designed and delivered workshops on Generative AI, large language models, and prompt engineering for early-career tech professionals and students.",
+      "achievements": [
+        "Developed a practical curriculum and interactive sessions for 120+ participants, covering modern LLM and generative AI workflows.",
+        "Mentored cohorts on developing innovative project submissions that applied generative AI to real-world use cases."
+      ],
+      "technologies": [
+        "Prompt Engineering",
+        "LangChain",
+        "Gradio",
+        "Python",
+        "Deep Learning",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Freelance Software Engineer",
+      "company": "Lahore Arts Council",
+      "location": "Lahore, Pakistan",
+      "duration": "Aug 2024 – Oct 2024",
+      "logo": "/professional-experience-logos/LAC.png",
+      "description": "Led development of a reservation web system for event space management, including admin dashboards, user portals, and automated email-based workflows.",
+      "achievements": [
+        "Deployed a .NET/SQL Server-based web reservation system with integrated Excel reporting to support operational decision-making.",
+        "Achieved a largely automated reservation workflow serving 500+ monthly users."
+      ],
+      "technologies": [
+        "ASP.NET",
+        "SQL Server",
+        "Bootstrap",
+        "Office Interop"
+      ]
+    }
   ],
-  "technologies": [".NET", "C#", "SQL Server", "Azure DevOps", "Agile Methodologies"]
 
-
-}
-,
-  {
-    "id": 2,
-    "title": "AI/ML Intern & FYP Researcher",
-    "company": "AVR Research Lab, UMT",
-    "location": "University of Management and Technology, Lahore, Pakistan",
-    "duration": "Jul 2025 – Present",
-    "logo": "/professional-experience-logos/umt.png",
-    "description": "Contributing to ongoing AI/ML research with a focus on object tracking, real-time detection, and advanced YOLO architectures. Actively working toward robust multi-object tracking solutions for surveillance and industrial contexts, as part of a final-year project. Engaged in early experimentation, integration, and methodology documentation for future publication.",
- "achievements": [
-  "Currently researching and developing object tracking algorithms for real-time video streams",
-  "Exploring integration of tracking modules with existing YOLO detection pipelines",
-  "Evaluating tracking methods for accuracy, speed, and robustness in dynamic environments",
-  "Documenting challenges and early findings to support future publications"
-],
-
-    "technologies": ["YOLOv11", "PyTorch", "Flask", "LangChain", "OpenCV", "Python"]
-  },
-  {
-    "id": 3,
-    "title": "Technical Support & Data Operations Associate",
-    "company": "Punjab Skills Development Authority (PSDA)",
-    "location": "Lahore, Pakistan",
-    "logo": "/professional-experience-logos/psda-logo.png",
-    "duration": "Aug 2025 – Present",
-    "description": "Improved database operations and automated data reporting for vocational education programs. Enhanced event management workflows and technical troubleshooting.",
-    "achievements": [
-     "Streamlining data cleaning, transformation, and integrity checks for end-to-end database operations",
-  "Maintaining and updating records to ensure accuracy across the PSDA’s parent department (SDED) statewide data systems",
-  "Managing key email correspondence and documentation for team coordination and client requests"
-    ],
-    "technologies": ["SQL", "Excel", "Python", "ASP.NET"]
-  },
-{
-  "id": 4,
-  "title": "Teaching Assistant – Digital Logic Design",
-  "company": "University of Management and Technology",
-  "location": "Lahore, Pakistan",
-  "duration": "Mar 2025 – Jul 2025",
-  "logo": "/professional-experience-logos/umt.png",
-  "description": "Assisted the course instructor by managing LMS activities, organizing and uploading class materials, and overseeing student assignment and project submissions.",
-  "achievements": [
-    "Coordinated and monitored assignment, quiz, and project submissions via LMS",
-    "Maintained grade records and managed student progress in Excel",
-    "Ensured timely availability of lecture slides and course content for all students"
-  ],
-  "technologies": ["LMS", "Excel"]
-},
-
-  {
-    "id": 5,
-    "title": "Master Trainer – Generative AI",
-    "company": "Arfa Karim Technology Incubator (AKTI)",
-    "location": "Lahore, Pakistan",
-    "duration": "Nov 2024 – Mar 2025",
-    "logo": "/professional-experience-logos/akti.svg",
-    "description": "Designed and delivered workshops on Generative AI, large language models, and prompt engineering for early-career tech professionals and students.",
-    "achievements": [
-      "Developed curriculum and interactive sessions for 120+ participants",
-      "Mentored cohort for innovative project submissions"
-    ],
-    "technologies": ["Prompt Engineering", "LangChain", "Gradio", "Python","Deep Learning","Data Cleaning"]
-  },
-  {
-    "id": 6,
-    "title": "Freelance Software Engineer",
-    "company": "Lahore Arts Council",
-    "location": "Lahore, Pakistan",
-    "logo": "/professional-experience-logos/LAC.png",
-    "duration": "Aug 2024 – Oct 2024",
-    "description": "Spearheaded development of a reservation web system for event space management including admin dashboards, user portals, and automated e-mail notifications.",
-    "achievements": [
-      "Deployed .NET/SQL Server based web reservation system with Excel reporting",
-      "Achieved automated workflow for 500+ monthly users"
-    ],
-    "technologies": ["ASP.NET", "SQL Server", "Bootstrap", "Office Interop"]
-  }
-]
-,
-  "education": {
-  "degree": "Bachelor of Science in Artificial Intelligence",
+"education": {
+  "degree": "BS in Artificial Intelligence",
   "institution": "University of Management and Technology (UMT)",
   "duration": "2022 – Present",
   "cgpa": "3.84/4.00",
@@ -302,13 +338,14 @@
 ],
 "publications": [
   {
-    "title": "Video Based Fall Detection System using YOLO",
-    "venue": "UMT Annual Conference",
-    "status": "Awaiting Publication",
-    "date": "Expected 2025",
-    "description": "Research on real-time fall detection using YOLOv11 and computer vision.",
+    "title": "Efficient Vision Based Fall Detection for Elderly Surveillance Using YOLOv11",
+    "venue": "6th International Conference on Innovative Computing (ICIC 2025), UMT Lahore",
+    "status": "Accepted",
+    "date": "10–11 Dec 2025",
+    "description": "Real-time fall detection system leveraging YOLOv11 and computer vision for elderly surveillance in video-based safety monitoring.",
     "category": "research"
   },
+
   {
   "title": "Understanding Principal Component Analysis (PCA) in Machine Learning: A Comprehensive Guide",
   "venue": "LinkedIn",
@@ -362,22 +399,56 @@
 ,
 "achievements": [
   {
+    "title": "Rector’s Merit Award – Spring 2025",
+    "organization": "University of Management and Technology (UMT)",
+    "year": "2025",
+    "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence under UMT’s official merit award policy.",
+    "category": "academic"
+  },
+  {
     "title": "Dean’s Merit Award – Spring 2023",
     "organization": "School of Systems & Technology, UMT",
     "year": "2023",
-    "description": "Awarded by Dean for outstanding academic performance and top CGPA in Artificial Intelligence program.",
+    "description": "Awarded by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
     "category": "academic"
   },
   {
     "title": "Gold Medalist – Matriculation",
     "organization": "Lahore Garrison Education System",
     "year": "2020",
-    "description": "Secured the Gold Medal at the Matric level for academic excellence.",
+    "description": "Secured the Gold Medal at the Matriculation level for outstanding academic performance.",
     "category": "academic"
   }
 ]
 ,
+"certifications": [
+    {
 
+    "id": 1,
+    "title": "Google Cloud Fundamentals: Core Infrastructure",
+    "provider": "Coursera",
+    "year": "2025",
+    "description": "Covers core Google Cloud concepts and services, including organizing infrastructure, creating basic cloud resources, and selecting appropriate storage options.",
+    "certificates": [
+      {
+        "url": "https://www.coursera.org/account/accomplishments/verify/XVCFVOSJJAMQ",
+        "title": "Google Cloud Fundamentals: Core Infrastructure",
+        "year": "2025",
+        "credentialId": "XVCFVOSJJAMQ"
+      }
+    ],
+    "skills": [
+      "Google Cloud Platform",
+      "Cloud Computing",
+      "Cloud Infrastructure",
+      "Identity and Access Management",
+      "Virtual Machines",
+      "Cloud Storage",
+      "Serverless Computing",
+      "Network Infrastructure"
+    ]
+  }
+],
 "seo": {
   "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
   "description": "AI Engineer passionate about Generative AI, Computer Vision, and full-stack ML systems. Experienced in YOLO, Python, PyTorch, and real-time ML applications for education, healthcare, and enterprise. Active researcher, developer, and mentor.",
