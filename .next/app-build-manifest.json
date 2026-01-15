@@ -26,6 +26,12 @@
       "static/chunks/main-app.js",
       "static/chunks/default-_app-pages-browser_src_components_ScrollButton_tsx-_app-pages-browser_src_hooks_use-t-a34488.js",
       "static/chunks/app/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/vendors.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

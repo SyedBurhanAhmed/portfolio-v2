@@ -46,7 +46,7 @@ const AwardCard: React.FC<AwardCardProps> = ({ award, index }) => {
           <p className="text-xs text-primary font-medium mb-2">
             {award.organization}
           </p>
-          <p className="text-xs text-muted-foreground leading-relaxed mb-3 line-clamp-2">
+          <p className="text-xs text-muted-foreground leading-relaxed mb-3 line-clamp-3">
             {award.description}
           </p>
           <div className="flex items-center justify-between">

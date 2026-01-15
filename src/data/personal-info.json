@@ -127,26 +127,29 @@
         "Robotics"
       ]
     },
-    {
-      "id": 2,
-      "title": "Technical Support & Data Operations Associate",
-      "company": "Punjab Skills Development Authority (PSDA)",
-      "location": "Lahore, Pakistan",
-      "duration": "Aug 2025 – Present",
-      "logo": "/professional-experience-logos/psda-logo.png",
-      "description": "Supporting provincial-scale skills and training initiatives through database operations, automation, and technical coordination for vocational education programs.",
-      "achievements": [
-        "Streamlining data cleaning, transformation, and integrity checks for end-to-end database operations across PSDA datasets.",
-        "Maintaining and updating records to ensure accuracy across the PSDA’s parent department (SDED) statewide data systems.",
-        "Managing key email correspondence and documentation for team coordination and client requests, improving response time and traceability."
-      ],
-      "technologies": [
-        "SQL",
-        "Excel",
-        "Python",
-        "ASP.NET"
-      ]
-    },
+{
+  "id": 2,
+  "title": "Technical Operations, MIS & Data Associate",
+  "company": "Punjab Skills Development Authority (PSDA)",
+  "location": "Lahore, Pakistan",
+  "duration": "Aug 2025 – Present",
+  "logo": "/professional-experience-logos/psda-logo.png",
+  "description": "Driving digital transformation and operational efficiency by managing statewide data systems, establishing official digital communication channels, and providing critical IT infrastructure support.",
+  "achievements": [
+    "Spearheaded the establishment of PSDA's official digital ecosystem, configuring and managing verified accounts across Facebook, X, Instagram, and YouTube to enhance public engagement.",
+    "Resolved complex IT infrastructure challenges, including OpenVPN secure tunneling configurations, Drupal website content updates, and official government email server integration.",
+    "Streamlined MIS operations by executing rigorous data cleaning, transformation, and integrity checks on provincial vocational education datasets.",
+    "Managed official technical correspondence and documentation, acting as a key liaison for digital operations and internal team coordination."
+  ],
+  "technologies": [
+    "Drupal",
+    "OpenVPN",
+    "Meta Business Suite",
+    "SQL",
+    "Python",
+    "Excel"
+  ]
+},
     {
       "id": 3,
       "title": "Teaching Assistant – Digital Logic Design",
@@ -233,7 +236,7 @@
 "education": {
   "degree": "BS in Artificial Intelligence",
   "institution": "University of Management and Technology (UMT)",
-  "duration": "2022 – Present",
+  "duration": "",
   "cgpa": "3.84/4.00",
   "location": "Lahore, Pakistan"
 }
@@ -340,7 +343,7 @@
   {
     "title": "Efficient Vision Based Fall Detection for Elderly Surveillance Using YOLOv11",
     "venue": "6th International Conference on Innovative Computing (ICIC 2025), UMT Lahore",
-    "status": "Accepted",
+    "status": "In Press",
     "date": "10–11 Dec 2025",
     "description": "Real-time fall detection system leveraging YOLOv11 and computer vision for elderly surveillance in video-based safety monitoring.",
     "category": "research"
@@ -351,15 +354,15 @@
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/understanding-principal-component-analysis-pca-machine-ahmed-uiphe/?trackingId=ChRdt%2FvQRoRMiCAJd1X4IA%3D%3D",
   "date": "Feb 7, 2025",
-  "description": "An in-depth explanation of Principal Component Analysis (PCA), its importance for dimensionality reduction, and its value in machine learning workflows. Covers how PCA works, why it matters, and practical implementation tips.",
-  "category": "blog"
+"description": "Explains PCA for dimensionality reduction, covering its mechanics, importance in ML workflows, and practical implementation.",
+ "category": "blog"
 },
 {
   "title": "When to Use Mean, Median, and Mode for Handling Missing Values in Data?",
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/when-use-mean-median-mode-handling-missing-values-data-ahmed-tebje/?trackingId=Uqq%2Bb6ibnnadY9nVKd61eg%3D%3D",
   "date": "Feb 5, 2025",
-  "description": "A practical guide to choosing the right statistical imputation method for missing data. Explains when to use mean, median, or mode, including their pros, cons, and suitable scenarios in data preprocessing.",
+  "description": "A practical guide to selecting statistical imputation methods (mean, median, mode) for handling missing data effectively.",
   "category": "blog"
 },
 {
@@ -367,7 +370,7 @@
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/1d-convolutional-neural-networks-1d-cnn-powerful-tool-ahmed-2x8ce/?trackingId=p0xOmcEFy9IXHqpjCVjN8g%3D%3D",
   "date": "Feb 9, 2025",
-  "description": "Explores the application of 1D Convolutional Neural Networks in handling sequential data, covering their working principles, advantages over traditional methods, and key use cases. Includes a Python TensorFlow/Keras implementation.",
+  "description": "Explores 1D CNNs for sequential data, covering working principles, advantages, and a hands-on TensorFlow/Keras implementation.",
   "category": "blog"
 },
 {
@@ -375,15 +378,15 @@
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/understanding-gradient-descent-machine-learning-syed-burhan-ahmed-dvfte/?trackingId=XAX3mMbIVkYcGu3OZULB%2Bg%3D%3D",
   "date": "Feb 8, 2025",
-  "description": "A comprehensive overview of gradient descent, the fundamental optimization algorithm behind most machine learning and deep learning models. Discusses the mechanics, variations, and significance of gradient descent in achieving accurate predictions.",
-  "category": "blog"
+ "description": "Explores the mechanics and variations of gradient descent, the fundamental optimization algorithm driving modern machine learning and deep learning.",
+ "category": "blog"
 },
 {
   "title": "Understanding Long Short-Term Memory (LSTM) Networks in Deep Learning",
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/understanding-long-short-term-memory-lstm-networks-deep-ahmed-bcu4e/?trackingId=bSG7L0yS7zHyyrq4dykeNg%3D%3D",
   "date": "Feb 9, 2025",
-  "description": "An in-depth guide to LSTM networks, their role in handling sequential data for deep learning tasks like NLP and forecasting, and their advantages over basic RNNs. Includes explanations of working mechanisms and core applications.",
+  "description": "Comprehensive guide to LSTMs for NLP and forecasting, detailing their architecture and advantages over basic RNNs.",
   "category": "blog"
 },
 {
@@ -391,7 +394,7 @@
   "venue": "LinkedIn",
   "url": "https://www.linkedin.com/pulse/understanding-gated-recurrent-units-gru-deep-learning-ahmed-0r14e/?trackingId=SNiU2hJ%2Fb4U3UhbBgcqrVQ%3D%3D",
   "date": "Feb 10, 2025",
-  "description": "Covers Gated Recurrent Units (GRUs) as an efficient alternative to LSTMs for sequential data in deep learning. Explains their architecture, how they function, their advantages, and practical applications.",
+ "description": "Covers GRUs as an efficient LSTM alternative, explaining their architecture, mechanics, and deep learning applications.",
   "category": "blog"
 }
 
@@ -402,14 +405,14 @@
     "title": "Rector’s Merit Award – Spring 2025",
     "organization": "University of Management and Technology (UMT)",
     "year": "2025",
-    "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence under UMT’s official merit award policy.",
+    "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence.",
     "category": "academic"
   },
   {
     "title": "Dean’s Merit Award – Spring 2023",
     "organization": "School of Systems & Technology, UMT",
     "year": "2023",
-    "description": "Awarded by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
+    "description": "Conferred by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
     "category": "academic"
   },
   {
