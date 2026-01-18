@@ -103,7 +103,7 @@
 "experience": [
     {
       "id": 1,
-      "title": "Research Assistant – Computer Vision & Robotics",
+      "title": "Undergraduate Researcher – Computer Vision & Robotics",
       "company": "AVR Research Group Makerspace Lab, UMT",
       "location": "Lahore, Pakistan",
       "duration": "Jul 2025 – Present",
@@ -129,25 +129,24 @@
     },
 {
   "id": 2,
-  "title": "Technical Operations, MIS & Data Associate",
+  "title": "Data Operations Associate",
   "company": "Punjab Skills Development Authority (PSDA)",
   "location": "Lahore, Pakistan",
   "duration": "Aug 2025 – Present",
   "logo": "/professional-experience-logos/psda-logo.png",
-  "description": "Driving digital transformation and operational efficiency by managing statewide data systems, establishing official digital communication channels, and providing critical IT infrastructure support.",
+  "description": "Optimizing backend data integrity and system performance for the Single TVET-MIS, ensuring scalability for statewide vocational education programs.",
   "achievements": [
-    "Spearheaded the establishment of PSDA's official digital ecosystem, configuring and managing verified accounts across Facebook, X, Instagram, and YouTube to enhance public engagement.",
-    "Resolved complex IT infrastructure challenges, including OpenVPN secure tunneling configurations, Drupal website content updates, and official government email server integration.",
-    "Streamlined MIS operations by executing rigorous data cleaning, transformation, and integrity checks on provincial vocational education datasets.",
-    "Managed official technical correspondence and documentation, acting as a key liaison for digital operations and internal team coordination."
+    "Managed data workflows for a system serving 100,000+ concurrent users, ensuring high availability and query optimization.",
+    "Automated data reporting pipelines for 1,100+ institutes, reducing manual data entry overhead and ensuring 99.9% data accuracy.",
+    "Collaborated with engineering teams to maintain backend stability and implement role-based access protocols using SQL Server.",
+    "Executed rigorous data cleaning and transformation scripts to standardize provincial vocational education datasets."
   ],
   "technologies": [
-    "Drupal",
-    "OpenVPN",
-    "Meta Business Suite",
-    "SQL",
+    "SQL Server",
     "Python",
-    "Excel"
+    "Data Pipelines",
+    "Excel",
+    "System Architecture"
   ]
 },
     {
