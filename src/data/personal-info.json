@@ -1,28 +1,26 @@
 {
-
   "personal": {
     "name": "Syed Burhan Ahmed",
     "nickname": "Burhan",
     "title": "AI Engineer, Researcher & Technical Mentor",
-    "company": "Punjab Skills Development Authority (PSDA)",
+    "company": "AVR Research Group",
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 323 1495323",
     "tagline": "AI Engineer specializing in Generative AI & Computer Vision",
-    "bio": "AI Engineer specializing in Generative AI, NLP, and Computer Vision. Experienced with Python, PyTorch, YOLOv11, LangChain, and real-time ML pipelines, delivering production-grade systems for education, healthcare, and enterprise use cases.",
+    "bio": "Building scalable, production-grade systems using Python, PyTorch, YOLOv11, and LangChain. I bridge the gap between research and deployment, architecting real-time ML pipelines and microservices for education, healthcare, and enterprise sectors.",
     "closingBio": "Open to collaborating on challenging, impact-driven projects. Whether it’s deployable computer vision systems, intelligent agents, or mentoring engineers, the focus is on building reliable AI that solves real-world problems.",
     "story": [
-      "Currently a final-year Artificial Intelligence undergraduate at UMT, working on end-to-end deep learning and full-stack solutions—from custom YOLOv11 deployments for real-time detection to retrieval-augmented (RAG) lecture agents and memory-driven conversational bots.",
-      "Across projects, the emphasis is on production-quality code, clear ML explainability, and measurable value for users and stakeholders. Leadership experience includes guiding student teams, conducting workshops, and mentoring on advanced computer vision, NLP, and workflow automation.",
-      "Outside of deployment work, time goes into open-source contributions, sharing experiments on platforms like Hugging Face, Kaggle, and GitHub, and documenting the AI journey to help the next generation build and ship better systems."
+      "I am an AI Engineer and Researcher at UMT's Makerspace Lab, focused on architecting hybrid AI systems. My work spans from custom YOLOv11 deployments for real-time detection to retrieval-augmented (RAG) lecture agents and memory-driven conversational bots using Neo4j.",
+      "Across all projects, I emphasize production-quality code, clear ML explainability, and measurable value. My technical leadership includes guiding student teams, conducting advanced workshops on Generative AI, and mentoring peers on microservices and workflow automation.",
+      "Beyond deployment, I am deeply invested in open-source contributions and research. I actively share experiments on Hugging Face and GitHub, aiming to bridge the gap between academic theory and industrial application for the next generation of engineers."
     ],
-
     "profileImage": "/burhan-profile.png"
-
   },
+
 "stats": {
   "projects": "5+",
-  "yearsExperience": "2+",
+  "yearsExperience": "1.5+",
   "technologiesMastered": "15+"
 },
 "social": {
@@ -103,7 +101,7 @@
 "experience": [
     {
       "id": 1,
-      "title": "Undergraduate Researcher – Computer Vision & Robotics",
+      "title": "AI Researcher – Computer Vision & Robotics",
       "company": "AVR Research Group Makerspace Lab, UMT",
       "location": "Lahore, Pakistan",
       "duration": "Jul 2025 – Present",
