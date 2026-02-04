@@ -32,10 +32,10 @@ const PublicationCard: React.FC<PublicationCardProps> = ({ publication }) => {
         {/* Content */}
         <div className="flex-1 space-y-3">
           <div>
-            <h3 className="text-md font-bold text-foreground mb-2 group-hover:text-accent transition-colors duration-300 line-clamp-4">
+            <h3 className="text-md font-bold text-foreground mb-2 group-hover:text-accent transition-colors duration-300 line-clamp-3">
               {publication.title}
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed line-clamp-4">
+            <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
               {publication.description}
             </p>
           </div>
