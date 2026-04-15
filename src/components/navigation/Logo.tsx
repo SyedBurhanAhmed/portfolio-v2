@@ -1,4 +1,3 @@
-// Server Component - No 'use client' directive for SEO benefits
 import React from 'react';
 import personalInfo from '@/data/personal-info.json';
 
@@ -7,13 +6,31 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ scrollToSection }) => {
+  const initials = personalInfo.personal.name
+    .split(' ')
+    .map((n) => n[0])
+    .join('');
+
   return (
     <div className="flex-shrink-0">
-      <button 
+      <button
         onClick={() => scrollToSection('#hero')}
-        className="text-xl font-bold gradient-text font-mono"
+        className="flex items-center gap-2 group"
+        aria-label="Home"
       >
-        {`<${personalInfo.personal.nickname} />`}
+        {/* Monogram badge */}
+        <div
+          className="w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold text-background"
+          style={{ background: 'var(--primary-gradient)' }}
+        >
+          {initials}
+        </div>
+        {/* Name */}
+        <span className="text-base font-semibold gradient-text hidden sm:block">
+          {personalInfo.personal.nickname}
+        </span>
+        {/* Pulsing dot */}
+        <span className="neural-dot hidden sm:block" />
       </button>
     </div>
   );
