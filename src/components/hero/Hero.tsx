@@ -31,9 +31,9 @@ const NeuralBackground: React.FC = () => (
     ))}
     {/* Nodes */}
     {[
-      [80,180], [260,90], [480,200], [680,110], [900,250],
-      [260,340], [480,390], [680,480], [150,400], [480,480],
-      [900,420], [1050,150]
+      [80, 180], [260, 90], [480, 200], [680, 110], [900, 250],
+      [260, 340], [480, 390], [680, 480], [150, 400], [480, 480],
+      [900, 420], [1050, 150]
     ].map(([cx, cy], i) => (
       <circle key={i} cx={cx} cy={cy} r="5" fill="hsl(258 90% 70%)" />
     ))}
@@ -124,11 +124,11 @@ const Hero: React.FC = () => {
           >
             <TypeAnimation
               sequence={[
-                'AI / CV Engineer',          1800,
-                'Generative AI Builder',     1800,
-                'Computer Vision Researcher',1800,
-                'PyTorch & YOLO Specialist', 1800,
-                'LLM & RAG Developer',       1800,
+                'AI Engineer', 1800,
+                'Computer Vision Engineer', 1800,
+                'Applied GenAI Specialist', 1800,
+                'YOLOv11 & VLM Integrator', 1800,
+                'RAG & LangChain Architect', 1800,
               ]}
               wrapper="span"
               speed={52}
@@ -166,7 +166,7 @@ const Hero: React.FC = () => {
           >
             <ScrollButton
               targetId="contact"
-              className="glow-button font-semibold px-8 py-3 rounded-lg text-sm inline-flex items-center justify-center gap-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+              className="font-bold px-8 py-3 rounded-lg text-sm inline-flex items-center justify-center gap-2 ring-offset-background transition-all duration-300 hover:scale-105 text-white bg-[image:var(--primary-gradient)] shadow-[0_0_20px_hsla(258,90%,66%,0.4)]"
               ariaLabel="Scroll to contact section"
             >
               Get In Touch
@@ -197,10 +197,10 @@ const Hero: React.FC = () => {
             className="flex items-center justify-center lg:justify-start space-x-5 pt-2"
           >
             {[
-              { href: personalInfo.social.github.url,     icon: Github,      label: 'GitHub' },
-              { href: personalInfo.social.linkedin.url,   icon: Linkedin,    label: 'LinkedIn' },
-              { href: personalInfo.social.huggingface.url,icon: ExternalLink, label: 'Hugging Face' },
-              { href: personalInfo.social.email,          icon: Mail,        label: 'Email' },
+              { href: personalInfo.social.github.url, icon: Github, label: 'GitHub' },
+              { href: personalInfo.social.linkedin.url, icon: Linkedin, label: 'LinkedIn' },
+              { href: personalInfo.social.huggingface.url, icon: ExternalLink, label: 'Hugging Face' },
+              { href: personalInfo.social.email, icon: Mail, label: 'Email' },
             ].map(({ href, icon: Icon, label }) => (
               <a
                 key={label}

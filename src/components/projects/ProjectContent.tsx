@@ -76,16 +76,11 @@ const ProjectContent: React.FC<ProjectContentProps> = ({ project }) => {
 
       {/* Tech stack pills */}
       <div className="flex flex-wrap gap-1.5 mb-4">
-        {project.technologies.slice(0, 4).map((tech) => (
+        {project.technologies.map((tech) => (
           <span key={tech} className="text-[10px] px-2 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20">
             {tech}
           </span>
         ))}
-        {project.technologies.length > 4 && (
-          <span className="text-[10px] px-2 py-0.5 rounded-full bg-secondary text-muted-foreground">
-            +{project.technologies.length - 4}
-          </span>
-        )}
       </div>
 
       {/* GitHub link */}

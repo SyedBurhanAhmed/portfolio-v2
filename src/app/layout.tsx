@@ -10,6 +10,7 @@ import personalInfo from "@/data/personal-info.json";
 import { Analytics } from '@vercel/analytics/next';
 import { ArrowUp } from 'lucide-react';
 import ScrollButton from '@/components/ScrollButton';
+import CustomCursor from '@/components/ui/CustomCursor';
 
 const myUrl = process.env.NEXT_PUBLIC_SITE_URL || publicUrl;
 
@@ -80,7 +81,7 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased`}>
+      <body suppressHydrationWarning className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased`}>
         {/* JSON-LD Structured Data */}
         <div id="top" tabIndex={-1} />
         <script
@@ -144,7 +145,9 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
           <QueryProvider>
             <TooltipProvider>
               {children}
-              
+              {/* Custom AI Cursor */}
+              <CustomCursor />
+
               {/* Add your Go to Top Button Here */}
               <ScrollButton
                 targetId="top"

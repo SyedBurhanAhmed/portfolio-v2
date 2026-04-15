@@ -3,104 +3,343 @@
     "name": "Syed Burhan Ahmed",
     "nickname": "Burhan",
     "title": "AI Engineer, Researcher & Technical Mentor",
-    "company": "AVR Research Group",
+    "company": "OptimusFox | AVR Research Group",
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 312 4367233",
-    "tagline": "AI Engineer specializing in Generative AI & Computer Vision",
-    "bio": "Building scalable, production-grade systems using Python, PyTorch, YOLOv11, and LangChain. I bridge the gap between research and deployment, architecting real-time ML pipelines and microservices for education, healthcare, and enterprise sectors.",
-    "closingBio": "Open to collaborating on challenging, impact-driven projects. Whether it’s deployable computer vision systems, intelligent agents, or mentoring engineers, the focus is on building reliable AI that solves real-world problems.",
+    "tagline": "AI Engineer specializing in Computer Vision, Applied GenAI & Scalable Automation",
+    "bio": "Building scalable, production-grade systems using Python, PyTorch, YOLOv11, FastAPI, and n8n. I bridge the gap between advanced research and deployment, architecting real-time ML pipelines, multimodal microservices, and multi-tenant SaaS automations for enterprise and academic sectors.",
+    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-      "I am an AI Engineer and Researcher at UMT's Makerspace Lab, focused on architecting hybrid AI systems. My work spans from custom YOLOv11 deployments for real-time detection to retrieval-augmented (RAG) lecture agents and memory-driven conversational bots using Neo4j.",
-      "Across all projects, I emphasize production-quality code, clear ML explainability, and measurable value. My technical leadership includes guiding student teams, conducting advanced workshops on Generative AI, and mentoring peers on microservices and workflow automation.",
-      "Beyond deployment, I am deeply invested in open-source contributions and research. I actively share experiments on Hugging Face and GitHub, aiming to bridge the gap between academic theory and industrial application for the next generation of engineers."
+      "I am an AI Engineer building robust, scalable systems that solve complex, real-world problems. My industry work involves architecting end-to-end automation pipelines and evaluating scalable deployment infrastructures (self-hosted vs. cloud APIs) to transition internal operational tools into commercial SaaS products.",
+      "In the research domain at UMT's Makerspace Lab, I focus on high-performance computer vision. My work includes engineering hybrid YOLOv11 and Vision-Language Model (VLM) pipelines—optimizing FastAPI microservices to achieve <100ms latency for real-time semantic natural-language querying.",
+      "Across all projects, I emphasize production-quality code, clean architectural design, and measurable value. Beyond deployment, I am deeply invested in technical leadership, having trained over 120 participants in Generative AI and serving as a mentor for core computer science courses to bridge the gap between academic theory and industrial application."
     ],
     "profileImage": "/burhan-profile.png"
   },
-
-"stats": {
-  "projects": "5+",
-  "yearsExperience": "1.5+",
-  "technologiesMastered": "15+"
-},
-"social": {
-  "linkedin": {
-    "url": "https://www.linkedin.com/in/syed-burhan-ahmed",
-    "username": "syed-burhan-ahmed"
+  "stats": {
+    "projects": "8+",
+    "yearsExperience": "1.5+",
+    "technologiesMastered": "20+"
   },
-  "github": {
-    "url": "https://github.com/SyedBurhanAhmed",
-    "username": "SyedBurhanAhmed"
+  "social": {
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/syed-burhan-ahmed",
+      "username": "syed-burhan-ahmed"
+    },
+    "github": {
+      "url": "https://github.com/SyedBurhanAhmed",
+      "username": "SyedBurhanAhmed"
+    },
+    "huggingface": {
+      "url": "https://huggingface.co/syedburhanahmed",
+      "username": "syedburhanahmed"
+    },
+    "kaggle": {
+      "url": "https://kaggle.com/syedburhanahmed",
+      "username": "syedburhanahmed"
+    },
+    "email": "mailto:syedburhanahmedd@gmail.com",
+    "phone": "tel:+923124367233",
+    "resume": "https://drive.google.com/file/d/1iXj6SGYDoyPsl8ZxyoD5CI9rPOqUcCVE/view?usp=drive_link"
   },
-  "huggingface": {
-    "url": "https://huggingface.co/syedburhanahmed",
-    "username": "syedburhanahmed"
-  },
-  "kaggle": {
-    "url": "https://kaggle.com/syedburhanahmed",
-    "username": "syedburhanahmed"
-  },
-  "email": "mailto:syedburhanahmedd@gmail.com",
-  "phone": "tel:+923124367233",
-  "resume": "https://drive.google.com/file/d/1iXj6SGYDoyPsl8ZxyoD5CI9rPOqUcCVE/view?usp=drive_link"
-},
   "skills": {
     "languages": [
-      { "name": "Python", "experience": "3+ years", "context": "Advanced AI, scripting, automation", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Programming Languages" },
-      { "name": "C/C++", "experience": "Academic", "context": "Systems, embedded algorithms", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", "category": "Programming Languages" },
-      { "name": "C#", "experience": "1+ years", "context": "Backend, .NET apps, enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", "category": "Programming Languages" },
-      { "name": "JavaScript", "experience": "Project-based", "context": "Web apps, UIs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "category": "Programming Languages" },
-      { "name": "MIPS Assembly", "experience": "Academic", "context": "Low-level programming, architecture", "icon": "", "category": "Programming Languages" },
-      { "name": "SQL", "experience": "2+ years", "context": "Data operations, complex queries", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "category": "Programming Languages" },
-      { "name": "HTML/CSS", "experience": "2+ years", "context": "Web markup & styling", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "category": "Programming Languages" }
+      {
+        "name": "Python",
+        "experience": "3+ years",
+        "context": "Advanced AI, scripting, automation pipelines",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "C/C++",
+        "experience": "Academic",
+        "context": "Systems, embedded algorithms",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "C#",
+        "experience": "1+ years",
+        "context": "Backend, .NET apps, enterprise projects",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "JavaScript",
+        "experience": "Project-based",
+        "context": "Web apps, custom UI wrappers",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "MIPS Assembly",
+        "experience": "Academic",
+        "context": "Low-level programming, architecture",
+        "icon": "",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "SQL",
+        "experience": "2+ years",
+        "context": "Data operations, complex queries, multi-tenant DBs",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "HTML/CSS",
+        "experience": "2+ years",
+        "context": "Web markup & styling",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "category": "Programming Languages"
+      }
     ],
     "ai_ml": [
-      { "name": "Generative AI (RAG)", "experience": "Current", "context": "LangChain, Vector DBs, LLMs", "icon": "https://roboticsbiz.com/wp-content/uploads/2024/09/generative-ai.jpg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "Vision-Language Models (VLMs)", "experience": "Current", "context": "CLIP, BLIP, Hybrid Tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "YOLO (v8/v11)", "experience": "1+ year", "context": "Real-time object detection & tracking", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "PyTorch", "experience": "2+ years", "context": "Deep learning models", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "TensorFlow", "experience": "1+ year", "context": "NNs, prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "Keras", "experience": "1+ year", "context": "Model prototyping", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "Scikit-learn", "experience": "2+ years", "context": "ML utilities", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "LangChain", "experience": "1+ year", "context": "RAG, LLM systems", "icon": "https://logo.svgcdn.com/simple-icons/langchain-dark.png", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "OpenAI Whisper", "experience": "Project-based", "context": "Speech-to-text pipelines", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "FAISS", "experience": "Project-based", "context": "Vector database & search", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "Hugging Face Transformers", "experience": "1+ year", "context": "NLP/LLMs", "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "LlamaIndex", "experience": "Project-based", "context": "RAG pipelines", "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fFO-T3XsEyrwyLv0LZO2FKwnVPLIWXOXQw&s", "category": "AI/ML Frameworks & Libraries" },
-      { "name": "Google SDK", "experience": "Current", "context": "Enterprise AI, cloud workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "AI/ML Frameworks & Libraries" }
+      {
+        "name": "Generative AI (RAG)",
+        "experience": "Current",
+        "context": "LangChain, Vector DBs, LLMs",
+        "icon": "https://roboticsbiz.com/wp-content/uploads/2024/09/generative-ai.jpg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Vision-Language Models (VLMs)",
+        "experience": "Current",
+        "context": "CLIP, BLIP, Hybrid Semantic Tracking",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "YOLOv11",
+        "experience": "Current",
+        "context": "Real-time object detection & low-latency tracking",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "PyTorch",
+        "experience": "2+ years",
+        "context": "Deep learning models",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "TensorFlow",
+        "experience": "1+ year",
+        "context": "NNs, prototyping",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Keras",
+        "experience": "1+ year",
+        "context": "Model prototyping",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Scikit-learn",
+        "experience": "2+ years",
+        "context": "ML utilities",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "LangChain",
+        "experience": "1+ year",
+        "context": "RAG, LLM systems, Agentic workflows",
+        "icon": "https://logo.svgcdn.com/simple-icons/langchain-dark.png",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "OpenAI Whisper",
+        "experience": "Project-based",
+        "context": "Speech-to-text pipelines",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "FAISS",
+        "experience": "Project-based",
+        "context": "Vector database & search",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "experience": "1+ year",
+        "context": "NLP/LLMs",
+        "icon": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "LlamaIndex",
+        "experience": "Project-based",
+        "context": "RAG pipelines",
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fFO-T3XsEyrwyLv0LZO2FKwnVPLIWXOXQw&s",
+        "category": "AI/ML Frameworks & Libraries"
+      }
     ],
     "web_backend": [
-      { "name": "Flask", "experience": "2+ years", "context": "APIs & ML deployment", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg", "category": "Web, Backend & App Frameworks" },
-      { "name": "React.js", "experience": "Project-based", "context": "UI development", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "category": "Web, Backend & App Frameworks" },
-      { "name": "Gradio", "experience": "Project-based", "context": "ML web demos", "icon": "", "category": "Web, Backend & App Frameworks" },
-      { "name": "Streamlit", "experience": "Project-based", "context": "ML dashboards/apps", "icon": "", "category": "Web, Backend & App Frameworks" },
-      { "name": "ASP.NET", "experience": "Current", "context": "Enterprise projects", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg", "category": "Web, Backend & App Frameworks" },
-      { "name": "Google Cloud Platform (GCP)", "experience": "Current", "context": "Cloud deployment workflows", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "Web, Backend & App Frameworks" }
+      {
+        "name": "FastAPI",
+        "experience": "Current",
+        "context": "Low-latency ML microservices & REST APIs",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "n8n",
+        "experience": "Current",
+        "context": "Workflow architecture & enterprise SaaS automation",
+        "icon": "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "Flask",
+        "experience": "2+ years",
+        "context": "APIs & ML deployment",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "React.js",
+        "experience": "Project-based",
+        "context": "UI development",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "Gradio",
+        "experience": "Project-based",
+        "context": "ML web demos",
+        "icon": "",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "ASP.NET",
+        "experience": "Current",
+        "context": "Enterprise projects",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+        "category": "Web, Backend & App Frameworks"
+      },
+      {
+        "name": "Google Cloud Platform (GCP)",
+        "experience": "Current",
+        "context": "Cloud deployment workflows",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
+        "category": "Web, Backend & App Frameworks"
+      }
     ],
     "tools_platforms": [
-      { "name": "ESP32-S3/Robotics", "experience": "1+ years", "context": "Embedded, Differential drive, Sensors", "icon": "", "category": "Tools & Platforms" },
-      { "name": "Git", "experience": "2+ years", "context": "Version control", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", "category": "Tools & Platforms" },
-      { "name": "GitHub", "experience": "2+ years", "context": "Repo hosting & collaboration", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "category": "Tools & Platforms" },
-      { "name": "Google Colab", "experience": "2+ years", "context": "Notebook ML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg", "category": "Tools & Platforms" },
-      { "name": "Kaggle", "experience": "1+ years", "context": "ML/data contests", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "category": "Tools & Platforms" },
-      { "name": "VS Code", "experience": "2+ years", "context": "Notebooks, code editor", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", "category": "Tools & Platforms" },
-      { "name": "PyCharm", "experience": "2+ years", "context": "Primary IDE", "icon": "", "category": "Tools & Platforms" },
-      { "name": "Visual Studio", "experience": "Project-based", "context": "Enterprise, cross-platform", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", "category": "Tools & Platforms" }
+      {
+        "name": "Docker",
+        "experience": "Current",
+        "context": "Containerization & Self-hosting",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "ESP32-S3/Robotics",
+        "experience": "1+ years",
+        "context": "Embedded, Differential drive, Sensors",
+        "icon": "",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "Git",
+        "experience": "2+ years",
+        "context": "Version control",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "GitHub",
+        "experience": "2+ years",
+        "context": "Repo hosting & collaboration",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "Google Colab",
+        "experience": "2+ years",
+        "context": "Notebook ML",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "Kaggle",
+        "experience": "1+ years",
+        "context": "ML/data contests",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "Tools & Platforms"
+      },
+      {
+        "name": "VS Code",
+        "experience": "2+ years",
+        "context": "Notebooks, code editor",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "category": "Tools & Platforms"
+      }
     ],
     "professional": [
-      { "name": "AI Team Leadership", "experience": "1+ year", "context": "Master Trainer (3 Cohorts), Projects Guidance", "icon": "", "category": "Professional" },
-      { "name": "Technical Mentorship", "experience": "1+ year", "context": "Peer tutor & TA (COAL/AI)", "icon": "", "category": "Professional" },
-      { "name": "Teaching", "experience": "Academic", "context": "Curriculum Development, Workshops", "icon": "", "category": "Professional" },
-      { "name": "Public Speaking", "experience": "Academic", "context": "National AI Symposium Speaker", "icon": "", "category": "Professional" }
+      {
+        "name": "AI Systems Architecture",
+        "experience": "Current",
+        "context": "End-to-end pipeline design & SaaS infrastructure",
+        "icon": "",
+        "category": "Professional"
+      },
+      {
+        "name": "AI Team Leadership",
+        "experience": "1+ year",
+        "context": "Master Trainer (3 Cohorts), Projects Guidance",
+        "icon": "",
+        "category": "Professional"
+      },
+      {
+        "name": "Technical Mentorship",
+        "experience": "1+ year",
+        "context": "Peer tutor & TA (COAL/AI)",
+        "icon": "",
+        "category": "Professional"
+      },
+      {
+        "name": "Academic Research",
+        "experience": "Current",
+        "context": "Benchmarking, IEEE Published Author",
+        "icon": "",
+        "category": "Professional"
+      }
     ]
   },
-
-
-
-
-"experience": [
+  "experience": [
     {
       "id": 1,
+      "title": "AI Engineer (Trainee)",
+      "company": "OptimusFox",
+      "location": "Lahore, Pakistan",
+      "duration": "Apr 2026 – Present",
+      "logo": "/professional-experience-logos/optimusfox.png",
+      "description": "Architecting and developing scalable marketing automation infrastructure, with the primary objective of transitioning internal operational tools into a multi-tenant commercial SaaS product.",
+      "achievements": [
+        "Architecting an end-to-end automation pipeline utilizing n8n to streamline and autonomously manage marketing operations for internal and sister companies.",
+        "Benchmarking and evaluating n8n deployment architectures (Self-hosted vs. Cloud API) to optimize for scalability, system control, and cost-efficiency.",
+        "Developing a custom, streamlined UI layer integrated with the n8n backend to abstract complex data workflows for non-technical marketing teams.",
+        "Designing the automation architecture with multi-tenant capabilities, laying the foundational groundwork for a B2B SaaS product release."
+      ],
+      "technologies": [
+        "n8n",
+        "System Architecture",
+        "API Integration",
+        "Python",
+        "FastAPI",
+        "SaaS Development"
+      ]
+    },
+    {
+      "id": 2,
       "title": "AI Researcher – Computer Vision & Robotics",
       "company": "AVR Research Group Makerspace Lab, UMT",
       "location": "Lahore, Pakistan",
@@ -119,34 +358,12 @@
         "PyTorch",
         "OpenCV",
         "Python",
-        "Flask",
+        "FastAPI",
         "LangChain",
         "Embedded Systems",
         "Robotics"
       ]
     },
-{
-  "id": 2,
-  "title": "Data Operations Associate",
-  "company": "Punjab Skills Development Authority (PSDA)",
-  "location": "Lahore, Pakistan",
-  "duration": "Aug 2025 – Present",
-  "logo": "/professional-experience-logos/psda-logo.png",
-  "description": "Optimizing backend data integrity and system performance for the Single TVET-MIS, ensuring scalability for statewide vocational education programs.",
-  "achievements": [
-    "Managed data workflows for a system serving 100,000+ concurrent users, ensuring high availability and query optimization.",
-    "Automated data reporting pipelines for 1,100+ institutes, reducing manual data entry overhead and ensuring 99.9% data accuracy.",
-    "Collaborated with engineering teams to maintain backend stability and implement role-based access protocols using SQL Server.",
-    "Executed rigorous data cleaning and transformation scripts to standardize provincial vocational education datasets."
-  ],
-  "technologies": [
-    "SQL Server",
-    "Python",
-    "Data Pipelines",
-    "Excel",
-    "System Architecture"
-  ]
-},
     {
       "id": 3,
       "title": "Teaching Assistant – Digital Logic Design",
@@ -167,6 +384,28 @@
     },
     {
       "id": 4,
+      "title": "Data Operations Associate",
+      "company": "Punjab Skills Development Authority (PSDA)",
+      "location": "Lahore, Pakistan",
+      "duration": "Aug 2025 – Mar 2026",
+      "logo": "/professional-experience-logos/psda-logo.png",
+      "description": "Optimizing backend data integrity and system performance for the Single TVET-MIS, ensuring scalability for statewide vocational education programs.",
+      "achievements": [
+        "Managed data workflows for a system serving 100,000+ concurrent users, ensuring high availability and query optimization.",
+        "Automated data reporting pipelines for 1,100+ institutes, reducing manual data entry overhead and ensuring 99.9% data accuracy.",
+        "Collaborated with engineering teams to maintain backend stability and implement role-based access protocols using SQL Server.",
+        "Executed rigorous data cleaning and transformation scripts to standardize provincial vocational education datasets."
+      ],
+      "technologies": [
+        "SQL Server",
+        "Python",
+        "Data Pipelines",
+        "Excel",
+        "System Architecture"
+      ]
+    },
+    {
+      "id": 5,
       "title": "Software Development Intern",
       "company": "BeWhoop",
       "location": "Remote – Islamabad, Pakistan",
@@ -189,7 +428,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Master Trainer – Generative AI",
       "company": "Arfa Karim Technology Incubator (AKTI)",
       "location": "Lahore, Pakistan",
@@ -210,7 +449,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Freelance Software Engineer",
       "company": "Lahore Arts Council",
       "location": "Lahore, Pakistan",
@@ -229,256 +468,337 @@
       ]
     }
   ],
-
-"education": {
-  "degree": "BS in Artificial Intelligence",
-  "institution": "University of Management and Technology (UMT)",
-  "duration": "",
-  "cgpa": "3.84/4.00",
-  "location": "Lahore, Pakistan"
-}
-,
+  "education": {
+    "degree": "BS in Artificial Intelligence",
+    "institution": "University of Management and Technology (UMT)",
+    "duration": "",
+    "cgpa": "3.84/4.00",
+    "location": "Lahore, Pakistan"
+  },
   "projects": [
-  {
-    "id": 1,
-    "title": "RULEN",
-    "subtitle": "Real-Time Unified Lecture Extraction Network",
-    "description": "AI-powered multilingual educational assistant automating lecture transcription (99+ languages), bilingual notes in Roman Urdu/Hindi & English, and curriculum-aligned quiz creation with RAG. Supports dashboards, CLO/PLO mapping, multi-format upload, and integrates with learning outcomes for institution readiness.",
-    "technologies": ["Flask", "OpenAI Whisper", "LangChain", "FAISS", "Gemini LLM", "Jinja2"],
-    "github": "https://github.com/SyedBurhanAhmed/RULEN-Real-time-Unified-Lecture-Extraction-Network",
-    "longDescription": "",
-    "featured": true,
-    "categories": ["AI/ML", "Education", "NLP"],
-    "image": "/project-images-videos/RULEN.png",
-    "role": "AI/ML Developer",
-    "status": "Completed",
-    "priority": 1
-  },
-  {
-    "id": 2,
-    "title": "Freak AI",
-    "subtitle": "Memory-Augmented Conversational Agent",
-    "description": "A rule-based agent simulating five human-like memory systems with Neo4j graph storage, real-time dashboards, web chat, and ESP32 hardware for multimodal input and voice. Small step toward AGI and real-time agent reasoning.",
-    "technologies": ["Flask", "Neo4j", "AIML", "Prolog", "Graph Algorithms", "ESP32"],
-    "longDescription": "",
-    "github": "https://github.com/SyedBurhanAhmed/Freak-AI",
-    "featured": true,
-    "categories": ["AI/ML", "Conversational Agents", "IoT"],
-    "image": "/project-images-videos/freak.png",
-    "role": "Backend & AI Engineer",
-    "status": "Completed",
-    "video": "",
-    "priority": 2
-  },
-  {
-    "id": 3,
-    "title": "CelebVision – Dual-Shot Celebrity Classification",
-    "subtitle": "Multi-Pipeline Face/Gender/Celebrity Recognition",
-    "description": "CV pipeline using YOLOv11 for face detection, EfficientNetV2-S for celebrity recognition (15+ Pakistani celebrities). 1st place in CV Kaggle competition; real-time inference, visualizes bounding boxes and recognizes gender, class imbalance handled.",
-    "technologies": ["PyTorch", "YOLOv11", "EfficientNetV2", "Albumentations", "Python"],
-    "github": "https://github.com/SyedBurhanAhmed/CelebVision-Multi-Pipeline-Celebrity-Recognition-System",
-    "longDescription": "",
-
-    "featured": true,
-    "categories": ["Computer Vision", "AI/ML", "Competition"],
-    "image": "/project-images-videos/celebvision.jpg",
-    "role": "Computer Vision Engineer",
-    "status": "Award Winner",
-    "video": "",
-    "priority": 3
-  },
-  {
-    "id": 4,
-    "title": "Real-Time Fall Detection System using YOLO",
-    "subtitle": "Elderly Safety & Surveillance",
-    "description": "YOLOv11-based fall detection system for real-time video feeds in safety/public spaces. Fine-tuned on LE2I, high precision/recall, supports logging and alerts, modular for sensor integration.",
-    "technologies": ["YOLOv11", "PyTorch", "OpenCV", "Python"],
-    "github": "https://github.com/SyedBurhanAhmed/Real-Time-Fall-Detection-using-YOLO",
-    "longDescription": "",
-    "featured": false,
-    "categories": ["AI/ML", "Computer Vision", "Healthcare"],
-    "image": "",
-    "role": "Computer Vision & DL Engineer",
-    "status": "Completed",
-    "video": "/project-images-videos/fall-detection.mp4",
-    "priority": 4
-  },
-  {
-    "id": 5,
-    "title": "Lahore Arts Council Reservation System",
-    "subtitle": "Event Space Reservation Web App",
-"description": "Designed and developed a full-stack .NET and SQL Server application for event reservations. Features include user registration, an admin dashboard, automated email notifications, and Excel report generation. Built as a proof-of-concept to demonstrate robust reservation workflows in a simulated environment."
-,"technologies": ["ASP.NET", "SQL Server", "HTML", "Bootstrap", "SMTP", "Office Interop"],
-    "github": "https://github.com/SyedBurhanAhmed/Lahore-Arts-Council-ReservationSystem",
-    "longDescription": "",
-    "featured": false,
-    "categories": ["Full Stack", "Enterprise", "Workflow Automation"],
-    "image": "/project-images-videos/LAC.png",
-    "role": "Full Stack Developer",
-    "status": "Proof-of-Concept",
-    "video": "",
-    "priority": 5
-  },
-  {
-    "id": 6,
-    "title": "Voice-Based Smart Attendance System",
-    "subtitle": "IoT-Driven Attendance Platform",
-"description": "Designed and built a prototype automated attendance system using ESP32 with NFC/fingerprint authentication, a speech-to-text pipeline via Flask, and an OLED display. Developed as a semester term project to demonstrate end-to-end integration of IoT hardware, biometric verification, and real-time data processing. Focused on core features, system workflow, and proof-of-concept usability in a classroom scenario."
-,  "technologies": ["ESP32", "Flask", "Python", "NFC", "Fingerprint Sensor"],
-    "longDescription": "",
-    "github": "",
-    "featured": false,
-    "categories": ["Embedded", "IoT", "Automation"],
-    "image": "/project-images-videos/esp32-attendance.png",
-    "role": "Embedded & Backend Developer",
-    "status": "Proof-of-Concept",
-    "video": "",
-    "priority": 6
-  }
-],
-"publications": [
-  {
-    "title": "Efficient Vision Based Fall Detection for Elderly Surveillance Using YOLOv11",
-    "venue": "6th International Conference on Innovative Computing (ICIC 2025), UMT Lahore",
-    "status": "In Press",
-    "date": "10–11 Dec 2025",
-    "description": "Real-time fall detection system leveraging YOLOv11 and computer vision for elderly surveillance in video-based safety monitoring.",
-    "category": "research"
-  },
-
-  {
-  "title": "Understanding Principal Component Analysis (PCA) in Machine Learning: A Comprehensive Guide",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/understanding-principal-component-analysis-pca-machine-ahmed-uiphe/?trackingId=ChRdt%2FvQRoRMiCAJd1X4IA%3D%3D",
-  "date": "Feb 7, 2025",
-"description": "Explains PCA for dimensionality reduction, covering its mechanics, importance in ML workflows, and practical implementation.",
- "category": "blog"
-},
-{
-  "title": "When to Use Mean, Median, and Mode for Handling Missing Values in Data?",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/when-use-mean-median-mode-handling-missing-values-data-ahmed-tebje/?trackingId=Uqq%2Bb6ibnnadY9nVKd61eg%3D%3D",
-  "date": "Feb 5, 2025",
-  "description": "A practical guide to selecting statistical imputation methods (mean, median, mode) for handling missing data effectively.",
-  "category": "blog"
-},
-{
-  "title": "1D Convolutional Neural Networks (1D-CNN): A Powerful Tool for Sequential Data",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/1d-convolutional-neural-networks-1d-cnn-powerful-tool-ahmed-2x8ce/?trackingId=p0xOmcEFy9IXHqpjCVjN8g%3D%3D",
-  "date": "Feb 9, 2025",
-  "description": "Explores 1D CNNs for sequential data, covering working principles, advantages, and a hands-on TensorFlow/Keras implementation.",
-  "category": "blog"
-},
-{
-  "title": "Understanding Gradient Descent in Machine Learning",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/understanding-gradient-descent-machine-learning-syed-burhan-ahmed-dvfte/?trackingId=XAX3mMbIVkYcGu3OZULB%2Bg%3D%3D",
-  "date": "Feb 8, 2025",
- "description": "Explores the mechanics and variations of gradient descent, the fundamental optimization algorithm driving modern machine learning and deep learning.",
- "category": "blog"
-},
-{
-  "title": "Understanding Long Short-Term Memory (LSTM) Networks in Deep Learning",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/understanding-long-short-term-memory-lstm-networks-deep-ahmed-bcu4e/?trackingId=bSG7L0yS7zHyyrq4dykeNg%3D%3D",
-  "date": "Feb 9, 2025",
-  "description": "Comprehensive guide to LSTMs for NLP and forecasting, detailing their architecture and advantages over basic RNNs.",
-  "category": "blog"
-},
-{
-  "title": "Understanding Gated Recurrent Units (GRU) in Deep Learning",
-  "venue": "LinkedIn",
-  "url": "https://www.linkedin.com/pulse/understanding-gated-recurrent-units-gru-deep-learning-ahmed-0r14e/?trackingId=SNiU2hJ%2Fb4U3UhbBgcqrVQ%3D%3D",
-  "date": "Feb 10, 2025",
- "description": "Covers GRUs as an efficient LSTM alternative, explaining their architecture, mechanics, and deep learning applications.",
-  "category": "blog"
-}
-
-]
-,
-"achievements": [
-  {
-    "title": "Rector’s Merit Award – Spring 2025",
-    "organization": "University of Management and Technology (UMT)",
-    "year": "2025",
-    "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence.",
-    "category": "academic"
-  },
-  {
-    "title": "Dean’s Merit Award – Spring 2023",
-    "organization": "School of Systems & Technology, UMT",
-    "year": "2023",
-    "description": "Conferred by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
-    "category": "academic"
-  },
-  {
-    "title": "Gold Medalist – Matriculation",
-    "organization": "Lahore Garrison Education System",
-    "year": "2020",
-    "description": "Secured the Gold Medal at the Matriculation level for outstanding academic performance.",
-    "category": "academic"
-  }
-]
-,
-"certifications": [
     {
-
-    "id": 1,
-    "title": "Google Cloud Fundamentals: Core Infrastructure",
-    "provider": "Coursera",
-    "year": "2025",
-    "description": "Covers core Google Cloud concepts and services, including organizing infrastructure, creating basic cloud resources, and selecting appropriate storage options.",
-    "certificates": [
-      {
-        "url": "https://www.coursera.org/account/accomplishments/verify/XVCFVOSJJAMQ",
-        "title": "Google Cloud Fundamentals: Core Infrastructure",
-        "year": "2025",
-        "credentialId": "XVCFVOSJJAMQ"
-      }
-    ],
-    "skills": [
-      "Google Cloud Platform",
-      "Cloud Computing",
-      "Cloud Infrastructure",
-      "Identity and Access Management",
-      "Virtual Machines",
-      "Cloud Storage",
-      "Serverless Computing",
-      "Network Infrastructure"
-    ]
-  }
-],
-"seo": {
-  "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
-  "description": "AI Engineer passionate about Generative AI, Computer Vision, and full-stack ML systems. Experienced in YOLO, Python, PyTorch, and real-time ML applications for education, healthcare, and enterprise. Active researcher, developer, and mentor.",
-  "keywords": [
-    "Syed Burhan Ahmed",
-    "AI Engineer",
-    "Computer Vision",
-    "Generative AI",
-    "YOLO",
-    "Python",
-    "PyTorch",
-    "Real-Time Detection",
-    "Lecture Assistant",
-    "RULEN",
-    "AVR Research Lab UMT",
-    "Healthcare AI",
-    "Education Tech",
-    "Pakistan",
-    "Lahore",
-    "Full Stack Developer",
-    "LangChain",
-    "NLP",
-    "ESP32"
+      "id": 1,
+      "title": "RULEN",
+      "subtitle": "Real-Time Unified Lecture Extraction Network",
+      "description": "AI-powered multilingual educational assistant automating lecture transcription (99+ languages), bilingual notes in Roman Urdu/Hindi & English, and curriculum-aligned quiz creation with RAG. Supports dashboards, CLO/PLO mapping, multi-format upload, and integrates with learning outcomes for institution readiness.",
+      "technologies": [
+        "Flask",
+        "OpenAI Whisper",
+        "LangChain",
+        "FAISS",
+        "Gemini LLM",
+        "Jinja2"
+      ],
+      "github": "https://github.com/SyedBurhanAhmed/RULEN-Real-time-Unified-Lecture-Extraction-Network",
+      "longDescription": "",
+      "featured": true,
+      "categories": [
+        "AI/ML",
+        "Education",
+        "NLP"
+      ],
+      "image": "/project-images-videos/RULEN.png",
+      "role": "AI/ML Developer",
+      "status": "Completed",
+      "priority": 1
+    },
+    {
+      "id": 2,
+      "title": "Freak AI",
+      "subtitle": "Memory-Augmented Conversational Agent",
+      "description": "A rule-based agent simulating five human-like memory systems with Neo4j graph storage, real-time dashboards, web chat, and ESP32 hardware for multimodal input and voice. Small step toward AGI and real-time agent reasoning.",
+      "technologies": [
+        "Flask",
+        "Neo4j",
+        "AIML",
+        "Prolog",
+        "Graph Algorithms",
+        "ESP32"
+      ],
+      "longDescription": "",
+      "github": "https://github.com/SyedBurhanAhmed/Freak-AI",
+      "featured": true,
+      "categories": [
+        "AI/ML",
+        "Conversational Agents",
+        "IoT"
+      ],
+      "image": "/project-images-videos/freak.png",
+      "role": "Backend & AI Engineer",
+      "status": "Completed",
+      "video": "",
+      "priority": 2
+    },
+    {
+      "id": 3,
+      "title": "CelebVision – Dual-Shot Celebrity Classification",
+      "subtitle": "Multi-Pipeline Face/Gender/Celebrity Recognition",
+      "description": "CV pipeline using YOLOv11 for face detection, EfficientNetV2-S for celebrity recognition (15+ Pakistani celebrities). 1st place in CV Kaggle competition; real-time inference, visualizes bounding boxes and recognizes gender, class imbalance handled.",
+      "technologies": [
+        "PyTorch",
+        "YOLOv11",
+        "EfficientNetV2",
+        "Albumentations",
+        "Python"
+      ],
+      "github": "https://github.com/SyedBurhanAhmed/CelebVision-Multi-Pipeline-Celebrity-Recognition-System",
+      "longDescription": "",
+      "featured": true,
+      "categories": [
+        "Computer Vision",
+        "AI/ML",
+        "Competition"
+      ],
+      "image": "/project-images-videos/celebvision.jpg",
+      "role": "Computer Vision Engineer",
+      "status": "Award Winner",
+      "video": "",
+      "priority": 3
+    },
+    {
+      "id": 4,
+      "title": "Real-Time Fall Detection System using YOLO",
+      "subtitle": "Elderly Safety & Surveillance",
+      "description": "YOLOv11-based fall detection system for real-time video feeds in safety/public spaces. Fine-tuned on LE2I, high precision/recall, supports logging and alerts, modular for sensor integration.",
+      "technologies": [
+        "YOLOv11",
+        "PyTorch",
+        "OpenCV",
+        "Python"
+      ],
+      "github": "https://github.com/SyedBurhanAhmed/Real-Time-Fall-Detection-using-YOLO",
+      "longDescription": "",
+      "featured": false,
+      "categories": [
+        "AI/ML",
+        "Computer Vision",
+        "Healthcare"
+      ],
+      "image": "",
+      "role": "Computer Vision & DL Engineer",
+      "status": "Completed",
+      "video": "/project-images-videos/fall-detection.mp4",
+      "priority": 4
+    },
+    {
+      "id": 5,
+      "title": "Lahore Arts Council Reservation System",
+      "subtitle": "Event Space Reservation Web App",
+      "description": "Designed and developed a full-stack .NET and SQL Server application for event reservations. Features include user registration, an admin dashboard, automated email notifications, and Excel report generation. Built as a proof-of-concept to demonstrate robust reservation workflows in a simulated environment.",
+      "technologies": [
+        "ASP.NET",
+        "SQL Server",
+        "HTML",
+        "Bootstrap",
+        "SMTP",
+        "Office Interop"
+      ],
+      "github": "https://github.com/SyedBurhanAhmed/Lahore-Arts-Council-ReservationSystem",
+      "longDescription": "",
+      "featured": false,
+      "categories": [
+        "Full Stack",
+        "Enterprise",
+        "Workflow Automation"
+      ],
+      "image": "/project-images-videos/LAC.png",
+      "role": "Full Stack Developer",
+      "status": "Proof-of-Concept",
+      "video": "",
+      "priority": 5
+    },
+    {
+      "id": 6,
+      "title": "Voice-Based Smart Attendance System",
+      "subtitle": "IoT-Driven Attendance Platform",
+      "description": "Designed and built a prototype automated attendance system using ESP32 with NFC/fingerprint authentication, a speech-to-text pipeline via Flask, and an OLED display. Developed as a semester term project to demonstrate end-to-end integration of IoT hardware, biometric verification, and real-time data processing. Focused on core features, system workflow, and proof-of-concept usability in a classroom scenario.",
+      "technologies": [
+        "ESP32",
+        "Flask",
+        "Python",
+        "NFC",
+        "Fingerprint Sensor"
+      ],
+      "longDescription": "",
+      "github": "",
+      "featured": false,
+      "categories": [
+        "Embedded",
+        "IoT",
+        "Automation"
+      ],
+      "image": "/project-images-videos/esp32-attendance.png",
+      "role": "Embedded & Backend Developer",
+      "status": "Proof-of-Concept",
+      "video": "",
+      "priority": 6
+    },
+    {
+      "id": 7,
+      "title": "ArUcoNav: Autonomous Vision-Guided Robot",
+      "subtitle": "Real-time pose estimation & dynamic path planning",
+      "description": "Engineered an autonomous navigation stack using Python and OpenCV for global supervision. Overcame tracking failures by implementing robust vector math for ArUco marker orientation and Euclidean distance routing around obstacles via dynamic Safety Nodes. Integrated via ESP32 with PID steering correction to achieve a flawless 13-second finish.",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "Linear Algebra",
+        "ESP32",
+        "PID Control",
+        "ArUco"
+      ],
+      "github": "",
+      "longDescription": "",
+      "featured": true,
+      "categories": [
+        "Robotics",
+        "Computer Vision",
+        "Embedded"
+      ],
+      "image": "",
+      "role": "Robotics & Vision Engineer",
+      "status": "Completed",
+      "video": "/project-images-videos/aruconav.mp4",
+      "priority": 3
+    }
   ],
-  "ogImage": "/burhan-profile.png",               
-   "googleSiteVerification": "",
-  "icon": {
-    "icon": "/web-app-manifest-192x192.png",
-    "appleTouchIcon": "/apple-touch-icon.png"
+  "publications": [
+    {
+      "title": "Efficient Vision Based Fall Detection for Elderly Surveillance Using YOLOv11",
+      "venue": "6th International Conference on Innovative Computing (ICIC 2025), UMT Lahore",
+      "status": "Published",
+      "date": "10–11 Dec 2025",
+      "url": "https://ieeexplore.ieee.org/document/11412994",
+      "description": "Real-time fall detection system leveraging YOLOv11 and computer vision for elderly surveillance in video-based safety monitoring.",
+      "category": "research"
+    },
+    {
+      "title": "Understanding Principal Component Analysis (PCA) in Machine Learning: A Comprehensive Guide",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/understanding-principal-component-analysis-pca-machine-ahmed-uiphe/?trackingId=ChRdt%2FvQRoRMiCAJd1X4IA%3D%3D",
+      "date": "Feb 7, 2025",
+      "description": "Explains PCA for dimensionality reduction, covering its mechanics, importance in ML workflows, and practical implementation.",
+      "category": "blog"
+    },
+    {
+      "title": "When to Use Mean, Median, and Mode for Handling Missing Values in Data?",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/when-use-mean-median-mode-handling-missing-values-data-ahmed-tebje/?trackingId=Uqq%2Bb6ibnnadY9nVKd61eg%3D%3D",
+      "date": "Feb 5, 2025",
+      "description": "A practical guide to selecting statistical imputation methods (mean, median, mode) for handling missing data effectively.",
+      "category": "blog"
+    },
+    {
+      "title": "1D Convolutional Neural Networks (1D-CNN): A Powerful Tool for Sequential Data",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/1d-convolutional-neural-networks-1d-cnn-powerful-tool-ahmed-2x8ce/?trackingId=p0xOmcEFy9IXHqpjCVjN8g%3D%3D",
+      "date": "Feb 9, 2025",
+      "description": "Explores 1D CNNs for sequential data, covering working principles, advantages, and a hands-on TensorFlow/Keras implementation.",
+      "category": "blog"
+    },
+    {
+      "title": "Understanding Gradient Descent in Machine Learning",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/understanding-gradient-descent-machine-learning-syed-burhan-ahmed-dvfte/?trackingId=XAX3mMbIVkYcGu3OZULB%2Bg%3D%3D",
+      "date": "Feb 8, 2025",
+      "description": "Explores the mechanics and variations of gradient descent, the fundamental optimization algorithm driving modern machine learning and deep learning.",
+      "category": "blog"
+    },
+    {
+      "title": "Understanding Long Short-Term Memory (LSTM) Networks in Deep Learning",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/understanding-long-short-term-memory-lstm-networks-deep-ahmed-bcu4e/?trackingId=bSG7L0yS7zHyyrq4dykeNg%3D%3D",
+      "date": "Feb 9, 2025",
+      "description": "Comprehensive guide to LSTMs for NLP and forecasting, detailing their architecture and advantages over basic RNNs.",
+      "category": "blog"
+    },
+    {
+      "title": "Understanding Gated Recurrent Units (GRU) in Deep Learning",
+      "venue": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/understanding-gated-recurrent-units-gru-deep-learning-ahmed-0r14e/?trackingId=SNiU2hJ%2Fb4U3UhbBgcqrVQ%3D%3D",
+      "date": "Feb 10, 2025",
+      "description": "Covers GRUs as an efficient LSTM alternative, explaining their architecture, mechanics, and deep learning applications.",
+      "category": "blog"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Rector’s Merit Award – Spring 2025",
+      "organization": "University of Management and Technology (UMT)",
+      "year": "2025",
+      "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence.",
+      "category": "academic"
+    },
+    {
+      "title": "Dean’s Merit Award – Spring 2023",
+      "organization": "School of Systems & Technology, UMT",
+      "year": "2023",
+      "description": "Conferred by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
+      "category": "academic"
+    },
+    {
+      "title": "Gold Medalist – Matriculation",
+      "organization": "Lahore Garrison Education System",
+      "year": "2020",
+      "description": "Secured the Gold Medal at the Matriculation level for outstanding academic performance.",
+      "category": "academic"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Google Cloud Fundamentals: Core Infrastructure",
+      "provider": "Coursera",
+      "year": "2025",
+      "description": "Covers core Google Cloud concepts and services, including organizing infrastructure, creating basic cloud resources, and selecting appropriate storage options.",
+      "certificates": [
+        {
+          "url": "https://www.coursera.org/account/accomplishments/verify/XVCFVOSJJAMQ",
+          "title": "Google Cloud Fundamentals: Core Infrastructure",
+          "year": "2025",
+          "credentialId": "XVCFVOSJJAMQ"
+        }
+      ],
+      "skills": [
+        "Google Cloud Platform",
+        "Cloud Computing",
+        "Cloud Infrastructure",
+        "Identity and Access Management",
+        "Virtual Machines",
+        "Cloud Storage",
+        "Serverless Computing",
+        "Network Infrastructure"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
+    "description": "AI Engineer passionate about Generative AI, Computer Vision, and full-stack ML systems. Experienced in YOLO, Python, PyTorch, and real-time ML applications for education, healthcare, and enterprise. Active researcher, developer, and mentor.",
+    "keywords": [
+      "Syed Burhan Ahmed",
+      "AI Engineer",
+      "Computer Vision",
+      "Generative AI",
+      "YOLO",
+      "Python",
+      "PyTorch",
+      "Real-Time Detection",
+      "Lecture Assistant",
+      "RULEN",
+      "AVR Research Lab UMT",
+      "Healthcare AI",
+      "Education Tech",
+      "Pakistan",
+      "Lahore",
+      "Full Stack Developer",
+      "LangChain",
+      "NLP",
+      "ESP32"
+    ],
+    "ogImage": "/burhan-profile.png",
+    "googleSiteVerification": "",
+    "icon": {
+      "icon": "/web-app-manifest-192x192.png",
+      "appleTouchIcon": "/apple-touch-icon.png"
+    }
   }
-}
-
 }
