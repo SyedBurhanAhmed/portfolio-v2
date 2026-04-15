@@ -22,7 +22,7 @@ const ExperienceHeader: React.FC<ExperienceHeaderProps> = ({ experience, index }
         {/* Mobile: Company Logo + Meta Info Side by Side */}
         <div className="flex items-start justify-between md:block w-full sm:w-auto">
           {/* Company Logo - SERVER RENDERED */}
-          <div className="w-12 h-12 md:w-16 md:h-16 rounded-lg md:rounded-xl bg-white backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-lg flex-shrink-0 p-2">
+          <div className={`w-12 h-12 md:w-16 md:h-16 rounded-lg md:rounded-xl backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-lg flex-shrink-0 p-2 ${experience.company === 'OptimusFox' ? 'bg-black' : 'bg-white'}`}>
             <Image
               src={experience.logo}
               alt={`${experience.company} logo`}
