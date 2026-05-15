@@ -7,14 +7,13 @@
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 312 4367233",
-    "tagline": "AI Engineer specializing in Computer Vision, Applied GenAI & Scalable Automation",
-    "bio": "Building scalable, production-grade systems using Python, PyTorch, YOLOv11, FastAPI, and n8n. I bridge the gap between advanced research and deployment, architecting real-time ML pipelines, multimodal microservices, and multi-tenant SaaS automations for enterprise and academic sectors.",
-    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
+    "tagline": "AI Engineer specializing in Computer Vision, Agentic Systems & Production ML",
+"bio": "Building production-grade ML systems using Python, PyTorch, YOLOv11, FastAPI, LangChain, and n8n. Currently engineering an algorithmic trading bot, a conversational AI agent, and benchmarking VLMs against human baselines for my Final Year Capstone Project. IEEE Published Author (ICIC 2025).", "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-      "I am an AI Engineer building robust, scalable systems that solve complex, real-world problems. My industry work involves architecting end-to-end automation pipelines and evaluating scalable deployment infrastructures (self-hosted vs. cloud APIs) to transition internal operational tools into commercial SaaS products.",
-      "In the research domain at UMT's Makerspace Lab, I focus on high-performance computer vision. My work includes engineering hybrid YOLOv11 and Vision-Language Model (VLM) pipelines—optimizing FastAPI microservices to achieve <100ms latency for real-time semantic natural-language querying.",
-      "Across all projects, I emphasize production-quality code, clean architectural design, and measurable value. Beyond deployment, I am deeply invested in technical leadership, having trained over 120 participants in Generative AI and serving as a mentor for core computer science courses to bridge the gap between academic theory and industrial application."
-    ],
+  "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I'm simultaneously building an autonomous algorithmic trading bot with real-time signal generation, driving integration of a recommendation engine into BookItUp's backend, and architecting a conversational AI agent enabling full in-app flows through natural language.",
+  "In research at UMT's AVR Makerspace Lab, my FYP benchmarks closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid YOLO/VLM pipeline achieving <100ms latency for semantic natural-language visual querying.",
+  "I published my first IEEE paper at ICIC 2025 on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11 (DOI: 10.1109/ICIC68258.2025). Beyond engineering, I have trained 120+ participants as a Master Trainer in Generative AI and served as Teaching Assistant across three semesters covering Digital Logic Design and Introduction to Robotics."
+],
     "profileImage": "/burhan-profile.png"
   },
   "stats": {
@@ -316,28 +315,23 @@
   },
   "experience": [
     {
-      "id": 1,
-      "title": "AI Engineer (Trainee)",
-      "company": "OptimusFox",
-      "location": "Lahore, Pakistan",
-      "duration": "Apr 2026 – Present",
-      "logo": "/professional-experience-logos/optimusfox.png",
-      "description": "Architecting and developing scalable marketing automation infrastructure, with the primary objective of transitioning internal operational tools into a multi-tenant commercial SaaS product.",
-      "achievements": [
-        "Architecting an end-to-end automation pipeline utilizing n8n to streamline and autonomously manage marketing operations for internal and sister companies.",
-        "Benchmarking and evaluating n8n deployment architectures (Self-hosted vs. Cloud API) to optimize for scalability, system control, and cost-efficiency.",
-        "Developing a custom, streamlined UI layer integrated with the n8n backend to abstract complex data workflows for non-technical marketing teams.",
-        "Designing the automation architecture with multi-tenant capabilities, laying the foundational groundwork for a B2B SaaS product release."
-      ],
-      "technologies": [
-        "n8n",
-        "System Architecture",
-        "API Integration",
-        "Python",
-        "FastAPI",
-        "SaaS Development"
-      ]
-    },
+  "id": 1,
+  "title": "AI Engineer (Trainee)",
+  "company": "OptimusFox",
+  "location": "Lahore, Pakistan",
+  "duration": "Apr 2026 – Present",
+  "logo": "/professional-experience-logos/optimusfox.png",
+  "description": "Building production AI systems across algorithmic trading, recommendation engines, and conversational agents for live products.",
+  "achievements": [
+    "Building an autonomous algorithmic trading bot with an ML model for real-time buy/sell signal generation, covering data ingestion, feature engineering, and live order execution.",
+    "Driving integration of a pre-built recommendation engine into BookItUp's production backend, coordinating with the backend team to expose and validate API endpoints at scale.",
+    "Architecting a conversational AI agent for BookItUp enabling end-to-end user flows — appointment scheduling and venue booking — through a natural-language chat interface.",
+    "Designed a multi-tenant n8n automation pipeline with a custom UI layer for a scalable B2B SaaS product."
+  ],
+  "technologies": [
+    "Python", "FastAPI", "LangChain", "n8n", "ML Modeling", "REST APIs", "SaaS Architecture"
+  ]
+},
     {
       "id": 2,
       "title": "AI Researcher – Computer Vision & Robotics",
@@ -345,38 +339,29 @@
       "location": "Lahore, Pakistan",
       "duration": "Jul 2025 – Present",
       "logo": "/professional-experience-logos/umt.png",
-      "description": "Conducting applied research in computer vision, robotics, and multimodal perception within a makerspace-driven environment, with a focus on deployable, low-latency systems for real-world use cases.",
-      "achievements": [
-        "Conducting R&D on InsightVision, a hybrid YOLO/VLM pipeline targeting under 100 ms end-to-end latency for semantic natural-language querying on live video streams.",
-        "Benchmarking VLM-based adaptation against YOLO baselines to validate few-shot and zero-shot learning, aiming to reduce data annotation effort by approximately 40% for novel object classes.",
-        "Synthesizing experimental results and documenting system integration for a planned 2026 peer-reviewed research publication.",
-        "Designing and building a line-following and wall/curve-following robotic car, integrating embedded control with real-time perception for robust path tracking."
-      ],
-      "technologies": [
-        "YOLOv11",
-        "Vision-Language Models",
-        "PyTorch",
-        "OpenCV",
-        "Python",
-        "FastAPI",
-        "LangChain",
-        "Embedded Systems",
-        "Robotics"
-      ]
+      "description": "Conducting applied research in VLM benchmarking, hybrid vision pipelines, and multimodal perception for real-world deployable systems.",
+"achievements": [
+  "Benchmarking closed-source vs. open-source VLMs (Gemma 4, Grounding DINO, CLIP, Jina) against human baselines on perception tasks — object counting, license plate recognition, scene understanding — on a constrained 16GB GPU.",
+  "Developing InsightVision, a FastAPI microservice orchestrating a hybrid YOLO/VLM pipeline with <100ms latency for semantic natural-language visual querying.",
+  "Published at IEEE ICIC 2025 (Dec 2025) on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11. DOI: 10.1109/ICIC68258.2025"
+],
+"technologies": [
+  "YOLOv11", "Vision-Language Models", "PyTorch", "OpenCV", "Python", "FastAPI", "Docker", "Grounding DINO", "CLIP"
+]
     },
     {
       "id": 3,
       "title": "Teaching Assistant – Digital Logic Design",
       "company": "University of Management and Technology",
       "location": "Lahore, Pakistan",
-      "duration": "Mar 2025 – Jul 2025; Oct 2025 – Present",
+      "duration": "Mar 2025 - Present",
       "logo": "/professional-experience-logos/umt.png",
       "description": "Assisting the course instructor in delivering Digital Logic Design by managing course operations, assessments, and student support across multiple semesters.",
       "achievements": [
-        "Coordinated and monitored assignment, quiz, and project submissions via the LMS, ensuring smooth assessment workflows.",
-        "Maintained grade records and tracked student progress in Excel to support data-driven academic decisions.",
-        "Ensured timely availability of lecture slides and course content, and resumed responsibilities from Oct 2025 onwards to support a new cohort."
-      ],
+  "Serving as TA across 3 semesters: Digital Logic Design (Spring '25, Fall '25) and Introduction to Robotics (Spring '26).",
+  "Managed LMS for 100+ students per semester including assignments, quizzes, and project submissions.",
+  "Maintained gradebooks, coordinated student queries, and ensured timely course delivery."
+],
       "technologies": [
         "LMS",
         "Excel"
@@ -384,7 +369,7 @@
     },
     {
       "id": 4,
-      "title": "Data Operations Associate",
+      "title": "Data Systems & Automation Associate",
       "company": "Punjab Skills Development Authority (PSDA)",
       "location": "Lahore, Pakistan",
       "duration": "Aug 2025 – Mar 2026",
@@ -722,6 +707,13 @@
   ],
   "achievements": [
     {
+  "title": "HEC NSCT – Top 0.8% Nationally",
+  "organization": "Higher Education Commission (HEC) Pakistan",
+  "year": "2025",
+  "description": "Outperformed 99.2% of 33,038 students across Pakistan in the HEC National Skill Competency Test — AI & Computing track.",
+  "category": "national"
+},
+    {
       "title": "Rector’s Merit Award – Spring 2025",
       "organization": "University of Management and Technology (UMT)",
       "year": "2025",
@@ -772,8 +764,8 @@
   ],
   "seo": {
     "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
-    "description": "AI Engineer passionate about Generative AI, Computer Vision, and full-stack ML systems. Experienced in YOLO, Python, PyTorch, and real-time ML applications for education, healthcare, and enterprise. Active researcher, developer, and mentor.",
-    "keywords": [
+   "description": "AI Engineer and Researcher specializing in Computer Vision, Agentic Systems, and production ML. IEEE Published Author (ICIC 2025). Building algorithmic trading bots, VLM benchmarking pipelines, and conversational AI agents. Available for full-time roles.",
+   "keywords": [
       "Syed Burhan Ahmed",
       "AI Engineer",
       "Computer Vision",
@@ -792,7 +784,7 @@
       "Full Stack Developer",
       "LangChain",
       "NLP",
-      "ESP32"
+      "ESP32","IEEE Published", "ICIC 2025", "VLM Benchmarking", "Agentic Systems", "Algorithmic Trading Bot", "BookItUp", "InsightVision", "Grounding DINO", "Gemma 4", "HEC NSCT" 
     ],
     "ogImage": "/burhan-profile.png",
     "googleSiteVerification": "",
