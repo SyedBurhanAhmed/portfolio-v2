@@ -8,12 +8,13 @@
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 312 4367233",
     "tagline": "AI Engineer specializing in Computer Vision, Agentic Systems & Production ML",
-"bio": "Building production-grade ML systems using Python, PyTorch, YOLOv11, FastAPI, LangChain, and n8n. Currently engineering an algorithmic trading bot, a conversational AI agent, and benchmarking VLMs against human baselines for my Final Year Capstone Project. IEEE Published Author (ICIC 2025).", "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
+    "bio": "Building production-grade ML systems using Python, PyTorch, YOLOv11, FastAPI, LangChain, and n8n. Currently shipping a production recommendation engine and an AI vendor-search chatbot at OptimusFox, architecting a multi-tenant B2B SaaS platform, and benchmarking VLMs against human baselines for my Final Year Capstone Project. IEEE Published Author (ICIC 2025).",
+    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-  "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I'm simultaneously building an autonomous algorithmic trading bot with real-time signal generation, driving integration of a recommendation engine into BookItUp's backend, and architecting a conversational AI agent enabling full in-app flows through natural language.",
-  "In research at UMT's AVR Makerspace Lab, my FYP benchmarks closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid YOLO/VLM pipeline achieving <100ms latency for semantic natural-language visual querying.",
-  "I published my first IEEE paper at ICIC 2025 on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11 (DOI: 10.1109/ICIC68258.2025). Beyond engineering, I have trained 120+ participants as a Master Trainer in Generative AI and served as Teaching Assistant across three semesters covering Digital Logic Design and Introduction to Robotics."
-],
+      "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I built and shipped BookItUp's recommendation system — running sub-300ms, frequently sub-100ms, in production. I'm now building an AI-powered vendor-search chatbot, architecting a multi-tenant B2B SaaS product, and designing an n8n-based marketing automation pipeline, while leading a team of 6 AI interns and coordinating directly with the Engineering Manager on the AI team.",
+      "In research at UMT's AVR Makerspace Lab, my FYP benchmarks closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3 configurations, with Gemma 4 driving OCR and prompt-driven querying) achieving <100ms latency for semantic natural-language visual search.",
+      "I published my first IEEE paper at ICIC 2025 on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11 (DOI: 10.1109/ICIC68258.2025). Beyond engineering, I have trained 120+ participants as a Master Trainer in Generative AI and served as Teaching Assistant across three semesters covering Digital Logic Design and Introduction to Robotics."
+    ],
     "profileImage": "/burhan-profile.png"
   },
   "stats": {
@@ -315,23 +316,29 @@
   },
   "experience": [
     {
-  "id": 1,
-  "title": "AI Engineer (Trainee)",
-  "company": "OptimusFox",
-  "location": "Lahore, Pakistan",
-  "duration": "Apr 2026 – Present",
-  "logo": "/professional-experience-logos/optimusfox.png",
-  "description": "Building production AI systems across algorithmic trading, recommendation engines, and conversational agents for live products.",
-  "achievements": [
-    "Building an autonomous algorithmic trading bot with an ML model for real-time buy/sell signal generation, covering data ingestion, feature engineering, and live order execution.",
-    "Driving integration of a pre-built recommendation engine into BookItUp's production backend, coordinating with the backend team to expose and validate API endpoints at scale.",
-    "Architecting a conversational AI agent for BookItUp enabling end-to-end user flows — appointment scheduling and venue booking — through a natural-language chat interface.",
-    "Designed a multi-tenant n8n automation pipeline with a custom UI layer for a scalable B2B SaaS product."
-  ],
-  "technologies": [
-    "Python", "FastAPI", "LangChain", "n8n", "ML Modeling", "REST APIs", "SaaS Architecture"
-  ]
-},
+      "id": 1,
+      "title": "AI Engineer",
+      "company": "OptimusFox",
+      "location": "Lahore, Pakistan",
+      "duration": "Apr 2026 – Present",
+      "logo": "/professional-experience-logos/optimusfox.png",
+      "description": "Building production AI systems across recommendation engines, agentic chatbots, and workflow automation for live products.",
+      "achievements": [
+        "Built and shipped BookItUp's production recommendation system, consistently running sub-300ms and frequently sub-100ms at scale.",
+        "Building an AI-powered vendor-search chatbot for BookItUp, enabling natural-language discovery and tool-calling over existing REST APIs.",
+        "Designing an n8n-based marketing automation pipeline with a custom UI layer for a scalable B2B SaaS product.",
+        "Architecting a multi-tenant B2B SaaS platform while leading a team of 6 AI interns, coordinating directly with the Engineering Manager on the AI team."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "n8n",
+        "Recommendation Systems",
+        "REST APIs",
+        "SaaS Architecture"
+      ]
+    },
     {
       "id": 2,
       "title": "AI Researcher – Computer Vision & Robotics",
@@ -340,28 +347,39 @@
       "duration": "Jul 2025 – Present",
       "logo": "/professional-experience-logos/umt.png",
       "description": "Conducting applied research in VLM benchmarking, hybrid vision pipelines, and multimodal perception for real-world deployable systems.",
-"achievements": [
-  "Benchmarking closed-source vs. open-source VLMs (Gemma 4, Grounding DINO, CLIP, Jina) against human baselines on perception tasks — object counting, license plate recognition, scene understanding — on a constrained 16GB GPU.",
-  "Developing InsightVision, a FastAPI microservice orchestrating a hybrid YOLO/VLM pipeline with <100ms latency for semantic natural-language visual querying.",
-  "Published at IEEE ICIC 2025 (Dec 2025) on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11. DOI: 10.1109/ICIC68258.2025"
-],
-"technologies": [
-  "YOLOv11", "Vision-Language Models", "PyTorch", "OpenCV", "Python", "FastAPI", "Docker", "Grounding DINO", "CLIP"
-]
+      "achievements": [
+        "Benchmarking closed-source vs. open-source VLMs (Gemma 4, Grounding DINO, CLIP, Jina) against human baselines on perception tasks — object counting, license plate recognition, scene understanding — on a constrained 16GB GPU.",
+        "Developing InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, standalone SAM3) with Gemma 4 handling OCR and prompt-driven querying, achieving <100ms latency for semantic natural-language visual search.",
+        "Finalized the InsightVision backend architecture and system documentation ahead of final FYP defense, with frontend deployed on Vercel and backend deployment via Tailscale Funnel/Cloudflare Tunnel underway.",
+        "Published at IEEE ICIC 2025 (Dec 2025) on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11. DOI: 10.1109/ICIC68258.2025"
+      ],
+      "technologies": [
+        "YOLOv11",
+        "Vision-Language Models",
+        "PyTorch",
+        "OpenCV",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Grounding DINO",
+        "SAM3",
+        "BoT-SORT",
+        "CLIP"
+      ]
     },
     {
       "id": 3,
-      "title": "Teaching Assistant – Digital Logic Design",
+      "title": "Teaching Assistant – Digital Logic Design & Introduction to Robotics",
       "company": "University of Management and Technology",
       "location": "Lahore, Pakistan",
       "duration": "Mar 2025 - Present",
       "logo": "/professional-experience-logos/umt.png",
-      "description": "Assisting the course instructor in delivering Digital Logic Design by managing course operations, assessments, and student support across multiple semesters.",
+      "description": "Assisting course instructors in delivering Digital Logic Design and Introduction to Robotics by managing course operations, assessments, and student support across multiple semesters.",
       "achievements": [
-  "Serving as TA across 3 semesters: Digital Logic Design (Spring '25, Fall '25) and Introduction to Robotics (Spring '26).",
-  "Managed LMS for 100+ students per semester including assignments, quizzes, and project submissions.",
-  "Maintained gradebooks, coordinated student queries, and ensured timely course delivery."
-],
+        "Serving as TA across 3 semesters: Digital Logic Design (Spring '25, Fall '25) and Introduction to Robotics (Spring '26).",
+        "Managed LMS for 100+ students per semester including assignments, quizzes, and project submissions.",
+        "Maintained gradebooks, coordinated student queries, and ensured timely course delivery."
+      ],
       "technologies": [
         "LMS",
         "Excel"
@@ -456,11 +474,67 @@
   "education": {
     "degree": "BS in Artificial Intelligence",
     "institution": "University of Management and Technology (UMT)",
-    "duration": "",
+    "duration": "Expected Graduation: Jul 2026",
     "cgpa": "3.84/4.00",
     "location": "Lahore, Pakistan"
   },
   "projects": [
+    {
+      "id": 9,
+      "title": "InsightVision",
+      "subtitle": "Offline AI Video Surveillance & Semantic Search Platform",
+      "description": "A fully offline AI video surveillance platform built as my Final Year Capstone Project, orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3) with Gemma 4 handling OCR and prompt-driven querying, achieving <100ms latency for semantic natural-language visual search. Delivered as a FastAPI microservice with a React 'Cyber-Ops' dashboard and Redis-backed state, developed under UMT's AVR Research Group.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "Grounding DINO",
+        "SAM3",
+        "BoT-SORT",
+        "Gemma 4",
+        "React",
+        "Redis",
+        "Docker"
+      ],
+      "github": "",
+      "longDescription": "",
+      "featured": true,
+      "categories": [
+        "AI/ML",
+        "Computer Vision",
+        "Research"
+      ],
+      "image": "",
+      "role": "AI Engineer / Researcher",
+      "status": "In Progress",
+      "video": "",
+      "priority": 1
+    },
+    {
+      "id": 8,
+      "title": "BookItUp Recommendation Engine",
+      "subtitle": "Production AI Recommendation System",
+      "description": "Designed and shipped a production recommendation system for BookItUp, a live booking platform, consistently returning results sub-300ms and frequently sub-100ms at scale. Integrated end-to-end with the existing backend and validated against production traffic.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Recommendation Systems",
+        "REST APIs"
+      ],
+      "github": "",
+      "longDescription": "",
+      "featured": true,
+      "categories": [
+        "AI/ML",
+        "Production Systems",
+        "Recommendation Systems"
+      ],
+      "image": "",
+      "role": "AI Engineer",
+      "status": "Shipped",
+      "video": "",
+      "priority": 1
+    },
     {
       "id": 1,
       "title": "RULEN",
@@ -491,7 +565,7 @@
       "id": 2,
       "title": "Freak AI",
       "subtitle": "Memory-Augmented Conversational Agent",
-      "description": "A rule-based agent simulating five human-like memory systems with Neo4j graph storage, real-time dashboards, web chat, and ESP32 hardware for multimodal input and voice. Small step toward AGI and real-time agent reasoning.",
+      "description": "A rule-based conversational agent modeling five human-inspired memory systems (social, semantic, PAM, episodic, sensory) as a live Neo4j knowledge graph, with real-time D3.js dashboards visualizing memory formation. Combines AIML pattern matching with Prolog fact reasoning, plus an optional Alexa-style ESP32 voice interface with DHT11 sensor logging for spoken interaction.",
       "technologies": [
         "Flask",
         "Neo4j",
@@ -596,7 +670,7 @@
       "id": 6,
       "title": "Voice-Based Smart Attendance System",
       "subtitle": "IoT-Driven Attendance Platform",
-      "description": "Designed and built a prototype automated attendance system using ESP32 with NFC/fingerprint authentication, a speech-to-text pipeline via Flask, and an OLED display. Developed as a semester term project to demonstrate end-to-end integration of IoT hardware, biometric verification, and real-time data processing. Focused on core features, system workflow, and proof-of-concept usability in a classroom scenario.",
+      "description": "Built the ESP32 control hub for a dual-mode attendance system: passive NFC + fingerprint verification for daily attendance, and a voice-driven admin mode for student enrollment. Captured audio via a MAX9814 mic, sent it to a Flask speech-to-text server over HTTP, and routed the returned keyword (enroll/update/delete/scan) to trigger the matching action — with DFPlayer Mini audio prompts and OLED status feedback throughout.",
       "technologies": [
         "ESP32",
         "Flask",
@@ -622,7 +696,7 @@
       "id": 7,
       "title": "ArUcoNav: Autonomous Vision-Guided Robot",
       "subtitle": "Real-time pose estimation & dynamic path planning",
-      "description": "Engineered an autonomous navigation stack using Python and OpenCV for global supervision. Overcame tracking failures by implementing robust vector math for ArUco marker orientation and Euclidean distance routing around obstacles via dynamic Safety Nodes. Integrated via ESP32 with PID steering correction to achieve a flawless 13-second finish.",
+      "description": "Co-engineered an autonomous navigation stack (Python + OpenCV) using ArUco marker pose estimation, after a rival color-tracking approach failed under venue lighting on demo day. Diagnosed and fixed an inverted heading-vector bug through manual vector-math debugging, then implemented dynamic 'Safety Node' routing via Euclidean distance to steer around obstacles. Deployed on ESP32 with PID steering correction for a clean 13-second finish.",
       "technologies": [
         "Python",
         "OpenCV",
@@ -707,21 +781,21 @@
   ],
   "achievements": [
     {
-  "title": "HEC NSCT – Top 0.8% Nationally",
-  "organization": "Higher Education Commission (HEC) Pakistan",
-  "year": "2025",
-  "description": "Outperformed 99.2% of 33,038 students across Pakistan in the HEC National Skill Competency Test — AI & Computing track.",
-  "category": "national"
-},
+      "title": "HEC NSCT – Top 0.8% Nationally",
+      "organization": "Higher Education Commission (HEC) Pakistan",
+      "year": "2025",
+      "description": "Outperformed 99.2% of 33,038 students across Pakistan in the HEC National Skill Competency Test — AI & Computing track.",
+      "category": "national"
+    },
     {
-      "title": "Rector’s Merit Award – Spring 2025",
+      "title": "Rector's Merit Award – Spring 2025",
       "organization": "University of Management and Technology (UMT)",
       "year": "2025",
       "description": "Conferred by the Rector for achieving a perfect 4.00/4.00 SGPA in Spring 2025, in recognition of exceptional academic excellence.",
       "category": "academic"
     },
     {
-      "title": "Dean’s Merit Award – Spring 2023",
+      "title": "Dean's Merit Award – Spring 2023",
       "organization": "School of Systems & Technology, UMT",
       "year": "2023",
       "description": "Conferred by the Dean for earning a high semester SGPA and ranking among the top-performing students in the Artificial Intelligence program.",
@@ -764,8 +838,8 @@
   ],
   "seo": {
     "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
-   "description": "AI Engineer and Researcher specializing in Computer Vision, Agentic Systems, and production ML. IEEE Published Author (ICIC 2025). Building algorithmic trading bots, VLM benchmarking pipelines, and conversational AI agents. Available for full-time roles.",
-   "keywords": [
+    "description": "AI Engineer and Researcher specializing in Computer Vision, Agentic Systems, and production ML. IEEE Published Author (ICIC 2025). Building algorithmic trading bots, VLM benchmarking pipelines, and conversational AI agents. Available for full-time roles.",
+    "keywords": [
       "Syed Burhan Ahmed",
       "AI Engineer",
       "Computer Vision",
@@ -784,7 +858,17 @@
       "Full Stack Developer",
       "LangChain",
       "NLP",
-      "ESP32","IEEE Published", "ICIC 2025", "VLM Benchmarking", "Agentic Systems", "Algorithmic Trading Bot", "BookItUp", "InsightVision", "Grounding DINO", "Gemma 4", "HEC NSCT" 
+      "ESP32",
+      "IEEE Published",
+      "ICIC 2025",
+      "VLM Benchmarking",
+      "Agentic Systems",
+      "Algorithmic Trading Bot",
+      "BookItUp",
+      "InsightVision",
+      "Grounding DINO",
+      "Gemma 4",
+      "HEC NSCT"
     ],
     "ogImage": "/burhan-profile.png",
     "googleSiteVerification": "",

@@ -31,7 +31,7 @@ const ProjectImage: React.FC<ProjectImageProps> = ({ project }) => {
   style={{ objectFit: 'cover', width: '100%', height: '100%' }}
 />
 
-        ) : (
+        ) : project.image ? (
           <Image
             src={project.image}
             alt={`${project.title} - ${project.subtitle}`}
@@ -39,7 +39,7 @@ const ProjectImage: React.FC<ProjectImageProps> = ({ project }) => {
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
-        )}
+        ) : null}
       </div>
       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
         <div className="flex space-x-4">
