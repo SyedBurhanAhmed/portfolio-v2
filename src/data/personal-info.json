@@ -3,24 +3,24 @@
     "name": "Syed Burhan Ahmed",
     "nickname": "Burhan",
     "title": "AI Engineer, Researcher & Technical Mentor",
-    "company": "OptimusFox | AVR Research Group",
+    "company": "OptimusFox",
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 312 4367233",
     "tagline": "AI Engineer specializing in Computer Vision, Agentic Systems & Production ML",
-    "bio": "Building production-grade ML systems using Python, PyTorch, YOLOv11, FastAPI, LangChain, and n8n. Currently shipping a production recommendation engine and an AI vendor-search chatbot at OptimusFox, architecting a multi-tenant B2B SaaS platform, and benchmarking VLMs against human baselines for my Final Year Capstone Project. IEEE Published Author (ICIC 2025).",
-    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it’s deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
+    "bio": "Building production ML systems with Python, PyTorch, FastAPI, LangChain, and n8n. At OptimusFox, shipped a production recommendation engine and an AI vendor-search chatbot. Built InsightVision, an on-device-first vision-language surveillance platform combining zero-shot detection, Kalman-filter tracking, and Gemma-4 OCR at ~11.5GB peak VRAM on a single GPU. Engineered a domain-specific MoE expert-pruning pipeline that delivered a measured 10.51× inference speedup on Gemma-4-26B. IEEE published author (ICIC 2025).",
+    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it's deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-      "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I built and shipped BookItUp's recommendation system — running sub-300ms, frequently sub-100ms, in production. I'm now building an AI-powered vendor-search chatbot, architecting a multi-tenant B2B SaaS product, and designing an n8n-based marketing automation pipeline, while leading a team of 6 AI interns and coordinating directly with the Engineering Manager on the AI team.",
-      "In research at UMT's AVR Makerspace Lab, my FYP benchmarks closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3 configurations, with Gemma 4 driving OCR and prompt-driven querying) achieving <100ms latency for semantic natural-language visual search.",
+      "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I built and shipped BookItUp's recommendation system — running sub-300ms, frequently sub-100ms, in production. I'm now building an AI-powered vendor-search chatbot, architecting a multi-tenant B2B SaaS product, and designing an n8n-based marketing automation pipeline. I lead AI intern cohorts at OptimusFox — a structured 6-week program spanning NLP/GenAI, Computer Vision, and RPA/Automation, with Cohort 1 completed (5 student interns) and Cohort 2 launching August 2026 — and co-mentor 2 graduate interns through the CM IT Internship Program.",
+      "During my final-year research at UMT's AVR Makerspace Lab, I benchmarked closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3 configurations, with Gemma 4 driving OCR and prompt-driven querying) achieving <500ms latency for semantic natural-language visual search.",
       "I published my first IEEE paper at ICIC 2025 on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11 (DOI: 10.1109/ICIC68258.2025). Beyond engineering, I have trained 120+ participants as a Master Trainer in Generative AI and served as Teaching Assistant across three semesters covering Digital Logic Design and Introduction to Robotics."
     ],
     "profileImage": "/burhan-profile.png"
   },
   "stats": {
-    "projects": "8+",
-    "yearsExperience": "1.5+",
-    "technologiesMastered": "20+"
+    "projects": "10+",
+    "yearsExperience": "2+",
+    "technologiesMastered": "25+"
   },
   "social": {
     "linkedin": {
@@ -99,15 +99,36 @@
       {
         "name": "Generative AI (RAG)",
         "experience": "Current",
-        "context": "LangChain, Vector DBs, LLMs",
+        "context": "LangChain, LangGraph, Vector DBs, LLMs",
         "icon": "https://roboticsbiz.com/wp-content/uploads/2024/09/generative-ai.jpg",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
         "name": "Vision-Language Models (VLMs)",
         "experience": "Current",
-        "context": "CLIP, BLIP, Hybrid Semantic Tracking",
+        "context": "Gemma 4, CLIP, Jina — local serving via llama.cpp/GGUF",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Zero-Shot Detection & Segmentation",
+        "experience": "Current",
+        "context": "Grounding DINO, SAM2/SAM3 — InsightVision & Libellula.ai pipelines",
+        "icon": "",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "MoE Model Compression",
+        "experience": "Current",
+        "context": "Expert pruning (REAP), GGUF quantization — 10.51x measured speedup",
+        "icon": "",
+        "category": "AI/ML Frameworks & Libraries"
+      },
+      {
+        "name": "Multi-Object Tracking",
+        "experience": "Current",
+        "context": "BoxMOT (BoT-SORT, ByteTrack)",
+        "icon": "",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
@@ -281,6 +302,13 @@
         "context": "Notebooks, code editor",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
         "category": "Tools & Platforms"
+      },
+      {
+        "name": "Redis",
+        "experience": "Current",
+        "context": "Caching layer for ML inference results",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+        "category": "Tools & Platforms"
       }
     ],
     "professional": [
@@ -317,7 +345,7 @@
   "experience": [
     {
       "id": 1,
-      "title": "AI Engineer",
+      "title": "AI Associate Engineer",
       "company": "OptimusFox",
       "location": "Lahore, Pakistan",
       "duration": "Apr 2026 – Present",
@@ -327,7 +355,8 @@
         "Built and shipped BookItUp's production recommendation system, consistently running sub-300ms and frequently sub-100ms at scale.",
         "Building an AI-powered vendor-search chatbot for BookItUp, enabling natural-language discovery and tool-calling over existing REST APIs.",
         "Designing an n8n-based marketing automation pipeline with a custom UI layer for a scalable B2B SaaS product.",
-        "Architecting a multi-tenant B2B SaaS platform while leading a team of 6 AI interns, coordinating directly with the Engineering Manager on the AI team."
+        "Architecting a multi-tenant B2B SaaS platform, coordinating directly with the Engineering Manager on the AI team.",
+        "Leading AI intern cohorts through a structured 6-week program (NLP/GenAI, Computer Vision, RPA/Automation) — Cohort 1 completed with 5 student interns; Cohort 2 launching Aug 2026; co-mentoring 2 graduate interns through the CM IT Internship Program."
       ],
       "technologies": [
         "Python",
@@ -344,18 +373,18 @@
       "title": "AI Researcher – Computer Vision & Robotics",
       "company": "AVR Research Group Makerspace Lab, UMT",
       "location": "Lahore, Pakistan",
-      "duration": "Jul 2025 – Present",
+      "duration": "Jul 2025 – Aug 2026",
       "logo": "/professional-experience-logos/umt.png",
-      "description": "Conducting applied research in VLM benchmarking, hybrid vision pipelines, and multimodal perception for real-world deployable systems.",
+      "description": "Served as a research assistant conducting applied VLM benchmarking, hybrid vision-pipeline architecture design, and downstream model optimization — spanning early benchmarking work through building InsightVision, an on-device vision-language surveillance platform, and a domain-specific MoE expert-pruning pipeline for deployment on consumer GPU hardware.",
       "achievements": [
-        "Benchmarking closed-source vs. open-source VLMs (Gemma 4, Grounding DINO, CLIP, Jina) against human baselines on perception tasks — object counting, license plate recognition, scene understanding — on a constrained 16GB GPU.",
-        "Developing InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, standalone SAM3) with Gemma 4 handling OCR and prompt-driven querying, achieving <100ms latency for semantic natural-language visual search.",
-        "Finalized the InsightVision backend architecture and system documentation ahead of final FYP defense, with frontend deployed on Vercel and backend deployment via Tailscale Funnel/Cloudflare Tunnel underway.",
-        "Published at IEEE ICIC 2025 (Dec 2025) on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11. DOI: 10.1109/ICIC68258.2025"
+        "Benchmarked closed-source vs. open-source VLMs (Gemma 4, Grounding DINO, CLIP, Jina) against human baselines on perception tasks — object counting, license plate recognition, scene understanding — on a constrained 16GB GPU.",
+        "Designed and built out a hybrid detection-and-tracking architecture (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, standalone SAM3) into InsightVision, a fully on-device FastAPI microservice with Gemma 4 handling OCR and prompt-driven natural-language querying, running at ~11.5GB peak VRAM on a single GPU.",
+        "Engineered a domain-specific MoE expert-pruning pipeline for InsightVision's vision/OCR workload, achieving a measured 10.51× inference speedup on Gemma-4-26B-A4B and enabling full on-GPU residency on a single 16GB VRAM card."
       ],
       "technologies": [
         "YOLOv11",
         "Vision-Language Models",
+        "Gemma 4",
         "PyTorch",
         "OpenCV",
         "Python",
@@ -364,7 +393,9 @@
         "Grounding DINO",
         "SAM3",
         "BoT-SORT",
-        "CLIP"
+        "CLIP",
+        "MoE Pruning",
+        "llama.cpp / GGUF"
       ]
     },
     {
@@ -372,11 +403,11 @@
       "title": "Teaching Assistant – Digital Logic Design & Introduction to Robotics",
       "company": "University of Management and Technology",
       "location": "Lahore, Pakistan",
-      "duration": "Mar 2025 - Present",
+      "duration": "Mar 2025 – Jul 2026",
       "logo": "/professional-experience-logos/umt.png",
       "description": "Assisting course instructors in delivering Digital Logic Design and Introduction to Robotics by managing course operations, assessments, and student support across multiple semesters.",
       "achievements": [
-        "Serving as TA across 3 semesters: Digital Logic Design (Spring '25, Fall '25) and Introduction to Robotics (Spring '26).",
+        "Serving as TA across 3 semesters: Digital Logic Design (Spring '25, Fall '25, Spring '26) and Introduction to Robotics (Spring '26).",
         "Managed LMS for 100+ students per semester including assignments, quizzes, and project submissions.",
         "Maintained gradebooks, coordinated student queries, and ensured timely course delivery."
       ],
@@ -474,8 +505,8 @@
   "education": {
     "degree": "BS in Artificial Intelligence",
     "institution": "University of Management and Technology (UMT)",
-    "duration": "Expected Graduation: Jul 2026",
-    "cgpa": "3.84/4.00",
+    "duration": "Nov 2022 – Jul 2026",
+    "cgpa": "3.85/4.00",
     "location": "Lahore, Pakistan"
   },
   "projects": [
@@ -483,7 +514,7 @@
       "id": 9,
       "title": "InsightVision",
       "subtitle": "Offline AI Video Surveillance & Semantic Search Platform",
-      "description": "A fully offline AI video surveillance platform built as my Final Year Capstone Project, orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3) with Gemma 4 handling OCR and prompt-driven querying, achieving <100ms latency for semantic natural-language visual search. Delivered as a FastAPI microservice with a React 'Cyber-Ops' dashboard and Redis-backed state, developed under UMT's AVR Research Group.",
+      "description": "A fully offline AI video surveillance platform developed as my undergraduate capstone project, orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3) with Gemma 4 handling OCR (~443ms) and prompt-driven querying, running real-time tracking at ~7.7 FPS within ~11.5GB peak VRAM on a single GPU. Delivered as a FastAPI microservice with a React 'Cyber-Ops' dashboard and Redis-backed state, developed under UMT's AVR Research Group.",
       "technologies": [
         "Python",
         "FastAPI",
@@ -496,8 +527,8 @@
         "Redis",
         "Docker"
       ],
-      "github": "",
-      "longDescription": "",
+      "github": "https://github.com/SyedBurhanAhmed/InsightVision-MVP",
+      "longDescription": "Built out over a continuous AVR Research Group engagement (Jul 2025 – Aug 2026): began with initial architecture research and VLM benchmarking, developed through UMT's Capstone-I/II sequence to a final capstone defense in July 2026, then further optimized via a follow-on MoE expert-pruning project. Backend architecture and system documentation were finalized ahead of the defense, with the frontend deployed on Vercel and backend deployment via Tailscale Funnel/Cloudflare Tunnel.",
       "featured": true,
       "categories": [
         "AI/ML",
@@ -506,8 +537,8 @@
       ],
       "image": "",
       "role": "AI Engineer / Researcher",
-      "status": "In Progress",
-      "video": "",
+      "status": "Completed",
+      "video": "/project-images-videos/insightvision.mp4",
       "priority": 1
     },
     {
@@ -529,7 +560,7 @@
         "Production Systems",
         "Recommendation Systems"
       ],
-      "image": "",
+      "image": "/project-images-videos/recommendation-engine.jpg",
       "role": "AI Engineer",
       "status": "Shipped",
       "video": "",
@@ -838,7 +869,7 @@
   ],
   "seo": {
     "title": "Syed Burhan Ahmed – AI Engineer, Computer Vision & Generative AI Specialist",
-    "description": "AI Engineer and Researcher specializing in Computer Vision, Agentic Systems, and production ML. IEEE Published Author (ICIC 2025). Building algorithmic trading bots, VLM benchmarking pipelines, and conversational AI agents. Available for full-time roles.",
+    "description": "AI Engineer and Researcher specializing in Computer Vision, Agentic Systems, and production ML. IEEE Published Author (ICIC 2025). Building on-device vision-language systems, MoE model-compression pipelines, and agentic automation for production SaaS.",
     "keywords": [
       "Syed Burhan Ahmed",
       "AI Engineer",
@@ -847,6 +878,7 @@
       "YOLO",
       "Python",
       "PyTorch",
+      "FastAPI",
       "Real-Time Detection",
       "Lecture Assistant",
       "RULEN",
@@ -857,13 +889,14 @@
       "Lahore",
       "Full Stack Developer",
       "LangChain",
+      "n8n",
       "NLP",
       "ESP32",
       "IEEE Published",
       "ICIC 2025",
       "VLM Benchmarking",
       "Agentic Systems",
-      "Algorithmic Trading Bot",
+      "MoE Expert Pruning",
       "BookItUp",
       "InsightVision",
       "Grounding DINO",

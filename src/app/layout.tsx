@@ -104,8 +104,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
               "telephone": personalInfo.personal.phone,
               "url": myUrl,
               "sameAs": [
-                personalInfo.social.linkedin,
-                personalInfo.social.github
+                personalInfo.social.linkedin.url,
+                personalInfo.social.github.url
               ],
              "knowsAbout": [
   "Artificial Intelligence",

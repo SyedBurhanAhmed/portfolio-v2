@@ -37,7 +37,7 @@ const About: React.FC = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              AI Engineer &amp; Researcher at UMT Makerspace Lab — building production-grade CV and GenAI systems that bridge research and deployment.
+              AI Engineer at OptimusFox — building production-grade CV and GenAI systems that bridge research and deployment.
             </p>
           </motion.div>
         </div>

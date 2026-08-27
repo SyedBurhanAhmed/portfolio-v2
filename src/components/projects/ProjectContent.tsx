@@ -53,11 +53,11 @@ const ProjectContent: React.FC<ProjectContentProps> = ({ project }) => {
       </div>
 
       {/* Title */}
-      <h3 className="text-lg font-bold text-foreground mb-1 leading-snug line-clamp-2">{project.title}</h3>
+      <h3 className="text-lg font-bold text-foreground mb-1 leading-snug">{project.title}</h3>
       <p className="text-sm gradient-text font-medium mb-3">{project.subtitle}</p>
 
       {/* Description */}
-      <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3 flex-1">
+      <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
         {project.description}
       </p>
 

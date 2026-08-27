@@ -100,7 +100,7 @@ const Hero: React.FC = () => {
           >
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium border border-primary/30 bg-primary/8 text-primary">
               <span className="neural-dot w-2 h-2" />
-              Available for AI Research & Engineering Roles
+              Available for Freelance & Remote Roles
             </span>
           </motion.div>
 

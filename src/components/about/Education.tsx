@@ -25,6 +25,10 @@ const Education: React.FC = () => {
             <span className="text-accent font-medium text-center sm:text-left">
               CGPA {personalInfo.education.cgpa}
             </span>
+            <span className="hidden sm:inline text-muted-foreground">•</span>
+            <span className="text-muted-foreground text-center sm:text-left font-mono text-xs">
+              Graduated {personalInfo.education.duration.split('–')[1]?.trim()}
+            </span>
           </div>
         </div>
       </div>
