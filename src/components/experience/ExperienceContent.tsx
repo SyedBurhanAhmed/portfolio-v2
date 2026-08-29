@@ -32,7 +32,7 @@ const ExperienceContent: React.FC<ExperienceContentProps> = ({ experience, index
         {/* Key Achievements - SERVER RENDERED */}
         <div className="mb-4 md:mb-6">
           <h5 className="text-xs md:text-sm font-semibold text-foreground mb-3 flex items-center">
-            <Zap size={14} className="mr-2 text-accent flex-shrink-0" />
+            <Zap size={14} className="mr-2 text-primary flex-shrink-0" />
             Key Achievements
           </h5>
           <ul className="space-y-2">
@@ -48,7 +48,7 @@ const ExperienceContent: React.FC<ExperienceContentProps> = ({ experience, index
         {/* Technologies - SERVER RENDERED */}
         <div>
           <h5 className="text-xs md:text-sm font-semibold text-foreground mb-3 flex items-center">
-            <Code size={14} className="mr-2 text-accent flex-shrink-0" />
+            <Code size={14} className="mr-2 text-primary flex-shrink-0" />
             Technologies Used
           </h5>
           <div className="flex flex-wrap gap-1.5 md:gap-2">

@@ -37,7 +37,7 @@ const SocialLinks: React.FC = () => {
               className="flex items-center justify-between p-4 rounded-lg bg-background/50 hover:bg-primary/10 transition-all duration-200 group"
             >
               <div className="flex items-center space-x-4">
-                <div className="p-2 rounded-lg iconic bg-accent-gradient group-hover:scale-110 transition-transform duration-300">
+                <div className="p-2 rounded-lg iconic bg-primary group-hover:scale-110 transition-transform duration-300">
                   <Icon size={18} className="text-background" />
                 </div>
                 <div>

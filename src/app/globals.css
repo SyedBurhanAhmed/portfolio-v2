@@ -29,60 +29,59 @@
 @layer base {
   :root {
     /* ── Core ── */
-    --background: 230 28% 5%;
-    --foreground: 220 20% 96%;
+    --background: 170 22% 4%;          /* #080D0C — CMOS dark, teal-black */
+    --foreground: 150 5% 93%;          /* #EEF0EF — calibrated off-white   */
 
-    --card: 230 25% 8%;
-    --card-foreground: 220 20% 96%;
+    --card: 170 22% 8%;                /* #101918 — one step above bg      */
+    --card-foreground: 150 5% 93%;
 
-    --popover: 230 25% 8%;
-    --popover-foreground: 220 20% 96%;
+    --popover: 170 22% 8%;
+    --popover-foreground: 150 5% 93%;
 
-    /* Violet – primary AI colour */
-    --primary: 258 90% 66%;
-    --primary-foreground: 230 28% 5%;
+    /* Viridis teal — primary (data color, not design color) */
+    --primary: 174 61% 50%;            /* #2DD4BF                          */
+    --primary-foreground: 170 22% 4%;
 
-    --secondary: 230 25% 11%;
-    --secondary-foreground: 220 20% 96%;
+    --secondary: 170 32% 11%;          /* #131E1C                          */
+    --secondary-foreground: 150 5% 93%;
 
-    --muted: 230 25% 12%;
-    --muted-foreground: 220 16% 56%;
+    --muted: 170 25% 13%;              /* #161F1E                          */
+    --muted-foreground: 174 14% 48%;   /* #6B8C88 — same hue, low chroma   */
 
-    /* Emerald – accent / output */
-    --accent: 161 84% 46%;
-    --accent-foreground: 230 28% 5%;
+    /* Accent token — identical to primary teal for absolute color consistency */
+    --accent: 174 61% 50%;             /* #2DD4BF                          */
+    --accent-foreground: 170 22% 4%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 220 20% 96%;
+    --destructive-foreground: 150 5% 93%;
 
-    --border: 230 25% 14%;
-    --input: 230 25% 11%;
-    --ring: 258 90% 66%;
-    --radius: 0.6rem;
+    --border: 170 22% 13%;             /* #191F1E                          */
+    --input: 170 32% 11%;
+    --ring: 174 61% 50%;
+    --radius: 0.5rem;
 
-    /* ── Semantic gradient tokens ── */
-    --hero-gradient: linear-gradient(150deg, hsl(230, 28%, 5%) 0%, hsl(248, 30%, 8%) 50%, hsl(230, 28%, 5%) 100%);
-    --card-gradient: linear-gradient(145deg, hsl(230, 25%, 8%) 0%, hsl(248, 28%, 10%) 100%);
+    /* ── Gradient / surface tokens ── */
+    /* Simple flat-dark — no hue tint in the hero background */
+    --hero-gradient: linear-gradient(180deg, hsl(170, 22%, 4%) 0%, hsl(170, 22%, 5%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(170, 22%, 8%) 0%, hsl(170, 22%, 10%) 100%);
 
-    /* Violet→Teal gradient (used for text and buttons) */
-    --primary-gradient: linear-gradient(135deg, hsl(258, 90%, 70%) 0%, hsl(186, 90%, 55%) 100%);
+    /* Single-hue teal (no multi-hue gradients) */
+    --primary-gradient: hsl(174, 61%, 50%);
+    --accent-gradient: hsl(174, 61%, 50%);
 
-    /* Green accent gradient */
-    --accent-gradient: linear-gradient(135deg, hsl(161, 84%, 46%) 0%, hsl(186, 90%, 55%) 100%);
+    /* Glass effect — teal-tinted, very subtle border */
+    --glass-bg: hsla(170, 22%, 8%, 0.80);
+    --glass-border: hsla(174, 61%, 50%, 0.12);
 
-    /* Glass effect */
-    --glass-bg: hsla(230, 28%, 8%, 0.75);
-    --glass-border: hsla(258, 90%, 66%, 0.2);
+    /* Minimal depth shadows — no bloom glows */
+    --glow-primary: 0 0 18px hsla(174, 61%, 50%, 0.12);
+    --glow-accent:  0 0 18px hsla(174, 61%, 50%, 0.12);
+    --glow-intense: 0 0 24px hsla(174, 61%, 50%, 0.18);
 
-    /* Glow values */
-    --glow-primary: 0 0 40px hsla(258, 90%, 66%, 0.35);
-    --glow-accent: 0 0 40px hsla(161, 84%, 46%, 0.35);
-    --glow-intense: 0 0 80px hsla(258, 90%, 66%, 0.55);
+    /* Grid pattern — very faint teal */
+    --grid-color: hsla(174, 61%, 50%, 0.04);
 
-    /* Grid pattern colour */
-    --grid-color: hsla(258, 90%, 66%, 0.045);
-
-    /* Sidebar (unchanged for shadcn compat) */
+    /* Sidebar (shadcn compat — unchanged) */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -90,41 +89,41 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 258 90% 66%;
+    --sidebar-ring: 174 61% 50%;
 
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
-  /* Keep a .dark alias that mirrors root so next-themes dark mode works */
+  /* Mirror root into .dark so next-themes dark mode works */
   .dark {
-    --background: 230 28% 5%;
-    --foreground: 220 20% 96%;
-    --card: 230 25% 8%;
-    --card-foreground: 220 20% 96%;
-    --popover: 230 25% 8%;
-    --popover-foreground: 220 20% 96%;
-    --primary: 258 90% 66%;
-    --primary-foreground: 230 28% 5%;
-    --secondary: 230 25% 11%;
-    --secondary-foreground: 220 20% 96%;
-    --muted: 230 25% 12%;
-    --muted-foreground: 220 16% 56%;
-    --accent: 161 84% 46%;
-    --accent-foreground: 230 28% 5%;
+    --background: 170 22% 4%;
+    --foreground: 150 5% 93%;
+    --card: 170 22% 8%;
+    --card-foreground: 150 5% 93%;
+    --popover: 170 22% 8%;
+    --popover-foreground: 150 5% 93%;
+    --primary: 174 61% 50%;
+    --primary-foreground: 170 22% 4%;
+    --secondary: 170 32% 11%;
+    --secondary-foreground: 150 5% 93%;
+    --muted: 170 25% 13%;
+    --muted-foreground: 174 14% 48%;
+    --accent: 174 61% 50%;
+    --accent-foreground: 170 22% 4%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 220 20% 96%;
-    --border: 230 25% 14%;
-    --input: 230 25% 11%;
-    --ring: 258 90% 66%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 258 90% 66%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 258 90% 66%;
+    --destructive-foreground: 150 5% 93%;
+    --border: 170 22% 13%;
+    --input: 170 32% 11%;
+    --ring: 174 61% 50%;
+    --sidebar-background: 170 22% 8%;
+    --sidebar-foreground: 150 5% 93%;
+    --sidebar-primary: 174 61% 50%;
+    --sidebar-primary-foreground: 170 22% 4%;
+    --sidebar-accent: 170 25% 13%;
+    --sidebar-accent-foreground: 150 5% 93%;
+    --sidebar-border: 170 22% 13%;
+    --sidebar-ring: 174 61% 50%;
   }
 }
 
@@ -151,7 +150,8 @@
   h4,
   h5,
   h6 {
-    font-family: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    font-family: var(--font-barlow-condensed), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: 0.01em;
   }
 
   /* Custom scrollbar */
@@ -164,7 +164,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(hsl(var(--primary)), hsl(var(--accent)));
+    background: hsl(var(--primary) / 0.5);
     border-radius: 3px;
   }
 
@@ -178,17 +178,17 @@
   /* ── Glass card ── */
   .glass-card {
     background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--glass-border);
-    box-shadow: 0 8px 32px hsla(230, 28%, 2%, 0.8), inset 0 1px 0 hsla(258, 90%, 80%, 0.06);
+    box-shadow: 0 4px 24px hsla(170, 22%, 2%, 0.6);
     transition: var(--transition-smooth);
   }
 
   .glass-card:hover {
-    border-color: hsla(258, 90%, 66%, 0.4);
-    box-shadow: var(--glow-primary), 0 8px 32px hsla(230, 28%, 2%, 0.8);
-    transform: translateY(-4px);
+    border-color: hsla(174, 61%, 50%, 0.25);
+    box-shadow: 0 4px 24px hsla(170, 22%, 2%, 0.6), 0 0 0 1px hsla(174, 61%, 50%, 0.1);
+    transform: translateY(-2px);
   }
 
   /* svg inside glass-card */
@@ -213,74 +213,43 @@
     overflow: hidden;
   }
 
-  /* Glow orb behind hero */
+  /* Removed: old violet glow orb — no bloom in the new design */
   .hero-background::after {
-    content: '';
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(circle, hsla(258, 90%, 66%, 0.12) 0%, transparent 70%);
-    pointer-events: none;
-    animation: orb-pulse 8s ease-in-out infinite alternate;
+    content: none;
   }
 
-  /* ── Primary gradient text ── */
+  /* ── Primary text — flat teal, no gradient ── */
   .gradient-text {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 200%;
-    animation: gradient-shift 4s ease infinite;
+    color: hsl(var(--primary));
+    /* No background-clip trick — flat color, not gradient */
   }
 
-  /* ── Green accent gradient text ── */
+  /* ── Accent text ── */
   .gradient-text-accent {
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: hsl(var(--accent));
   }
 
-  /* ── Glow button (primary CTA) ── */
+  /* ── Primary CTA button ── */
   .glow-button {
-    background: var(--primary-gradient);
-    color: hsl(var(--background));
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
     font-weight: 600;
-    box-shadow: var(--glow-primary);
+    box-shadow: 0 2px 12px hsla(174, 61%, 50%, 0.2);
     transition: var(--transition-bounce);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .glow-button::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, transparent 40%, hsla(255, 100%, 100%, 0.15) 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .glow-button:hover::before {
-    opacity: 1;
   }
 
   .glow-button:hover {
-    box-shadow: var(--glow-intense);
-    transform: translateY(-2px) scale(1.02);
+    background: hsl(174, 61%, 44%);
+    box-shadow: 0 4px 20px hsla(174, 61%, 50%, 0.3);
+    transform: translateY(-2px) scale(1.01);
   }
 
-  /* ── Iconic (icon with gradient bg) ── */
+  /* ── Iconic (icon with teal bg) ── */
   .iconic {
-    background: var(--primary-gradient);
+    background: hsl(var(--primary));
 
     svg {
-      stroke: hsl(var(--background));
+      stroke: hsl(var(--primary-foreground));
       fill: none;
     }
   }
@@ -297,26 +266,24 @@
     bottom: -6px;
     left: 0;
     width: 40%;
-    height: 3px;
-    background: var(--primary-gradient);
-    border-radius: 2px;
+    height: 2px;
+    background: hsl(var(--primary));
     animation: expand-line 0.8s ease-out both;
   }
 
-  /* ── Neural dot decoration ── */
+  /* ── Availability indicator — static, no pulse ── */
   .neural-dot {
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background: hsl(var(--primary));
-    box-shadow: 0 0 8px hsl(var(--primary));
-    animation: dot-pulse 2s ease-in-out infinite;
+    /* No glow, no animation — clean instrument indicator */
   }
 
   /* ── AI skill pill ── */
   .skill-pill {
-    background: hsla(258, 90%, 66%, 0.08);
-    border: 1px solid hsla(258, 90%, 66%, 0.2);
+    background: hsla(174, 61%, 50%, 0.06);
+    border: 1px solid hsla(174, 61%, 50%, 0.18);
     color: hsl(var(--foreground));
     border-radius: 99px;
     transition: var(--transition-smooth);
@@ -324,61 +291,69 @@
   }
 
   .skill-pill:hover {
-    background: hsla(258, 90%, 66%, 0.18);
+    background: hsla(174, 61%, 50%, 0.14);
     border-color: hsl(var(--primary));
-    box-shadow: 0 0 16px hsla(258, 90%, 66%, 0.3);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 
   .skill-pill-accent {
-    background: hsla(161, 84%, 46%, 0.08);
-    border: 1px solid hsla(161, 84%, 46%, 0.25);
+    background: hsla(174, 55%, 42%, 0.06);
+    border: 1px solid hsla(174, 55%, 42%, 0.22);
   }
 
   .skill-pill-accent:hover {
-    background: hsla(161, 84%, 46%, 0.18);
+    background: hsla(174, 55%, 42%, 0.14);
     border-color: hsl(var(--accent));
-    box-shadow: 0 0 16px hsla(161, 84%, 46%, 0.3);
   }
 
-  /* ── Status badge ── */
+  /* ── Status badges ── */
   .status-badge-green {
-    background: hsla(161, 84%, 46%, 0.15);
-    border: 1px solid hsla(161, 84%, 46%, 0.4);
-    color: hsl(161, 84%, 56%);
+    background: hsla(174, 61%, 50%, 0.10);
+    border: 1px solid hsla(174, 61%, 50%, 0.35);
+    color: hsl(174, 61%, 62%);
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
   }
 
   .status-badge-violet {
-    background: hsla(258, 90%, 66%, 0.15);
-    border: 1px solid hsla(258, 90%, 66%, 0.4);
-    color: hsl(258, 90%, 76%);
+    background: hsla(174, 61%, 50%, 0.08);
+    border: 1px solid hsla(174, 61%, 50%, 0.25);
+    color: hsl(174, 61%, 62%);
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
   }
 
   .status-badge-amber {
-    background: hsla(38, 92%, 50%, 0.15);
-    border: 1px solid hsla(38, 92%, 50%, 0.4);
-    color: hsl(38, 92%, 60%);
+    background: hsla(38, 80%, 50%, 0.10);
+    border: 1px solid hsla(38, 80%, 50%, 0.35);
+    color: hsl(38, 80%, 62%);
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
   }
 
   /* ── Timeline connector ── */
   .timeline-line {
-    background: linear-gradient(to bottom, hsl(var(--primary)), hsl(var(--accent)));
+    background: hsl(var(--primary) / 0.4);
   }
 
   .timeline-dot {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: var(--primary-gradient);
-    box-shadow: 0 0 14px hsl(var(--primary));
-    border: 2px solid hsl(var(--background));
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background: hsl(var(--primary));
+    border: 1px solid hsl(var(--primary) / 0.5);
     flex-shrink: 0;
   }
 
-  /* ── Float animation for hero shapes ── */
+  /* ── Float animation — removed from hero, kept for any remaining uses ── */
   .float-animation {
-    animation: float-soft 12s ease-in-out infinite;
-    will-change: transform;
+    animation: none; /* Disabled in new design */
   }
 
   /* Animation delay helpers */
@@ -432,38 +407,126 @@
       var(--primary-gradient) border-box;
   }
 
-  /* ── Profile image ring ── */
-  .profile-ring {
+  /* ── Profile image — rectangular ROI treatment ── */
+  .profile-roi {
     position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .profile-ring::before {
+  /* ── Detection frame (the signature element) ── */
+  .detection-frame {
+    position: relative;
+    border: 1px dashed hsla(174, 61%, 50%, 0.5);
+    padding: 1.5rem 2rem 1rem;
+  }
+
+  /* Corner brackets — top-left */
+  .detection-frame::before {
     content: '';
     position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    background: conic-gradient(hsl(258, 90%, 66%) 0deg,
-        hsl(186, 90%, 55%) 120deg,
-        hsl(161, 84%, 46%) 200deg,
-        hsl(300, 80%, 65%) 280deg,
-        hsl(258, 90%, 66%) 360deg);
-    animation: ring-spin 6s linear infinite;
-    z-index: 0;
+    top: -1px;
+    left: -1px;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid hsl(var(--primary));
+    border-left: 2px solid hsl(var(--primary));
   }
 
-  .profile-ring::after {
+  /* Corner bracket — bottom-right */
+  .detection-frame::after {
     content: '';
     position: absolute;
-    inset: -30px;
-    border-radius: 50%;
-    background: radial-gradient(circle, hsla(258, 90%, 66%, 0.2) 0%, transparent 70%);
-    z-index: -1;
+    bottom: -1px;
+    right: -1px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 2px solid hsl(var(--primary));
+    border-right: 2px solid hsl(var(--primary));
   }
 
-  .profile-ring img,
-  .profile-ring>div {
-    position: relative;
-    z-index: 1;
+  /* Top-right corner bracket */
+  .detection-frame .corner-tr {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid hsl(var(--primary));
+    border-right: 2px solid hsl(var(--primary));
+  }
+
+  /* Bottom-left corner bracket */
+  .detection-frame .corner-bl {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 2px solid hsl(var(--primary));
+    border-left: 2px solid hsl(var(--primary));
+  }
+
+  /* Label strip — top edge (anchored top-left like real CV bounding box tags) */
+  .detection-label-top {
+    position: absolute;
+    top: -1px;
+    left: 1.5rem;
+    background: hsl(var(--background));
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-size: 0.65rem;
+    color: hsl(var(--primary));
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* Status bar — bottom edge (anchored bottom-right) */
+  .detection-status-bar {
+    position: absolute;
+    bottom: -1px;
+    right: 1.5rem;
+    background: hsl(var(--background));
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-jetbrains-mono), monospace;
+    font-size: 0.6rem;
+    color: hsl(var(--muted-foreground));
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* Confidence counter animation */
+  @keyframes conf-count {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+  }
+
+  .conf-value {
+    color: hsl(var(--primary));
+    font-weight: 600;
+    animation: conf-count 0.1s ease-out both;
+  }
+
+  /* Respect prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    .detection-frame::after,
+    .detection-frame::before,
+    .float-animation,
+    .conf-value {
+      animation: none;
+      transition: none;
+    }
   }
 
   /* ── Keyframes ── */

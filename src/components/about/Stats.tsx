@@ -17,7 +17,7 @@ const StatCard: React.FC<{ number: string; label: string; delay: number }> = ({ 
       className="text-center glass-card p-6 rounded-xl relative overflow-hidden group"
     >
       {/* Glow accent */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       <div className="text-3xl lg:text-5xl font-bold gradient-text mb-2 font-mono">{number}</div>
       <div className="text-sm text-muted-foreground font-medium uppercase tracking-wide">{label}</div>
     </motion.div>

@@ -20,25 +20,25 @@ const HowIWork: React.FC = () => {
       icon: <Code2 size={20} />,
       title: 'Clean Code & Practical AI',
       description: 'Writing scalable, production-ready AI systems with an emphasis on maintainability and real-world impact.',
-      color: 'var(--primary)',
+      color: 'hsl(var(--primary))',
     },
     {
       icon: <Lightbulb size={20} />,
       title: 'Continuous Learning',
       description: 'Staying ahead of research trends, exploring new architectures, and pushing boundaries in CV and GenAI.',
-      color: 'hsl(300,80%,65%)',
+      color: 'hsl(var(--primary))',
     },
     {
       icon: <Users size={20} />,
       title: 'Collaboration & Mentorship',
       description: 'Working with teams, mentoring engineers, and building clear documentation to multiply collective expertise.',
-      color: 'hsl(var(--accent))',
+      color: 'hsl(var(--primary))',
     },
     {
       icon: <Zap size={20} />,
       title: 'Performance & Automation',
       description: 'Optimizing inference pipelines, automating workflows, and delivering high-performance AI systems in production.',
-      color: 'hsl(38,92%,55%)',
+      color: 'hsl(var(--primary))',
     },
   ];
 

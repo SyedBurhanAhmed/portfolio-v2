@@ -14,17 +14,8 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="py-20 relative"
-      style={{
-        background: 'linear-gradient(to bottom, hsl(230,28%,5%), hsl(248,25%,7%), hsl(230,28%,5%))',
-      }}
+      className="py-20 relative bg-background"
     >
-      {/* Subtle background glow */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(circle, hsla(258,90%,66%,0.04) 0%, transparent 70%)' }}
-      />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section header */}
         <div className="text-center mb-12" ref={ref}>

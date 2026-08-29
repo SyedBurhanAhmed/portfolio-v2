@@ -87,7 +87,7 @@ const PublicationCategoryFilter: React.FC<PublicationCategoryFilterProps> = ({ p
               onClick={() => setActiveCategory(category.id)}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                 activeCategory === category.id
-                  ? 'bg-accent text-accent-foreground shadow-sm'
+                  ? 'bg-primary text-primary-foreground shadow-sm'
                   : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
               }`}
             >

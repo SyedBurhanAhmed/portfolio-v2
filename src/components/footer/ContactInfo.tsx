@@ -12,7 +12,7 @@ const ContactInfo: React.FC = () => {
         </p>
         <a 
           href="mailto:syedburhanahmedd@gmail.com"
-          className="block text-sm md:text-base text-primary hover:text-accent transition-colors duration-200 font-medium"
+          className="block text-sm md:text-base text-primary hover:text-primary/80 transition-colors duration-200 font-medium"
         >
           {personalInfo.personal.email}
         </a>

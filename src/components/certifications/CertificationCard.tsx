@@ -50,7 +50,7 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ cert, index }) =>
           <h3 className="text-lg font-bold text-foreground mb-1">
             {cert.title}
           </h3>
-          <p className="text-accent text-sm font-medium mb-2">
+          <p className="text-primary text-sm font-medium mb-2">
             {cert.provider}
           </p>
           <p className="text-muted-foreground text-sm leading-relaxed">

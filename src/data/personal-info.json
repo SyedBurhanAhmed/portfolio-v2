@@ -11,9 +11,8 @@
     "bio": "Building production ML systems with Python, PyTorch, FastAPI, LangChain, and n8n. At OptimusFox, shipped a production recommendation engine and an AI vendor-search chatbot. Built InsightVision, an on-device-first vision-language surveillance platform combining zero-shot detection, Kalman-filter tracking, and Gemma-4 OCR at ~11.5GB peak VRAM on a single GPU. Engineered a domain-specific MoE expert-pruning pipeline that delivered a measured 10.51× inference speedup on Gemma-4-26B. IEEE published author (ICIC 2025).",
     "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it's deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-      "I am an AI Engineer building robust, production-grade systems across Computer Vision, Agentic AI, and applied ML. At OptimusFox, I built and shipped BookItUp's recommendation system — running sub-300ms, frequently sub-100ms, in production. I'm now building an AI-powered vendor-search chatbot, architecting a multi-tenant B2B SaaS product, and designing an n8n-based marketing automation pipeline. I lead AI intern cohorts at OptimusFox — a structured 6-week program spanning NLP/GenAI, Computer Vision, and RPA/Automation, with Cohort 1 completed (5 student interns) and Cohort 2 launching August 2026 — and co-mentor 2 graduate interns through the CM IT Internship Program.",
-      "During my final-year research at UMT's AVR Makerspace Lab, I benchmarked closed-source vs. open-source VLMs — Gemma 4, Grounding DINO, CLIP, and Jina — against human baselines on real-world perception tasks including object counting, license plate recognition, and scene understanding, all on a constrained 16GB GPU. I also developed InsightVision, a FastAPI microservice orchestrating a hybrid detection-and-tracking pipeline (Grounding DINO + BoT-SORT, SAM3 + BoT-SORT, and standalone SAM3 configurations, with Gemma 4 driving OCR and prompt-driven querying) achieving <500ms latency for semantic natural-language visual search.",
-      "I published my first IEEE paper at ICIC 2025 on Vision-Based Fall Detection for Elderly Surveillance using YOLOv11 (DOI: 10.1109/ICIC68258.2025). Beyond engineering, I have trained 120+ participants as a Master Trainer in Generative AI and served as Teaching Assistant across three semesters covering Digital Logic Design and Introduction to Robotics."
+      "I'm an AI Engineer building production-grade systems across Computer Vision, Agentic AI, and applied ML — from recommendation engines and vendor-search chatbots at OptimusFox to research on vision-language models and detection-and-tracking pipelines at UMT's AVR Makerspace Lab. My first IEEE paper covered vision-based fall detection for elderly surveillance, and beyond engineering, I've trained 120+ participants as a Generative AI Master Trainer and mentored student and graduate interns across multiple cohorts.",
+      "I'm drawn to problems where research meets deployment — the kind of work that has to actually run in production, not just in a notebook. Open to collaborating on deployable CV systems, workflow automation, or mentoring developers who want to build reliable tech that solves real bottlenecks."
     ],
     "profileImage": "/burhan-profile.png"
   },
@@ -814,7 +813,7 @@
     {
       "title": "HEC NSCT – Top 0.8% Nationally",
       "organization": "Higher Education Commission (HEC) Pakistan",
-      "year": "2025",
+      "year": "2026",
       "description": "Outperformed 99.2% of 33,038 students across Pakistan in the HEC National Skill Competency Test — AI & Computing track.",
       "category": "national"
     },

@@ -18,7 +18,7 @@ interface ProjectImageProps {
 const ProjectImage: React.FC<ProjectImageProps> = ({ project }) => {
   return (
     <div className="relative overflow-hidden group">
-      <div className="aspect-video relative bg-gradient-to-br from-primary/20 to-accent/20">
+      <div className="aspect-video relative bg-gradient-to-br from-primary/20 to-primary/10">
         {project.video ? (
           <video
   src={project.video}

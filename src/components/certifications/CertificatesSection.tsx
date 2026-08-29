@@ -58,7 +58,7 @@ const CertificatesSection: React.FC<CertificatesSectionProps> = ({ certificates 
                         href={certificate.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-2 text-accent hover:text-accent/80 transition-colors"
+                        className="ml-2 text-primary hover:text-primary/80 transition-colors"
                       >
                         <ExternalLink size={10} />
                       </a>
