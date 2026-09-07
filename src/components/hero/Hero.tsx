@@ -38,11 +38,11 @@ const Hero: React.FC = () => {
     >
       {/* ── Content wrapper ── */}
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full my-auto py-2">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full my-auto py-2">
 
         {/* ── Main two-column layout ── */}
 
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+        <div className="grid lg:grid-cols-[3fr_2fr] gap-10 lg:gap-14 items-center">
           {/* ── Left: Text content ── */}
 
 
@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tight font-display"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-none tracking-tight font-display"
             >
               <span className="text-foreground">{personalInfo.personal.name.split(' ')[0]} </span>
               <span className="text-primary">{personalInfo.personal.name.split(' ').slice(1).join(' ')}</span>

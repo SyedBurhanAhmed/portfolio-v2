@@ -29,8 +29,6 @@ const Logo: React.FC<LogoProps> = ({ scrollToSection }) => {
         <span className="text-base font-semibold gradient-text hidden sm:block">
           {personalInfo.personal.nickname}
         </span>
-        {/* Pulsing dot */}
-        <span className="neural-dot hidden sm:block" />
       </button>
     </div>
   );
