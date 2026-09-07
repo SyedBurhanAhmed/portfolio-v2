@@ -16,7 +16,7 @@ interface DesktopNavigationProps {
 const DesktopNavigation: React.FC<DesktopNavigationProps> = ({ navItems, scrollToSection, activeSection }) => {
   return (
     <div className="hidden lg:block">
-      <div className="ml-10 flex items-baseline space-x-1">
+      <div className="ml-4 xl:ml-8 flex items-baseline space-x-0.5 xl:space-x-1">
         {navItems.map((item) => {
           const sectionId = item.href.replace('#', '');
           const isActive = activeSection === sectionId;
@@ -24,7 +24,7 @@ const DesktopNavigation: React.FC<DesktopNavigationProps> = ({ navItems, scrollT
             <button
               key={item.name}
               onClick={() => scrollToSection(item.href)}
-              className={`relative px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 group ${
+              className={`relative px-2.5 xl:px-3 py-1.5 rounded-md text-xs xl:text-sm font-medium transition-all duration-200 whitespace-nowrap group ${
                 isActive
                   ? 'text-primary'
                   : 'text-muted-foreground hover:text-foreground'

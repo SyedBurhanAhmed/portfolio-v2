@@ -69,6 +69,7 @@ export default {
 				'accent-gradient': 'var(--accent-gradient)'
 			},
 			fontFamily: {
+				'display': ['var(--font-barlow-condensed)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
 				'mono': ['JetBrains Mono', 'Fira Code', 'monospace'],
 			},
 			borderRadius: {

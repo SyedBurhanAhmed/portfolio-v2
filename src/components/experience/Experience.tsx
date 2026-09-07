@@ -20,14 +20,7 @@ const Experience: React.FC = () => {
   const experiences: ExperienceItem[] = personalInfo.experience;
 
   return (
-    <section id="experience" className="py-20 bg-gradient-to-b from-background via-secondary/10 to-background relative overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/6 w-32 h-32 border border-primary/10 rotate-45 float-animation animate-delay-2000"></div>
-        <div className="absolute bottom-1/3 right-1/4 w-24 h-24 border border-accent/10 rotate-12 float-animation animate-delay-4000"></div>
-        <div className="absolute top-2/3 left-1/3 w-16 h-16 border border-primary/5 -rotate-12 float-animation animate-delay-1000"></div>
-      </div>
-
+    <section id="experience" className="py-20 relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section Header */}
         <div className="text-center mb-8 lg:mb-16">

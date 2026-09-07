@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Inter, JetBrains_Mono, Barlow_Condensed } from "next/font/google";
+import { MotionConfig } from "framer-motion";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { QueryProvider } from "@/components/providers/QueryProvider";
@@ -24,10 +25,10 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--font-jetbrains-mono',
 });
 
-const spaceGrotesk = Space_Grotesk({
+const barlowCondensed = Barlow_Condensed({
   subsets: ['latin'],
-  variable: '--font-space-grotesk',
-  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-barlow-condensed',
+  weight: ['400', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -81,7 +82,7 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${inter.variable} ${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased`}>
+      <body suppressHydrationWarning className={`${inter.variable} ${jetbrainsMono.variable} ${barlowCondensed.variable} antialiased`}>
         {/* JSON-LD Structured Data */}
         <div id="top" tabIndex={-1} />
         <script
@@ -142,25 +143,27 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
           }}
         />
          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <QueryProvider>
-            <TooltipProvider>
-              {children}
-              {/* Custom AI Cursor */}
-              <CustomCursor />
+          <MotionConfig reducedMotion="user">
+            <QueryProvider>
+              <TooltipProvider>
+                {children}
+                {/* Custom AI Cursor */}
+                <CustomCursor />
 
-              {/* Add your Go to Top Button Here */}
-              <ScrollButton
-                targetId="top"
-               className="fixed bottom-8 right-8 z-50 bg-transparent text-white rounded-full shadow-none p-3 transition-opacity hover:bg-white/10"
+                {/* Add your Go to Top Button Here */}
+                <ScrollButton
+                  targetId="top"
+                 className="fixed bottom-8 right-8 z-50 bg-transparent text-white rounded-full shadow-none p-3 transition-opacity hover:bg-white/10"
 
-               ariaLabel="Go to top"
-              >
-                <ArrowUp className="w-6 h-6" />
-              </ScrollButton>
+                 ariaLabel="Go to top"
+                >
+                  <ArrowUp className="w-6 h-6" />
+                </ScrollButton>
 
-              <ToastProvider />
-            </TooltipProvider>
-          </QueryProvider>
+                <ToastProvider />
+              </TooltipProvider>
+            </QueryProvider>
+          </MotionConfig>
         </ThemeProvider>
         <Analytics />
       </body>

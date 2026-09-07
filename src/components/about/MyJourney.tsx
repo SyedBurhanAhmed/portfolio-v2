@@ -37,7 +37,7 @@ const MyJourney: React.FC = () => {
         initial={{ opacity: 0, y: 16 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5, delay: personalInfo.personal.story.length * 0.12 }}
-        className="text-sm text-muted-foreground italic border-l-2 border-accent/30 pl-4"
+        className="text-sm text-muted-foreground italic border-l-2 border-primary/30 pl-4"
       >
         {personalInfo.personal.closingBio}
       </motion.p>

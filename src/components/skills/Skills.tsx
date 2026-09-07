@@ -64,35 +64,35 @@ const Skills: React.FC = () => {
       title: 'Languages',
       icon: Code2,
       skills: personalInfo.skills.languages,
-      accentColor: 'hsl(258,90%,66%)',
+      accentColor: 'hsl(var(--primary))',
     },
     {
       id: 'ai_ml',
       title: 'AI / ML',
       icon: Brain,
       skills: personalInfo.skills.ai_ml,
-      accentColor: 'hsl(var(--accent))',   // emerald
+      accentColor: 'hsl(var(--primary))',
     },
     {
       id: 'web_backend',
       title: 'Web & Backend',
       icon: Network,
       skills: personalInfo.skills.web_backend,
-      accentColor: 'hsl(300,80%,65%)',     // fuchsia
+      accentColor: 'hsl(var(--primary))',
     },
     {
       id: 'tools',
       title: 'Tools & Platforms',
       icon: Settings,
       skills: personalInfo.skills.tools_platforms,
-      accentColor: 'hsl(38,92%,55%)',      // amber
+      accentColor: 'hsl(var(--primary))',
     },
     {
       id: 'professional',
       title: 'Professional',
       icon: User,
       skills: personalInfo.skills.professional,
-      accentColor: 'hsl(186,90%,55%)',     // teal
+      accentColor: 'hsl(var(--primary))',
     },
   ];
 
@@ -101,15 +101,8 @@ const Skills: React.FC = () => {
   return (
     <section
       id="skills"
-      className="py-20 relative"
-      style={{ background: 'linear-gradient(to bottom, hsl(230,28%,5%), hsl(248,22%,8%), hsl(230,28%,5%))' }}
+      className="py-20 relative bg-background"
     >
-      {/* BG glow */}
-      <div
-        className="absolute top-1/3 right-0 w-96 h-96 rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(circle, hsla(161,84%,46%,0.06) 0%, transparent 70%)' }}
-      />
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative" ref={ref}>
         {/* Header */}
         <div className="text-center mb-10">
@@ -143,10 +136,10 @@ const Skills: React.FC = () => {
                 onClick={() => setActive(i)}
                 className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-250"
                 style={{
-                  background: isActive ? `${cat.accentColor}22` : 'hsla(258,90%,66%,0.05)',
-                  border: `1px solid ${isActive ? cat.accentColor : 'hsla(258,90%,66%,0.15)'}`,
-                  color: isActive ? cat.accentColor : 'hsl(var(--muted-foreground))',
-                  boxShadow: isActive ? `0 0 16px ${cat.accentColor}44` : 'none',
+                  background: isActive ? 'hsla(174, 61%, 50%, 0.15)' : 'hsla(174, 61%, 50%, 0.04)',
+                  border: `1px solid ${isActive ? 'hsl(var(--primary))' : 'hsla(174, 61%, 50%, 0.15)'}`,
+                  color: isActive ? 'hsl(var(--primary))' : 'hsl(var(--muted-foreground))',
+                  boxShadow: isActive ? '0 0 16px hsla(174, 61%, 50%, 0.25)' : 'none',
                 }}
               >
                 <CatIcon size={14} />
@@ -174,7 +167,7 @@ const Skills: React.FC = () => {
               <h3 className="font-semibold text-foreground">{current.title}</h3>
               <span
                 className="text-xs px-2 py-0.5 rounded-full font-mono"
-                style={{ background: `${current.accentColor}1A`, color: current.accentColor }}
+                style={{ background: 'hsla(174, 61%, 50%, 0.1)', color: 'hsl(var(--primary))' }}
               >
                 {current.skills.length} skills
               </span>
@@ -184,7 +177,7 @@ const Skills: React.FC = () => {
                 <SkillPill
                   key={skill.name}
                   skill={skill}
-                  accentColor={current.accentColor}
+                  accentColor="hsl(var(--primary))"
                   index={i}
                   inView={inView}
                 />
@@ -201,12 +194,12 @@ const Skills: React.FC = () => {
           className="mt-6 flex flex-wrap justify-center gap-6 text-center"
         >
           {[
-            { label: 'AI / ML Tools', count: personalInfo.skills.ai_ml.length, color: 'hsl(var(--accent))' },
-            { label: 'Languages', count: personalInfo.skills.languages.length, color: 'hsl(258,90%,66%)' },
-            { label: 'Frameworks', count: personalInfo.skills.web_backend.length, color: 'hsl(300,80%,65%)' },
-          ].map(({ label, count, color }) => (
+            { label: 'AI / ML Tools', count: personalInfo.skills.ai_ml.length },
+            { label: 'Languages', count: personalInfo.skills.languages.length },
+            { label: 'Frameworks', count: personalInfo.skills.web_backend.length },
+          ].map(({ label, count }) => (
             <div key={label} className="text-sm text-muted-foreground">
-              <span className="font-bold font-mono" style={{ color }}>{count}+</span> {label}
+              <span className="font-bold font-mono text-primary">{count}+</span> {label}
             </div>
           ))}
         </motion.div>

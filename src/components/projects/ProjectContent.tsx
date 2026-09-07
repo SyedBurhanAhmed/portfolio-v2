@@ -25,14 +25,6 @@ const getStatusStyle = (status: string) => {
   return 'status-badge-amber';
 };
 
-const getCategoryColor = (cat: string) => {
-  if (cat.includes('Vision') || cat === 'Computer Vision') return 'hsl(161,84%,46%)';
-  if (cat.includes('NLP') || cat.includes('AI/ML') || cat.includes('Education')) return 'hsl(258,90%,66%)';
-  if (cat === 'Competition') return 'hsl(38,92%,55%)';
-  if (cat === 'IoT' || cat === 'Embedded') return 'hsl(186,90%,55%)';
-  return 'hsl(300,80%,65%)';
-};
-
 interface ProjectContentProps {
   project: Project;
 }
@@ -62,12 +54,11 @@ const ProjectContent: React.FC<ProjectContentProps> = ({ project }) => {
       </p>
 
       {/* Categories */}
-      <div className="flex flex-wrap gap-1.5 mb-3">
+      <div className="flex flex-wrap gap-1.5 mb-4">
         {project.categories.map((cat) => (
           <span
             key={cat}
-            className="text-[10px] px-2 py-0.5 rounded-full font-medium"
-            style={{ background: `${getCategoryColor(cat)}18`, color: getCategoryColor(cat), border: `1px solid ${getCategoryColor(cat)}33` }}
+            className="text-[11px] font-mono px-2 py-0.5 rounded bg-primary/10 text-primary border border-primary/20"
           >
             {cat}
           </span>

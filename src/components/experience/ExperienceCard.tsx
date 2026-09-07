@@ -38,7 +38,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, index }) =>
       <div className="timeline-dot absolute left-2 md:left-5 top-5 z-10 group-hover:scale-125 transition-transform duration-300" />
 
       {/* Connector line to card */}
-      <div className="absolute left-4 md:left-7 top-[22px] w-4 md:w-10 h-[2px] bg-gradient-to-r from-primary/50 to-transparent" />
+      <div className="absolute left-4 md:left-7 top-[22px] w-4 md:w-10 h-[2px] bg-primary/40" />
 
       {/* Card */}
       <div className="ml-8 md:ml-20 w-full">
