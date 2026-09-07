@@ -32,6 +32,7 @@ const DetectionBox: React.FC = () => (
   <div
     className="absolute pointer-events-none"
     style={{ top: BOX.top, left: BOX.left, width: BOX.width, height: BOX.height }}
+    aria-hidden="true"
   >
     {/* Very subtle fill inside box */}
     <div className="absolute inset-0" style={{ background: GREEN_BG }} />
@@ -62,16 +63,16 @@ const DetectionBox: React.FC = () => (
 
     {/* ── Label: BURHAN · 0.99 above top-left corner ── */}
     <div
-      className="absolute font-mono uppercase font-bold tracking-wider"
+      className="absolute font-mono uppercase font-bold tracking-wider px-1"
       style={{
         top: '-1.5rem',
         left: 0,
         fontSize: '0.82rem',
-        lineHeight: 1,
+        lineHeight: 1.4,
         color: GREEN,
         letterSpacing: '0.1em',
         whiteSpace: 'nowrap',
-        textShadow: `0 0 12px ${GREEN}99`,
+        background: 'rgba(8,13,12,0.75)',
       }}
     >
       BURHAN&nbsp;·&nbsp;0.99
@@ -99,7 +100,6 @@ const ProfileImage: React.FC<ProfileImageProps> = ({ size = 'large' }) => {
         alt={`${personalInfo.personal.name} — AI Engineer`}
         fill
         sizes={isLarge ? '320px' : '180px'}
-        unoptimized
         className="object-cover"
         style={{
           objectPosition: 'center 30%',
@@ -115,7 +115,6 @@ const ProfileImage: React.FC<ProfileImageProps> = ({ size = 'large' }) => {
         aria-hidden="true"
         fill
         sizes={isLarge ? '320px' : '180px'}
-        unoptimized
         className="object-cover"
         style={{
           objectPosition: 'center 30%',

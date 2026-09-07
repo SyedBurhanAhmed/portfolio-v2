@@ -29,6 +29,8 @@ const HeroStats: React.FC = () => {
 };
 
 const Hero: React.FC = () => {
+  const insightVision = personalInfo.projects.find((p) => p.title === 'InsightVision');
+
   return (
     <section
       id="hero"
@@ -68,7 +70,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tight font-display whitespace-nowrap"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tight font-display"
             >
               <span className="text-foreground">{personalInfo.personal.name.split(' ')[0]} </span>
               <span className="text-primary">{personalInfo.personal.name.split(' ').slice(1).join(' ')}</span>
@@ -175,16 +177,18 @@ const Hero: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* ── Status bar — bottom ── */}
-        <div className="detection-status-bar mt-4 lg:mt-6" aria-hidden="true">
-          <span>FRAME 001</span>
-          <span className="opacity-40">──</span>
-          <span>7.7 FPS</span>
-          <span className="opacity-40">──</span>
-          <span>11.5 GB VRAM</span>
-          <span className="opacity-40">──</span>
-          <span>InsightVision</span>
-        </div>
+        {/* ── Status bar — bottom (hidden on narrow phones, where it doesn't fit) ── */}
+        {insightVision?.metrics && (
+          <div className="detection-status-bar hidden sm:flex mt-4 lg:mt-6" aria-hidden="true">
+            <span>FRAME 001</span>
+            <span className="opacity-40">──</span>
+            <span>{insightVision.metrics.fps}</span>
+            <span className="opacity-40">──</span>
+            <span>{insightVision.metrics.vram}</span>
+            <span className="opacity-40">──</span>
+            <span>{insightVision.title}</span>
+          </div>
+        )}
       </div>
 
       {/* Scroll indicator */}

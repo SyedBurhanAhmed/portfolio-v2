@@ -528,6 +528,10 @@
       ],
       "github": "https://github.com/SyedBurhanAhmed/InsightVision-MVP",
       "longDescription": "Built out over a continuous AVR Research Group engagement (Jul 2025 – Aug 2026): began with initial architecture research and VLM benchmarking, developed through UMT's Capstone-I/II sequence to a final capstone defense in July 2026, then further optimized via a follow-on MoE expert-pruning project. Backend architecture and system documentation were finalized ahead of the defense, with the frontend deployed on Vercel and backend deployment via Tailscale Funnel/Cloudflare Tunnel.",
+      "metrics": {
+        "fps": "7.7 FPS",
+        "vram": "11.5 GB VRAM"
+      },
       "featured": true,
       "categories": [
         "AI/ML",

@@ -23,9 +23,9 @@ const ScrollButton: React.FC<ScrollButtonProps> = ({
   };
 
   return (
-    <button 
+    <button
       onClick={scrollToTarget}
-      className={className}
+      className={`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background ${className}`}
       aria-label={ariaLabel}
     >
       {children}
