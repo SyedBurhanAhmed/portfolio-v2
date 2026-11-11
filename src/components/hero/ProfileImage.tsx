@@ -82,7 +82,7 @@ const DetectionBox: React.FC = () => (
 
 const ProfileImage: React.FC<ProfileImageProps> = ({ size = 'large' }) => {
   const isLarge = size === 'large';
-  const imgSrc = personalInfo.personal.profileImage;
+  const imgSrc = `${personalInfo.personal.profileImage}?v=2`;
 
   // clip-path inset(top right bottom left) — mirrors BOX percentages
   const right = `calc(100% - (${BOX.left} + ${BOX.width}))`;
