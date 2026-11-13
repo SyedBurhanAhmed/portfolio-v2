@@ -7,13 +7,13 @@
     "location": "Lahore, Pakistan",
     "email": "syedburhanahmedd@gmail.com",
     "phone": "+92 312 4367233",
-    "tagline": "AI Engineer specializing in Computer Vision, Agentic Systems & Production ML",
-    "bio": "Building production ML systems with Python, PyTorch, FastAPI, LangChain, and n8n. At OptimusFox, shipped a production recommendation engine and an AI vendor-search chatbot. Built InsightVision, an on-device-first vision-language surveillance platform combining zero-shot detection, Kalman-filter tracking, and Gemma-4 OCR at ~11.5GB peak VRAM on a single GPU. Engineered a domain-specific MoE expert-pruning pipeline that delivered a measured 10.51× inference speedup on Gemma-4-26B. IEEE published author (ICIC 2025).",
-    "closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it's deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
+    "tagline": "AI Engineer specializing in Agentic Systems, RAG & Computer Vision",
+"bio": "Building production AI systems with Python, PyTorch, FastAPI, LangChain, and n8n. At OptimusFox, building an in-house AI platform (open-source LLMs + RAG), piloting marketing automation, and building agents for the business development team; earlier shipped a production recommendation engine and an AI vendor-search chatbot. Built InsightVision, an on-device-first vision-language surveillance platform at ~11.5GB peak VRAM on a single GPU. Engineered a domain-specific MoE expert-pruning pipeline that delivered a measured 10.51× inference speedup on Gemma-4-26B. IEEE published author (ICIC 2025).",
+"closingBio": "Open to collaborating on challenging, impact-driven engineering problems. Whether it's deployable computer vision systems, workflow automation infrastructures, or mentoring developers, the focus is on building reliable tech that solves real-world bottlenecks.",
     "story": [
-      "I'm an AI Engineer building production-grade systems across Computer Vision, Agentic AI, and applied ML — from recommendation engines and vendor-search chatbots at OptimusFox to research on vision-language models and detection-and-tracking pipelines at UMT's AVR Makerspace Lab. My first IEEE paper covered vision-based fall detection for elderly surveillance, and beyond engineering, I've trained 120+ participants as a Generative AI Master Trainer and mentored student and graduate interns across multiple cohorts.",
-      "I'm drawn to problems where research meets deployment — the kind of work that has to actually run in production, not just in a notebook. Open to collaborating on deployable CV systems, workflow automation, or mentoring developers who want to build reliable tech that solves real bottlenecks."
-    ],
+  "I'm an AI Engineer building production-grade systems across Agentic AI, RAG, and Computer Vision — from in-house LLM platforms, agents, and automation at OptimusFox to research on vision-language models and detection-and-tracking pipelines at UMT's AVR Research Group. My first IEEE paper covered vision-based fall detection for elderly surveillance, and beyond engineering, I've trained 120+ participants as a Generative AI Master Trainer and mentored student and graduate interns across multiple cohorts.",
+  "I'm drawn to problems where research meets deployment — the kind of work that has to actually run in production, not just in a notebook. Open to collaborating on deployable CV systems, workflow automation, or mentoring developers who want to build reliable tech that solves real bottlenecks."
+]   ,
     "profileImage": "/burhan-profile.png"
   },
   "stats": {
@@ -97,42 +97,42 @@
     "ai_ml": [
       {
         "name": "Generative AI (RAG)",
-        "experience": "Current",
+        "experience": "2+ years",
         "context": "LangChain, LangGraph, Vector DBs, LLMs",
         "icon": "https://roboticsbiz.com/wp-content/uploads/2024/09/generative-ai.jpg",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
         "name": "Vision-Language Models (VLMs)",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Gemma 4, CLIP, Jina — local serving via llama.cpp/GGUF",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
         "name": "Zero-Shot Detection & Segmentation",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Grounding DINO, SAM2/SAM3 — InsightVision & Libellula.ai pipelines",
         "icon": "",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
         "name": "MoE Model Compression",
-        "experience": "Current",
+        "experience": "Project-based",
         "context": "Expert pruning (REAP), GGUF quantization — 10.51x measured speedup",
         "icon": "",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
         "name": "Multi-Object Tracking",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "BoxMOT (BoT-SORT, ByteTrack)",
         "icon": "",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
-        "name": "YOLOv11",
-        "experience": "Current",
+        "name": "YOLO",
+        "experience": "2+ years",
         "context": "Real-time object detection & low-latency tracking",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         "category": "AI/ML Frameworks & Libraries"
@@ -167,9 +167,9 @@
       },
       {
         "name": "LangChain",
-        "experience": "1+ year",
+        "experience": "2+ years",
         "context": "RAG, LLM systems, Agentic workflows",
-        "icon": "https://logo.svgcdn.com/simple-icons/langchain-dark.png",
+        "icon": "https://cdn.simpleicons.org/langchain/white",
         "category": "AI/ML Frameworks & Libraries"
       },
       {
@@ -204,14 +204,14 @@
     "web_backend": [
       {
         "name": "FastAPI",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Low-latency ML microservices & REST APIs",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
         "category": "Web, Backend & App Frameworks"
       },
       {
         "name": "n8n",
-        "experience": "Current",
+        "experience": "8 months",
         "context": "Workflow architecture & enterprise SaaS automation",
         "icon": "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png",
         "category": "Web, Backend & App Frameworks"
@@ -239,14 +239,14 @@
       },
       {
         "name": "ASP.NET",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Enterprise projects",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
         "category": "Web, Backend & App Frameworks"
       },
       {
         "name": "Google Cloud Platform (GCP)",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Cloud deployment workflows",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
         "category": "Web, Backend & App Frameworks"
@@ -255,7 +255,7 @@
     "tools_platforms": [
       {
         "name": "Docker",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "Containerization & Self-hosting",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
         "category": "Tools & Platforms"
@@ -304,7 +304,7 @@
       },
       {
         "name": "Redis",
-        "experience": "Current",
+        "experience": "Project-based",
         "context": "Caching layer for ML inference results",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
         "category": "Tools & Platforms"
@@ -313,7 +313,7 @@
     "professional": [
       {
         "name": "AI Systems Architecture",
-        "experience": "Current",
+        "experience": "1+ year",
         "context": "End-to-end pipeline design & SaaS infrastructure",
         "icon": "",
         "category": "Professional"
@@ -321,7 +321,7 @@
       {
         "name": "AI Team Leadership",
         "experience": "1+ year",
-        "context": "Master Trainer (3 Cohorts), Projects Guidance",
+        "context": "Master Trainer (3 Cohorts), OptimusFox intern cohorts, Projects Guidance",
         "icon": "",
         "category": "Professional"
       },
@@ -334,7 +334,7 @@
       },
       {
         "name": "Academic Research",
-        "experience": "Current",
+        "experience": "2 years",
         "context": "Benchmarking, IEEE Published Author",
         "icon": "",
         "category": "Professional"
@@ -343,30 +343,34 @@
   },
   "experience": [
     {
-      "id": 1,
-      "title": "Associate AI Engineer",
-      "company": "OptimusFox",
-      "location": "Lahore, Pakistan",
-      "duration": "Apr 2026 – Present",
-      "logo": "/professional-experience-logos/optimusfox.png",
-      "description": "Building production AI systems across recommendation engines, agentic chatbots, and workflow automation for live products.",
-      "achievements": [
-        "Built and shipped BookItUp's production recommendation system, consistently running sub-300ms and frequently sub-100ms at scale.",
-        "Building an AI-powered vendor-search chatbot for BookItUp, enabling natural-language discovery and tool-calling over existing REST APIs.",
-        "Designing an n8n-based marketing automation pipeline with a custom UI layer for a scalable B2B SaaS product.",
-        "Architecting a multi-tenant B2B SaaS platform, coordinating directly with the Engineering Manager on the AI team.",
-        "Leading AI intern cohorts through a structured 6-week program (NLP/GenAI, Computer Vision, RPA/Automation) — Cohort 1 completed with 5 student interns; Cohort 2 launching Aug 2026; co-mentoring 2 graduate interns through the CM IT Internship Program."
-      ],
-      "technologies": [
-        "Python",
-        "FastAPI",
-        "LangChain",
-        "n8n",
-        "Recommendation Systems",
-        "REST APIs",
-        "SaaS Architecture"
-      ]
-    },
+  "id": 1,
+  "title": "Associate AI Engineer",
+  "company": "OptimusFox",
+  "location": "Lahore, Pakistan",
+  "duration": "Apr 2026 – Present",
+  "logo": "/professional-experience-logos/optimusfox.png",
+  "description": "Building an in-house AI platform, agents, and workflow automation for internal teams and live products.",
+  "achievements": [
+    "Building OptimusFox's private, self-hosted AI platform (in testing): open-source LLMs (Qwen) with RAG over internal codebases and documents to scaffold new projects from past code and templates, generate client decks, and produce Urdu and English voice-overs.",
+    "Piloting a marketing SaaS product that automates publishing to LinkedIn, Instagram, Facebook and X, with WordPress blog automation, and evaluating AI approaches that generate post images so content is produced end to end without a designer.",
+    "Building AI agents for the business development team: Pipedrive automation and lead generation.",
+    "Maintaining and improving the AI engine behind the TVET-MIS single-database platform, covering the committee, student and job-portal modules.",
+    "Earlier: integrated BookItUp's recommendation engine into production (sub-300ms, often sub-100ms) and built and shipped a LangChain tool-calling chatbot for natural-language vendor search.",
+    "Leading AI intern cohorts through a structured 6-week program (NLP/GenAI, Computer Vision, RPA/Automation): Cohort 1 completed with 5 student interns, and co-mentoring 2 graduate interns through the CM IT Internship Program."
+  ],
+  "technologies": [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "RAG",
+    "Open-Source LLMs",
+    "n8n",
+    "Pipedrive",
+    "REST APIs",
+    "Recommendation Systems",
+    "SaaS Architecture"
+  ]
+},
     {
       "id": 2,
       "title": "Research Assistant – Computer Vision & Robotics",

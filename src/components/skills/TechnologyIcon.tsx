@@ -1,7 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+
+const FALLBACK_ICON = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg';
 
 interface TechnologyIconProps {
   src: string;
@@ -16,12 +18,19 @@ const TechnologyIcon: React.FC<TechnologyIconProps> = ({
   size = 16, 
   className = '' 
 }) => {
+  const [imgSrc, setImgSrc] = useState<string>(src || FALLBACK_ICON);
+
+  useEffect(() => {
+    setImgSrc(src || FALLBACK_ICON);
+  }, [src]);
+
   return (
     <Image
-      src={src}
+      src={imgSrc}
       alt={alt}
       width={size}
       height={size}
+      unoptimized
       className={`flex-shrink-0 ${className}`}
       style={{
         width: 'auto',
@@ -29,9 +38,10 @@ const TechnologyIcon: React.FC<TechnologyIconProps> = ({
         maxWidth: `${size}px`,
         maxHeight: `${size}px`,
       }}
-      onError={(e) => {
-        // Fallback to a generic icon if the specific icon fails to load
-        e.currentTarget.src = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg';
+      onError={() => {
+        if (imgSrc !== FALLBACK_ICON) {
+          setImgSrc(FALLBACK_ICON);
+        }
       }}
     />
   );
